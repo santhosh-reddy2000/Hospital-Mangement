@@ -3,15 +3,10 @@
 ################################################################################
 
 /code/WebApp/.vs
-/code/Core/HospitalManagement.Core.Common/bin/Debug/net7.0
+/code/Core/HospitalManagement.Core.Common/bin
 /code/Core/HospitalManagement.Core.Common/obj
-/code/WebApp/HospitalManagement/bin/Debug/net7.0
-/code/WebApp/HospitalManagement.Common/bin/Debug/net7.0
-/code/WebApp/HospitalManagement.Services/bin/Debug/net7.0
-/code/WebApp/HospitalManagement.Services/obj/Debug/net7.0
+/code/WebApp/HospitalManagement/bin
+/code/WebApp/HospitalManagement.Common/bin
 /code/WebApp/HospitalManagement.Services/obj
-/code/WebApp/HospitalManagement/obj/Debug/net7.0/ref
-/code/WebApp/HospitalManagement/obj/Debug/net7.0/refint
-/code/WebApp/HospitalManagement/obj/Debug/net7.0/staticwebassets
-/code/WebApp/HospitalManagement/obj/Debug/net7.0
-/code/WebApp/HospitalManagement.Common/obj/Debug/net7.0
+/code/WebApp/HospitalManagement/obj
+/code/WebApp/HospitalManagement.Common/obj
