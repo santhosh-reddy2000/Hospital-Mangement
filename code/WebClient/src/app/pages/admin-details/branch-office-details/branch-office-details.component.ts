@@ -28,8 +28,7 @@ export class BranchOfficeDetailsComponent implements OnInit {
     console.log("window.location", window.location)
   };
   ngOnInit(): void {
-    this.getAllDataList()
-    console.log(this._commonService.headOfficeFormData)
+ 
   };
   submitForm(): void {
     if (this.BranchDetailsForm.valid) {
@@ -67,13 +66,6 @@ export class BranchOfficeDetailsComponent implements OnInit {
   deleteData(index: number) {
     console.log("delete", index)
     this._commonService.branchOfficeFormData.splice(index, 1);
-  };
-  productData: any;
-  getAllDataList() {
-    this.communicationService.getBrachOfficeData().subscribe((data: any) => {
-      this._commonService.branchOfficeFormData = data;
-      console.log(this.productData)
-    })
   };
 
   showEditModel(index: number): void {

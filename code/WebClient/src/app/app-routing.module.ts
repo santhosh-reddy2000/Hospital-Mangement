@@ -10,6 +10,7 @@ import { DoctorDetailsComponent } from './pages/home/doctor-details/doctor-detai
 import { AdminComponent } from './pages/admin/admin.component';
 
 const routes: Routes = [
+  {path: '', component:HeadOfficeComponent},
   { path: '', pathMatch: 'full', redirectTo: '/home' },
   { path: 'home', canActivate: [OktaAuthGuard], loadChildren: () => import('./pages/home/home.module').then(m => m.HomeModule) },
   

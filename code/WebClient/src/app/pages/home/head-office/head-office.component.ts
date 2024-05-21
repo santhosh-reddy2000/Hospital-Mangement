@@ -33,7 +33,6 @@ export class HeadOfficeComponent {
   };
 
   ngOnInit(): void {
-    this.getProductList();
     this.getAllHeadOffices();
   };
 
@@ -48,7 +47,7 @@ export class HeadOfficeComponent {
         };
 
         if (this.selectedDataIndex !== undefined && this.selectedDataIndex !== null) {
-            const selectedData = this.getAllheadOfficeList[this.selectedDataIndex];
+            const selectedData = this._commonService.headOfficeFormData[this.selectedDataIndex];
             const updatedData = { ...selectedData, ...headOfficeFormList };
             this.communicationService.UpdateHeadOffice(updatedData).subscribe((data: any) => {
                 if (data) {
@@ -77,15 +76,8 @@ export class HeadOfficeComponent {
     this._commonService.headOfficeFormData.splice(index, 1);
   }
 
-  getProductList() {
-    this.communicationService.getHeadOfficeData().subscribe((data: any) => {
-      this._commonService.headOfficeFormData = data;
-      console.log(this._commonService.headOfficeFormData = data)
-    })
-  };
-
   showEditModel(index: number): void {
-    const selectedData = this.getAllheadOfficeList[index];
+    const selectedData = this._commonService.headOfficeFormData[index];
     this.headOfficeForm.patchValue({
       headOfficeName: selectedData.headOfficeName,
       pinCode: selectedData.pinCode,
@@ -106,10 +98,10 @@ export class HeadOfficeComponent {
 
   //using api
 
-  getAllheadOfficeList: any;
   public getAllHeadOffices() {
     this.communicationService.getAllHeadOffices().subscribe((data: any) => {
-      this.getAllheadOfficeList = data.result;
+      debugger
+      this._commonService.headOfficeFormData = data.result;
     })
   }
 
@@ -122,7 +114,7 @@ export class HeadOfficeComponent {
   }
 
   public deleteHeadOffice(index: number) {
-    const headOfficeIdToDelete = this.getAllheadOfficeList[index].id;
+    const headOfficeIdToDelete = this._commonService.headOfficeFormData[index].id;
     this.communicationService.deleteHeadOffice(headOfficeIdToDelete).subscribe(() => {
       this.getAllHeadOffices();
     });

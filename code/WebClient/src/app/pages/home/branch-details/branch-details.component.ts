@@ -1,6 +1,7 @@
 
 import { Component } from '@angular/core';
 import { FormBuilder,FormGroup, Validators } from '@angular/forms';
+import { Branch } from 'src/app/models/branch';
 import { CommonService } from 'src/app/services/common.service';
 import { CommunicationService } from 'src/app/services/communication.service';
 @Component({
@@ -29,28 +30,36 @@ export class BranchDetailsComponent {
     console.log("window.location", window.location)
   };
   ngOnInit(): void {
-    this.getAllDataList()
-    console.log(this._commonService.headOfficeFormData)
+   
   };
   submitForm(): void {
+    debugger
     if (this.BranchDetailsForm.valid) {
 
-      const branchDetailsFormList = {
-        HeadofficeList: this.BranchDetailsForm.value.HeadofficeList,
-        BranchName: this.BranchDetailsForm.value.BranchName,
-        Branchcode: this.BranchDetailsForm.value.Branchcode,
-        BranchServices: this.BranchDetailsForm.value.BranchServices,
-        Managername: this.BranchDetailsForm.value.Managername,
-        Address: this.BranchDetailsForm.value.Address,
-        MobileNo: this.BranchDetailsForm.value.MobileNo,
-        Email: this.BranchDetailsForm.value.Email,
-      };
+      let branch = new Branch();
+      branch.headOfficeId = this.BranchDetailsForm.value.HeadofficeList,
+      branch.branchName = this.BranchDetailsForm.value.BranchName,
+      branch.branchCode = this.BranchDetailsForm.value.Branchcode,
+      branch.branchServices = this.BranchDetailsForm.value.BranchServices,
+      branch.managerName = this.BranchDetailsForm.value.Managername,
+      branch.address = this.BranchDetailsForm.value.Address,
+      branch.mobileNo = this.BranchDetailsForm.value.MobileNo,
+      branch.email = this.BranchDetailsForm.value.Email
 
-      if (this.selectedDataIndex !== undefined && this.selectedDataIndex !== null) {
-        this._commonService.branchOfficeFormData[this.selectedDataIndex] = branchDetailsFormList;
-      } else {
-        this._commonService.branchOfficeFormData.push(branchDetailsFormList);
-      }
+      console.log('branch',branch);
+
+      this.communicationService.addBranch(branch).subscribe((data:any) =>{
+        debugger
+        if(data){
+
+        }
+      })
+
+      // if (this.selectedDataIndex !== undefined && this.selectedDataIndex !== null) {
+      //   this._commonService.branchOfficeFormData[this.selectedDataIndex] = branchDetailsFormList;
+      // } else {
+      //   this._commonService.branchOfficeFormData.push(branchDetailsFormList);
+      // }
 
       this.BranchDetailsForm.reset();
       this.selectedDataIndex = null;
@@ -68,13 +77,6 @@ export class BranchDetailsComponent {
   deleteData(index: number) {
     console.log("delete", index)
     this._commonService.branchOfficeFormData.splice(index, 1);
-  };
-  productData: any;                                
-  getAllDataList() {
-    this.communicationService.getBrachOfficeData().subscribe((data: any) => {
-      this._commonService.branchOfficeFormData = data;
-      console.log(this.productData)
-    })
   };
 
   showEditModel(index: number): void {

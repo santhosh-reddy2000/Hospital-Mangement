@@ -16,13 +16,13 @@ namespace HospitalManagement.Core.Common.Models
         public Guid Id { get; set; }
 
         [JsonProperty]
-        public Guid HeadofficeList { get; set; }
+        public Guid HeadOfficeId { get; set; }
 
         [JsonProperty]
         public string? BranchName { get; set; } = string.Empty;
 
         [JsonProperty]
-        public string? Branchcode { get; set; } = string.Empty;
+        public long Branchcode { get; set; } 
 
         [JsonProperty]
         public string? BranchServices { get; set; } = string.Empty;
@@ -38,8 +38,8 @@ namespace HospitalManagement.Core.Common.Models
         [JsonProperty]
         public override string? Email { get; set; } = string.Empty;
 
-        [JsonProperty]
-        public List<Doctor> Doctors { get; set; } = new List<Doctor>();
+        //[JsonProperty]
+        //public List<Doctor> Doctors { get; set; } = new List<Doctor>();
 
     }
 }

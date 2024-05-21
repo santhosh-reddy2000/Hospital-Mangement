@@ -6,12 +6,11 @@
 
 <nz-dropdown-menu #menu="nzDropdownMenu">
   <form nz-form [formGroup]="BranchDetailsForm"  (ngSubmit)="submitForm()">
-   
     <nz-form-item > 
       <nz-form-label [nzSpan]="10" nzRequired>Headoffice Name:</nz-form-label>
       <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
         <nz-select nzShowSearch nzAllowClear nzPlaceHolder="Select Headoffice Name" formControlName="HeadofficeList">
-          <nz-option *ngFor="let headOffice of _commonService.headOfficeFormData" [nzLabel]="headOffice.headOfficeName" [nzValue]="headOffice.headOfficeName">           
+          <nz-option *ngFor="let headOffice of _commonService.headOfficeFormData" [nzLabel]="headOffice.headOfficeName" [nzValue]="headOffice.id">           
           </nz-option>
         </nz-select>       
       </nz-form-control>
@@ -125,7 +124,7 @@
         <nz-form-label [nzSpan]="10" nzRequired>Headoffice Name:</nz-form-label>
         <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
           <nz-select nzShowSearch nzAllowClear nzPlaceHolder="Select Headoffice Name" formControlName="HeadofficeList">
-            <nz-option *ngFor="let headOffice of _commonService.headOfficeFormData" [nzLabel]="headOffice.headOfficeName" [nzValue]="headOffice.headOfficeName">
+            <nz-option *ngFor="let headOffice of _commonService.headOfficeFormData" [nzLabel]="headOffice.headOfficeName" [nzValue]="headOffice.id">
               
             </nz-option>
           </nz-select>       

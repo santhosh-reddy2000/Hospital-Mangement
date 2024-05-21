@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import { CommonService } from 'src/app/services/common.service';
+import { CommunicationService } from 'src/app/services/communication.service';
 
 @Component({
   selector: 'app-branch-office',
@@ -12,7 +13,8 @@ export class BranchOfficeComponent implements OnInit {
   BranchDetailsForm: FormGroup;
  
    constructor(private fb: FormBuilder,
-      public _commonService: CommonService) {
+      public _commonService: CommonService,
+      private communicationService: CommunicationService) {
       this.BranchDetailsForm = this.fb.group({
         HeadofficeList: ['', [Validators.required]],
         BranchName: ['', [Validators.required]],
@@ -27,11 +29,12 @@ export class BranchOfficeComponent implements OnInit {
   }
  
   ngOnInit(): void {
-   
+   this.getAllBranchOfficeDetails();
   }
   submitForm(): void {
+    debugger;
     if (this.BranchDetailsForm.valid) {
- 
+ debugger;
       const branchDetailsFormList = {
               HeadofficeList: this.BranchDetailsForm.value.HeadofficeList,
               BranchName: this.BranchDetailsForm.value.BranchName,
@@ -45,6 +48,8 @@ export class BranchOfficeComponent implements OnInit {
  
       
         // Add new data
+
+        debugger;
         this._commonService.branchOfficeFormData.push(branchDetailsFormList);
       
  
@@ -59,4 +64,12 @@ export class BranchOfficeComponent implements OnInit {
     e.preventDefault();
     this.BranchDetailsForm.reset();
   }
+
+  public getAllBranchOfficeDetails() {
+    debugger;
+    this.communicationService.getAllBranches().subscribe((data: any) => {
+      this._commonService.branchOfficeFormData = data.result;
+    })
+  }
+
 }

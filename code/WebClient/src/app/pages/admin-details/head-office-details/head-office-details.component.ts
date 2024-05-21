@@ -28,7 +28,6 @@ export class HeadOfficeDetailsComponent implements OnInit{
   };
 
   ngOnInit(): void {
-    this.getProductList()
 
   };
   submitForm(): void {
@@ -65,15 +64,6 @@ export class HeadOfficeDetailsComponent implements OnInit{
     this._commonService.headOfficeFormData.splice(index, 1);
   }
 
-  productListData: any;
-  getProductList() {
-    this.communicationService.getHeadOfficeData().subscribe((data: any) => {
-      this._commonService.headOfficeFormData = data;
-      console.log(this.productListData)
-    })
-  };
-
-  
   showEditModel(index: number): void {
     const selectedData = this._commonService.headOfficeFormData[index];
     this.headOfficeForm.patchValue(selectedData);
