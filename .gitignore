@@ -10,3 +10,7 @@
 /code/WebApp/HospitalManagement.Services/obj
 /code/WebApp/HospitalManagement/obj
 /code/WebApp/HospitalManagement.Common/obj
+/code/DataProvider/.vs/HospitalManagement.DataProvider.Server/FileContentIndex
+/code/WebApp/HospitalManagement.Services/bin/Debug/net7.0
+/code/DataProvider/HospitalManagement.Repository/obj
+/code/DataProvider/HospitalManagement.Dataprovider.Services/obj
