@@ -1,0 +1,137 @@
+[
+  {
+    "FriendlyName": "Sl No",
+    "Visible": true,
+    "Variable": "SerialNumber",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "100px",
+    "columnKey" : "SerialNumber"
+  },
+  {
+    "Order": 0,
+    "FriendlyName": "HyperCube Website Name",
+    "Visible": true,
+    "Variable": "HypercubeSiteName",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "220px",
+    "columnKey" : "HypercubeSiteName"
+  },
+  {
+    "Order": 1,
+    "FriendlyName": "HyperCube Website Url",
+    "Visible": true,
+    "Variable": "Websiteurl",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "500px",
+    "columnKey" : "Websiteurl"
+  },
+  {
+    "Order": 2,
+    "FriendlyName": "Status",
+    "Visible": true,
+    "Variable": "SiteStatus",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "80px",
+    "columnKey" : "SiteStatus"
+  },
+  {
+    "Order": 3,
+    "FriendlyName": "Min Date",
+    "Visible": true,
+    "Variable": "MinDate",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "80px",
+    "columnKey" : "MinDate"
+  },
+  {
+    "Order": 4,
+    "FriendlyName": "Max Date",
+    "Visible": true,
+    "Variable": "MaxDate",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "90px",
+    "columnKey" : "MaxDate"
+  },
+  {
+    "Order": 5,
+    "FriendlyName": "Min Depth",
+    "Visible": true,
+    "Variable": "MinDepth",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "100px",
+    "columnKey" : "MinDepth"
+  },
+  {
+    "Order": 6,
+    "FriendlyName": "Max Depth",
+    "Visible": true,
+    "Variable": "MaxDepth",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "100px",
+    "columnKey" : "MaxDepth"
+  },
+  {
+    "Order": 7,
+    "FriendlyName": "Min Latitude",
+    "Visible": true,
+    "Variable": "MinLatitude",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "100px",
+    "columnKey" : "MinLatitude",
+    "IsLatLongFormat": true
+  },
+  {
+    "Order": 8,
+    "FriendlyName": "Max Latitude",
+    "Visible": true,
+    "Variable": "MaxLatitude",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "100px",
+    "columnKey" : "MaxLatitude",
+    "IsLatLongFormat": true
+  },
+  {
+    "Order": 9,
+    "FriendlyName": "Min Longitude",
+    "Visible": true,
+    "Variable": "MinLongitude",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "100px",
+    "columnKey" : "MinLongitude",
+    "IsLatLongFormat": true
+  },
+  {
+    "Order": 10,
+    "FriendlyName": "Max Longitude",
+    "Visible": true,
+    "Variable": "MaxLongitude",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "100px",
+    "columnKey" : "MaxLongitude",
+    "IsLatLongFormat": true
+  }
+]

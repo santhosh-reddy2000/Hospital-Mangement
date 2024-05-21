@@ -1,0 +1,79 @@
+[
+  {
+    "FriendlyName": "Sl No",
+    "Visible": true,
+    "Variable": "SerialNumber",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "100px",
+    "columnKey" : "SerialNumber"
+  },
+  {
+    "Order": 0,
+    "FriendlyName": "Created By",
+    "Visible": false,
+    "Variable": "CreatedBy",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 70.0,
+    "columnKey" : "CreatedBy"
+  },
+  {
+    "Order": 1,
+    "FriendlyName": "Created Time",
+    "Visible": false,
+    "Variable": "CreatedTime",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0,
+    "columnKey" : "CreatedTime"
+  },
+  {
+    "Order": 2,
+    "FriendlyName": "Name",
+    "Visible": true,
+    "Variable": "FileName",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0,
+    "columnKey" : "FileName"
+  },
+  {
+    "Order": 3,
+    "FriendlyName": "Description",
+    "Visible": true,
+    "Variable": "Description",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0,
+    "columnKey" : "Description"
+  },
+
+  {
+    "Order": 4,
+    "FriendlyName": "Last Edited By",
+    "Visible": false,
+    "Variable": "LastEditedBy",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0,
+    "columnKey" : "LastEditedBy"
+  },
+  {
+    "Order": 5,
+    "FriendlyName": "Last Edited Time",
+    "Visible": false,
+    "Variable": "LastEditedTime",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0,
+    "columnKey" : "LastEditedTime"
+  }
+]

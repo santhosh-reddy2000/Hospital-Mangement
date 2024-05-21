@@ -1,0 +1,4417 @@
+[
+  {
+    "RegionName": "State Planes",
+    "Locations": [
+      {
+        "LocationName": "Alaska",
+        "Zones": [
+          {
+            "ID": "AK83-1",
+            "ZoneName": "NAD83, Zone 1",
+            "EPSGCode": "26931"
+          },
+          {
+            "ID": "AK83-2",
+            "ZoneName": "NAD83, Zone 2",
+            "EPSGCode": "26932"
+          },
+          {
+            "ID": "AK83-3",
+            "ZoneName": "NAD83, Zone 3",
+            "EPSGCode": "26933"
+          },
+          {
+            "ID": "AK83-4",
+            "ZoneName": "NAD83, Zone 4",
+            "EPSGCode": "26934"
+          },
+          {
+            "ID": "AK83-5",
+            "ZoneName": "NAD83, Zone 5",
+            "EPSGCode": "26935"
+          },
+          {
+            "ID": "AK83-6",
+            "ZoneName": "NAD83, Zone 6",
+            "EPSGCode": "26936"
+          },
+          {
+            "ID": "AK83-7",
+            "ZoneName": "NAD83, Zone 7",
+            "EPSGCode": "26937"
+          },
+          {
+            "ID": "AK83-8",
+            "ZoneName": "NAD83, Zone 8",
+            "EPSGCode": "26938"
+          },
+          {
+            "ID": "AK83-9",
+            "ZoneName": "NAD83, Zone 9",
+            "EPSGCode": "26939"
+          },
+          {
+            "ID": "AK83-10",
+            "ZoneName": "NAD83, Zone 10",
+            "EPSGCode": "24940"
+          },
+          {
+            "ID": "AKMS27",
+            "ZoneName": "Modified Stereographic",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "USAK",
+            "ZoneName": "NAD27, Albers Equal Area",
+            "EPSGCode": "2964"
+          },
+          {
+            "ID": "AK-1",
+            "ZoneName": "NAD27, Zone 1",
+            "EPSGCode": "26731"
+          },
+          {
+            "ID": "AK-2",
+            "ZoneName": "NAD27, Zone 2",
+            "EPSGCode": "26732"
+          },
+          {
+            "ID": "AK-3",
+            "ZoneName": "NAD27, Zone 3",
+            "EPSGCode": "26733"
+          },
+          {
+            "ID": "AK-4",
+            "ZoneName": "NAD27, Zone 4",
+            "EPSGCode": "26734"
+          },
+          {
+            "ID": "AK-5",
+            "ZoneName": "NAD27, Zone 5",
+            "EPSGCode": "26735"
+          },
+          {
+            "ID": "AK-6",
+            "ZoneName": "NAD27, Zone 6",
+            "EPSGCode": "26736"
+          },
+          {
+            "ID": "AK-7",
+            "ZoneName": "NAD27, Zone 7",
+            "EPSGCode": "26737"
+          },
+          {
+            "ID": "AK-8",
+            "ZoneName": "NAD27, Zone 8",
+            "EPSGCode": "26738"
+          },
+          {
+            "ID": "AK-9",
+            "ZoneName": "NAD27, Zone 9",
+            "EPSGCode": "26739"
+          },
+          {
+            "ID": "AK-10",
+            "ZoneName": "NAD27, Zone 10",
+            "EPSGCode": "26740"
+          }
+        ]
+      },
+      {
+        "LocationName": "Alabama",
+        "Zones": [
+          {
+            "ID": "AL83-E",
+            "ZoneName": "NAD83, Eastern Zone",
+            "EPSGCode": "26929"
+          },
+          {
+            "ID": "AL83-W",
+            "ZoneName": "NAD83, Western Zone",
+            "EPSGCode": "26930"
+          },
+          {
+            "ID": "ALHP-E",
+            "ZoneName": "HPGN, Eastern Zone",
+            "EPSGCode": "2759"
+          },
+          {
+            "ID": "ALHP-W",
+            "ZoneName": "HPGN, Western Zone",
+            "EPSGCode": "2760"
+          },
+          {
+            "ID": "AL-E",
+            "ZoneName": "NAD27, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "AL-W",
+            "ZoneName": "NAD27, Western Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Arkansas",
+        "Zones": [
+          {
+            "ID": "AR83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": "26951"
+          },
+          {
+            "ID": "AR83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": "26952"
+          },
+          {
+            "ID": "AR-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "AR-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Arizona",
+        "Zones": [
+          {
+            "ID": "AZ83-C",
+            "ZoneName": "NAD83, Central Zone",
+            "EPSGCode": "26949"
+          },
+          {
+            "ID": "AZ83-E",
+            "ZoneName": "NAD83, Eastern Zone",
+            "EPSGCode": "26948"
+          },
+          {
+            "ID": "AZ83-W",
+            "ZoneName": "NAD83, Western Zone",
+            "EPSGCode": "26950"
+          },
+          {
+            "ID": "AZ-C",
+            "ZoneName": "NAD27, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "AZ-E",
+            "ZoneName": "NAD27, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "AZ-W",
+            "ZoneName": "NAD27, Western Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "California",
+        "Zones": [
+          {
+            "ID": "CA83-I",
+            "ZoneName": "NAD83, Zone I",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CA83-II",
+            "ZoneName": "NAD83, Zone II",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CA83-III",
+            "ZoneName": "NAD83, Zone III",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CA83-IV",
+            "ZoneName": "NAD83, Zone IV",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CA83-V",
+            "ZoneName": "NAD83, Zone V",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CA83-VI",
+            "ZoneName": "NAD83, Zone VI",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CA-I",
+            "ZoneName": "NAD27, Zone I",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CA-II",
+            "ZoneName": "NAD27, Zone II",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CA-III",
+            "ZoneName": "NAD27, Zone III",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CA-IV",
+            "ZoneName": "NAD27, Zone IV",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CA-V",
+            "ZoneName": "NAD27, Zone V",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CA-VI",
+            "ZoneName": "NAD27, Zone VI",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CA-VII",
+            "ZoneName": "NAD27, Zone VII",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CA83-VII",
+            "ZoneName": "NAD83, Zone VII",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Colorado",
+        "Zones": [
+          {
+            "ID": "CO83-C",
+            "ZoneName": "NAD83, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CO83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CO83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "COHP-C",
+            "ZoneName": "HPGN, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "COHP-N",
+            "ZoneName": "HPGN, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "COHP-S",
+            "ZoneName": "HPGN, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CO-C",
+            "ZoneName": "NAD27, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CO-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CO-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Connecticut",
+        "Zones": [
+          {
+            "ID": "CT83",
+            "ZoneName": "NAD83",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "CT",
+            "ZoneName": "NAD27",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Delaware",
+        "Zones": [
+          {
+            "ID": "SS:PNG94",
+            "ZoneName": "Papua New Guinea Map Grid 1994 Zone 54",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "DE83",
+            "ZoneName": "NAD83",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "DEHP",
+            "ZoneName": "HPGN",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "DE",
+            "ZoneName": "NAD27",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Florida",
+        "Zones": [
+          {
+            "ID": "FL83-E",
+            "ZoneName": "NAD83, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "FL83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "FL83-W",
+            "ZoneName": "NAD83, Western Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "FLHP-E",
+            "ZoneName": "HPGN, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "FLHP-N",
+            "ZoneName": "HPGN, Norther Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "FLHP-W",
+            "ZoneName": "HPGN, Western Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "FL-E",
+            "ZoneName": "NAD27, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "FL-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "FL-W",
+            "ZoneName": "NAD27, Western Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Georgia",
+        "Zones": [
+          {
+            "ID": "GA83-E",
+            "ZoneName": "NAD83, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "GA83-W",
+            "ZoneName": "NAD83, Western Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "GA-E",
+            "ZoneName": "NAD27, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "GA-W",
+            "ZoneName": "NAD27, Western Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Hawaii",
+        "Zones": [
+          {
+            "ID": "HI83-1",
+            "ZoneName": "NAD83, Zone 1",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "HI83-2",
+            "ZoneName": "NAD83, Zone 2",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "HI83-3",
+            "ZoneName": "NAD83, Zone 3",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "HI83-4",
+            "ZoneName": "NAD83, Zone 4",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "HI83-5",
+            "ZoneName": "NAD83, Zone 5",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "USHI",
+            "ZoneName": "NAD27, Albers Equal Area",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "HI-1",
+            "ZoneName": "NAD27, Zone 1",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "HI-2",
+            "ZoneName": "NAD27, Zone 2",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "HI-3",
+            "ZoneName": "NAD27, Zone 3",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "HI-4",
+            "ZoneName": "NAD27, Zone 4",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "HI-5",
+            "ZoneName": "NAD27, Zone 5",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Iowa",
+        "Zones": [
+          {
+            "ID": "IA83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "IA83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "IA-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "IA-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Idaho",
+        "Zones": [
+          {
+            "ID": "ID83-C",
+            "ZoneName": "NAD83, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "ID83-E",
+            "ZoneName": "NAD83, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "ID83-W",
+            "ZoneName": "NAD83, Western Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "ID-C",
+            "ZoneName": "NAD27, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "ID-E",
+            "ZoneName": "NAD27, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "ID-W",
+            "ZoneName": "NAD27, Western Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Illinois",
+        "Zones": [
+          {
+            "ID": "IL83-E",
+            "ZoneName": "NAD83, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "IL83-W",
+            "ZoneName": "NAD83, Western Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "IL-E",
+            "ZoneName": "NAD27, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "IL-W",
+            "ZoneName": "NAD27, Western Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Indiana",
+        "Zones": [
+          {
+            "ID": "IN83-E",
+            "ZoneName": "NAD83, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "IN83-W",
+            "ZoneName": "NAD83, Western Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "IN-E",
+            "ZoneName": "NAD27, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "IN-W",
+            "ZoneName": "NAD27, Western Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Kansas",
+        "Zones": [
+          {
+            "ID": "KS83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "KS83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "KS-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "KS-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Kentucky",
+        "Zones": [
+          {
+            "ID": "KY83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "KY83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "KY-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "KY-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Louisiana",
+        "Zones": [
+          {
+            "ID": "LA83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "LA83-O",
+            "ZoneName": "NAD83, Offshore",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "LA83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "LA-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "LA-O",
+            "ZoneName": "NAD27, Offshore",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "LA-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "LAHP-N",
+            "ZoneName": "HPGN, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "LAHP-O",
+            "ZoneName": "HPGN, Offshore",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "LAHP-S",
+            "ZoneName": "HPGN, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Massachusetts",
+        "Zones": [
+          {
+            "ID": "MA83",
+            "ZoneName": "NAD83, Mainland Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MA83-IS",
+            "ZoneName": "NAD83, Island Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MA",
+            "ZoneName": "NAD27, Mainland Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MA-IS",
+            "ZoneName": "NAD27, Island Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Maryland",
+        "Zones": [
+          {
+            "ID": "MD83",
+            "ZoneName": "NAD83",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MDHP",
+            "ZoneName": "HPGN",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MD",
+            "ZoneName": "NAD27",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Maine",
+        "Zones": [
+          {
+            "ID": "ME83-E",
+            "ZoneName": "NAD83, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "ME83-W",
+            "ZoneName": "NAD83, Western Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "ME-E",
+            "ZoneName": "NAD27, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "ME-W",
+            "ZoneName": "NAD27, Western Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Michigan",
+        "Zones": [
+          {
+            "ID": "MI83-C",
+            "ZoneName": "NAD83, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MI83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MI83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MI-C",
+            "ZoneName": "NAD27, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MI-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MI-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Minnesota",
+        "Zones": [
+          {
+            "ID": "MN83-C",
+            "ZoneName": "NAD83, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MN83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MN83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MN-C",
+            "ZoneName": "NAD27, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MN-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MN-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Missouri",
+        "Zones": [
+          {
+            "ID": "MO83-C",
+            "ZoneName": "NAD83, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MO83-E",
+            "ZoneName": "NAD83, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MO83-W",
+            "ZoneName": "NAD83, Western Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MO-C",
+            "ZoneName": "NAD27, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MO-E",
+            "ZoneName": "NAD27, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MO-W",
+            "ZoneName": "NAD27, Western Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Mississippi",
+        "Zones": [
+          {
+            "ID": "MS83-E",
+            "ZoneName": "NAD83, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MS83-W",
+            "ZoneName": "NAD83, Western Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MS-E",
+            "ZoneName": "NAD27, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MS-W",
+            "ZoneName": "NAD27, Western Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Montana",
+        "Zones": [
+          {
+            "ID": "MT83",
+            "ZoneName": "NAD83",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MTHP",
+            "ZoneName": "HPGN",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MT-C",
+            "ZoneName": "NAD27, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MT-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MT-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "North Carolina",
+        "Zones": [
+          {
+            "ID": "NC83",
+            "ZoneName": "NAD83",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NC",
+            "ZoneName": "NAD27",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "North Dakota",
+        "Zones": [
+          {
+            "ID": "ND83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "ND83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "ND-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "ND-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Nebraska",
+        "Zones": [
+          {
+            "ID": "NE83",
+            "ZoneName": "NAD83",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NE-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NE-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "New Hampshire",
+        "Zones": [
+          {
+            "ID": "NH83",
+            "ZoneName": "NAD83",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NH",
+            "ZoneName": "NAD27",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "New Jersey",
+        "Zones": [
+          {
+            "ID": "NJ83",
+            "ZoneName": "NAD83",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NJ",
+            "ZoneName": "NAD27",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "New Mexico",
+        "Zones": [
+          {
+            "ID": "NM83-C",
+            "ZoneName": "NAD83, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NM83-E",
+            "ZoneName": "NAD83, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NM83-W",
+            "ZoneName": "NAD83, Western Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NM-C",
+            "ZoneName": "NAD27, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NM-E",
+            "ZoneName": "NAD27, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NM-W",
+            "ZoneName": "NAD27, Western Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Nevada",
+        "Zones": [
+          {
+            "ID": "NV83-C",
+            "ZoneName": "NAD83, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NV83-E",
+            "ZoneName": "NAD83, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NV83-W",
+            "ZoneName": "NAD83, Western Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NV-C",
+            "ZoneName": "NAD27, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NV-E",
+            "ZoneName": "NAD27, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NV-W",
+            "ZoneName": "NAD27, Western Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "New York",
+        "Zones": [
+          {
+            "ID": "NY83-C",
+            "ZoneName": "NAD83, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NY83-E",
+            "ZoneName": "NAD83, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NY83-LI",
+            "ZoneName": "NAD83,  Long Island",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NY83-W",
+            "ZoneName": "NAD83, Western Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NY-C",
+            "ZoneName": "NAD27, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NY-E",
+            "ZoneName": "NAD27, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NY-LI",
+            "ZoneName": "NAD27,  Long Island",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "NY-W",
+            "ZoneName": "NAD27, Western Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Ohio",
+        "Zones": [
+          {
+            "ID": "OH83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "OH83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "OH-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "OH-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Oklahoma",
+        "Zones": [
+          {
+            "ID": "OK83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "OK83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "OK-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "OK-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Oregon",
+        "Zones": [
+          {
+            "ID": "OR83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "OR83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "ORHP-N",
+            "ZoneName": "HPGN, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "ORHP-S",
+            "ZoneName": "HPGN, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "OR-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "OR-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Pennsylvania",
+        "Zones": [
+          {
+            "ID": "PA83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "PA83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "PA-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "PA-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Rhode Island",
+        "Zones": [
+          {
+            "ID": "RI83",
+            "ZoneName": "NAD83",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "RI",
+            "ZoneName": "NAD27",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "South Carolina",
+        "Zones": [
+          {
+            "ID": "SC83",
+            "ZoneName": "NAD83",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SC-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SC-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "South Dakota",
+        "Zones": [
+          {
+            "ID": "SD83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SD83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SD-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SD-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Tennessee",
+        "Zones": [
+          {
+            "ID": "TN83",
+            "ZoneName": "NAD83",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "TNHP",
+            "ZoneName": "HPGN",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "TN",
+            "ZoneName": "NAD27",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Texas",
+        "Zones": [
+          {
+            "ID": "TX83-C",
+            "ZoneName": "NAD83, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "TX83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "TX83-NC",
+            "ZoneName": "NAD83, North Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "TX83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "TX83-SC",
+            "ZoneName": "NAD83, South Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "TX-C",
+            "ZoneName": "NAD27, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "TX-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "TX-NC",
+            "ZoneName": "NAD27, North Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "TX-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "TX-SC",
+            "ZoneName": "NAD27, South Central Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "48 States",
+        "Zones": [
+          {
+            "ID": "US48",
+            "ZoneName": "NAD27, Albers Equal Area",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Utah",
+        "Zones": [
+          {
+            "ID": "UT83-C",
+            "ZoneName": "NAD83, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "UT83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "UT83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "UT-C",
+            "ZoneName": "NAD27, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "UT-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "UT-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Virginia",
+        "Zones": [
+          {
+            "ID": "VA83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "VA83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "VA-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "VA-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Vermont",
+        "Zones": [
+          {
+            "ID": "VT83",
+            "ZoneName": "NAD83",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "VT",
+            "ZoneName": "NAD27",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Washington",
+        "Zones": [
+          {
+            "ID": "WA83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WA83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WAHP-N",
+            "ZoneName": "HPGN, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WAHP-S",
+            "ZoneName": "HPGN, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WA-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WA-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Wisconsin",
+        "Zones": [
+          {
+            "ID": "WI83-C",
+            "ZoneName": "NAD83, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WI83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WI83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WIHP-C",
+            "ZoneName": "HPGN, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WIHP-N",
+            "ZoneName": "HPGN, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WIHP-S",
+            "ZoneName": "HPGN, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WI-C",
+            "ZoneName": "NAD27, Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WI-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WI-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "West Virginia",
+        "Zones": [
+          {
+            "ID": "WV83-N",
+            "ZoneName": "NAD83, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WV83-S",
+            "ZoneName": "NAD83, Southern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WV-N",
+            "ZoneName": "NAD27, Northern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WV-S",
+            "ZoneName": "NAD27, Southern Zone",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Wyoming",
+        "Zones": [
+          {
+            "ID": "WY83-E",
+            "ZoneName": "NAD83, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WY83-EC",
+            "ZoneName": "NAD83, East Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WY83-W",
+            "ZoneName": "NAD83, Western Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WY83-WC",
+            "ZoneName": "NAD83, West Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WY-E",
+            "ZoneName": "NAD27, Eastern Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WY-EC",
+            "ZoneName": "NAD27, East Central Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WY-W",
+            "ZoneName": "NAD27, Western Zone",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "WY-WC",
+            "ZoneName": "NAD27, West Central Zone",
+            "EPSGCode": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "RegionName": "International",
+    "Locations": [
+      {
+        "LocationName": "Polar",
+        "Zones": [
+          {
+            "ID": "BPCNC",
+            "ZoneName": "Bipolar Oblique Conformal Conic",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "USA Lake Surveys",
+        "Zones": [
+          {
+            "ID": "HURON",
+            "ZoneName": "Lake Huron",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "MICHIGAN",
+            "ZoneName": "Lake Michigan",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SUPERIOR",
+            "ZoneName": "Lake Superior",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "ERIE",
+            "ZoneName": "Lake Erie",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Ghana",
+        "Zones": [
+          {
+            "ID": "GHANA-NG",
+            "ZoneName": "Ghana National Grid",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Guam",
+        "Zones": [
+          {
+            "ID": "GUAM",
+            "ZoneName": "Guam Grid",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Lake Huron",
+        "Zones": []
+      },
+      {
+        "LocationName": "France",
+        "Zones": [
+          {
+            "ID": "IGN-EURO",
+            "ZoneName": "NGI, EUROLAMBERT",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "IGN-I",
+            "ZoneName": "NGI, LAMBERT I NORD",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "IGN-II",
+            "ZoneName": "NGI, LAMBERT II CENTRE",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "IGN-IIE",
+            "ZoneName": "NGI, LAMBERT II ETENDU",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "IGN-III",
+            "ZoneName": "NGI, LAMBERT III SUD",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "IGN-IV",
+            "ZoneName": "NGI, LAMBERT IV CORSE",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "IGNC-I",
+            "ZoneName": "NGI, LAMBERT I CARTO",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "IGNC-II",
+            "ZoneName": "NGI, LAMBERT II CARTO",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "IGNC-III",
+            "ZoneName": "NGI, LAMBERT III CARTO",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "IGNC-IV",
+            "ZoneName": "NGI, LAMBERT IV CARTO",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Micronesia",
+        "Zones": [
+          {
+            "ID": "MAJURO",
+            "ZoneName": "Majuro Atoll, Marshal Islands",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "PALAU",
+            "ZoneName": "Palau, Caroline Islands",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "PONAPE",
+            "ZoneName": "Ponape, Caroline Islands",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "ROTA",
+            "ZoneName": "Rota, Mariana Islands",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SAIPAN",
+            "ZoneName": "Saipan, Mariana Islands",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "TRUK",
+            "ZoneName": "Truk Atoll, Caroline Islands",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "YAP",
+            "ZoneName": "Yap, Caroline Islands",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Pueto Rico",
+        "Zones": [
+          {
+            "ID": "PR83",
+            "ZoneName": "Pueto Rico and Virgin Islands",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "PR-1",
+            "ZoneName": "Pueto Rico and Virgin Islands, Zone 1",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "PR-2",
+            "ZoneName": "Pueto Rico, St. Croix Virgin Islands, Zone 2",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "American Samoa",
+        "Zones": [
+          {
+            "ID": "SAMOA",
+            "ZoneName": "National Grid",
+            "EPSGCode": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "RegionName": "South America",
+    "Locations": [
+      {
+        "LocationName": "Argentina",
+        "Zones": [
+          {
+            "ID": "SS:ARGENGK1",
+            "ZoneName": "Gauss-Kruger, Zone 1",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ARGENGK2",
+            "ZoneName": "Gauss-Kruger, Zone 2",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ARGENGK3",
+            "ZoneName": "Gauss-Kruger, Zone 3",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ARGENGK4",
+            "ZoneName": "Gauss-Kruger, Zone 4",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ARGENGK5",
+            "ZoneName": "Gauss-Kruger, Zone 5",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ARGENGK6",
+            "ZoneName": "Gauss-Kruger, Zone 6",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ARGENGK7",
+            "ZoneName": "Gauss-Kruger, Zone 7",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ARGENTINA1",
+            "ZoneName": "Argentina, Campo Inchauspe Zone 1",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ARGENTINA2",
+            "ZoneName": "Argentina, Campo Inchauspe Zone 2",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ARGENTINA3",
+            "ZoneName": "Argentina, Campo Inchauspe Zone 3",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ARGENTINA4",
+            "ZoneName": "Argentina, Campo Inchauspe Zone 4",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ARGENTINA5",
+            "ZoneName": "Argentina, Campo Inchauspe Zone 5",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:CHOS-MALAL",
+            "ZoneName": "Chos Malal 1914 / Argentina Zone 2 (CM 291)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:UTM8419S",
+            "ZoneName": "UTM Zone 19 - WGS84 South (CM: 291)",
+            "EPSGCode": "32719"
+          },
+          {
+            "ID": "SS:PDCASTILLO",
+            "ZoneName": "Pampa del Castillo / Argentina Zone 2 (CM 291)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Peru",
+        "Zones": [
+          {
+            "ID": "SS:PERUEAST",
+            "ZoneName": "Peru East - SA69",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:PERUWEST",
+            "ZoneName": "Peru West - SA69",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:PERUCENT",
+            "ZoneName": "Peru Central - SA69",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:PERUC56",
+            "ZoneName": "Peru Central - PSA56",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:PERUE56",
+            "ZoneName": "Peru East - PSA56",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:PERUW56",
+            "ZoneName": "Peru West - PSA56",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Colombia",
+        "Zones": [
+          {
+            "ID": "SS:BOGOTA",
+            "ZoneName": "Bogota Main",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:BOGOTA3E",
+            "ZoneName": "Bogota East",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:BOGOTA3W",
+            "ZoneName": "Bogota West",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:PUTUMAYO",
+            "ZoneName": "Putumayo - Bogota Observatory (CM: -77.0809)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:MAGNA-SIRGAS",
+            "ZoneName": "Magna Sirgas (CM: 74 04 39.03W)",
+            "EPSGCode": "0"
+          },
+          {
+            "ID": "SS:MAGNA-SIRGAS-6W",
+            "ZoneName": "Colombia Magna Sirgas - Colombia Far West Zone",
+            "EPSGCode": "3114"
+          },
+          {
+            "ID": "SS:MAGNA-SIRGAS-3W",
+            "ZoneName": "Colombia Magna Sirgas - Colombia West Zone",
+            "EPSGCode": "3115"
+          },
+          {
+            "ID": "SS:MAGNA-SIRGAS-0E",
+            "ZoneName": "Colombia Magna Sirgas - Colombia Bogota Zone",
+            "EPSGCode": "3116"
+          },
+          {
+            "ID": "SS:MAGNA-SIRGAS-3E",
+            "ZoneName": "Colombia Magna Sirgas - Colombia East Central Zone",
+            "EPSGCode": "3117"
+          },
+          {
+            "ID": "SS:MAGNA-SIRGAS-6E",
+            "ZoneName": "Colombia Magna Sirgas - Colombia East Zone",
+            "EPSGCode": "3118"
+          }
+        ]
+      },
+      {
+        "LocationName": "Venezuela",
+        "Zones": [
+          {
+            "ID": "SS:VEN20",
+            "ZoneName": "La Conoa PSAD 1956, Zone 20",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:VEN19",
+            "ZoneName": "La Conoa PSAD 1956, Zone 19",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Barbados",
+        "Zones": [
+          {
+            "ID": "SS:BARBADOS",
+            "ZoneName": "Barbados National Grid",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Bolivia",
+        "Zones": [
+          {
+            "ID": "SS:BOLIVIA19S",
+            "ZoneName": "PSAD 1956, UTM Zone 19 South (CM 291), Bolivia",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:BOLIVIA20S",
+            "ZoneName": "PSAD 1956, UTM Zone 20 South (CM 297), Bolivia",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Brazil",
+        "Zones": [
+          {
+            "ID": "SS:SIRGAS2K-19N",
+            "ZoneName": "Sirgas 2000 Zone 19N",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:SIRGAS2K-20N",
+            "ZoneName": "Sirgas 2000 Zone 20N",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:SIRGAS2K-20S",
+            "ZoneName": "Sirgas 2000 Zone 20S",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:SIRGAS2K-21N",
+            "ZoneName": "Sirgas 2000 Zone 21N",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:SIRGAS2K-21S",
+            "ZoneName": "Sirgas 2000 Zone 21S",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:SIRGAS2K-22N",
+            "ZoneName": "Sirgas 2000 Zone 22N",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:SIRGAS2K-22S",
+            "ZoneName": "Sirgas 2000 Zone 22S",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:SIRGAS2K-23S",
+            "ZoneName": "Sirgas 2000 Zone 23S",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:SIRGAS2K-24S",
+            "ZoneName": "Sirgas 2000 Zone 24S",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:SIRGAS2K-25S",
+            "ZoneName": "Sirgas 2000 Zone 25S",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SGB-19",
+            "ZoneName": "Sistema Geografico Brasileiro, Fuze 19",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SGB-20",
+            "ZoneName": "Sistema Geografico Brasileiro, Fuze 20",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SGB-21",
+            "ZoneName": "Sistema Geografico Brasileiro, Fuze 21",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SGB-22",
+            "ZoneName": "Sistema Geografico Brasileiro, Fuze 22",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SGB-23",
+            "ZoneName": "Sistema Geografico Brasileiro, Fuze 23",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SGB-24",
+            "ZoneName": "Sistema Geografico Brasileiro, Fuze 24",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SGB-25",
+            "ZoneName": "Sistema Geografico Brasileiro, Fuze 25",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:SGB-22N",
+            "ZoneName": "Sistema Geografico Brasileiro, Zone 22 North",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Ecuador",
+        "Zones": [
+          {
+            "ID": "SS:ECUADOR18",
+            "ZoneName": "La Conoa PSAD 1956, Zone 18 (CM:285)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:UTM8478S",
+            "ZoneName": "UTM Zone 18 South - WGS84 (CM:285)",
+            "EPSGCode": "32718"
+          },
+          {
+            "ID": "SS:UTM8478",
+            "ZoneName": "UTM Zone 18 North - WGS84 (CM:285)",
+            "EPSGCode": "32618"
+          },
+          {
+            "ID": "SS:UTM8417S",
+            "ZoneName": "UTM Zone 17 South - WGS84 (CM:279)",
+            "EPSGCode": "32717"
+          }
+        ]
+      },
+      {
+        "LocationName": "Suriname",
+        "Zones": [
+          {
+            "ID": "SS:SURINAME-ZANDERIJ",
+            "ZoneName": "Suriname Zanderij Zone 21N",
+            "EPSGCode": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "RegionName": "Middle East",
+    "Locations": [
+      {
+        "LocationName": "Qatar",
+        "Zones": [
+          {
+            "ID": "SS:QNG-72",
+            "ZoneName": "Qatar National Grid (1972)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NHRWN-Q39",
+            "ZoneName": "Nahrwan 1967 / UTM Zone 39N",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Bahrain",
+        "Zones": [
+          {
+            "ID": "SS:BAHRAIN",
+            "ZoneName": "Bahrain State Survey",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Iraq",
+        "Zones": [
+          {
+            "ID": "SS:IRAQNG",
+            "ZoneName": "Iraq National Grid",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Oman",
+        "Zones": [
+          {
+            "ID": "SS:OMAN57",
+            "ZoneName": "Oman Datum (CM 57)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NHRWN-O40",
+            "ZoneName": "Nahrwan 1967 / UTM Zone 40 (CM:57)",
+            "EPSGCode": "0"
+          }
+        ]
+      },
+      {
+        "LocationName": "United Arab Emirates",
+        "Zones": [
+          {
+            "ID": "SS:NHRWN-U7",
+            "ZoneName": "Nehrwan Datum (CM 57)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NHRWN-U1",
+            "ZoneName": "Nehrwan Datum (CM 51)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Saudi Arabia",
+        "Zones": [
+          {
+            "ID": "SS:AEASA51",
+            "ZoneName": "Ain El Abd Datum (CM 51)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:AEASA45",
+            "ZoneName": "Ain El Abd Datum (CM 45)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Sudan",
+        "Zones": [
+          {
+            "ID": "SS:ADNDNS33",
+            "ZoneName": "Adindan Datum Sudan (CM 33)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Kuwait",
+        "Zones": [
+          {
+            "ID": "SS:KUWAIT38",
+            "ZoneName": "UTM Zone 38 - WGS72, (CM 45)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Yemen",
+        "Zones": [
+          {
+            "ID": "SS:YEMEN39",
+            "ZoneName": "WGS 1972, Zone 39 North (CM:51)",
+            "EPSGCode": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "RegionName": "Africa",
+    "Locations": [
+      {
+        "LocationName": "Egypt",
+        "Zones": [
+          {
+            "ID": "SS:EGYGBWE",
+            "ZoneName": "Green Belt WEBCO-ELF",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:EGYPBWE",
+            "ZoneName": "Purple Belt WEBCO-ELF",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:EGYEPBWE",
+            "ZoneName": "Extended Purple Belt WEBCO-ELF",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:EGYRBWE",
+            "ZoneName": "Red Belt WEBCO-ELF",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:EGYEPB",
+            "ZoneName": "Extended Purple Belt S650",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:EGYRB",
+            "ZoneName": "Red Belt S650",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:EGYGB",
+            "ZoneName": "Green Belt S650",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:EGYPB",
+            "ZoneName": "Purple Belt S650",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:EGYRB-HMRT1906",
+            "ZoneName": "Egypt Red Belt, Helmert 1906 (CM: 31N)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Libya",
+        "Zones": [
+          {
+            "ID": "SS:ELD79CM185",
+            "ZoneName": "Offshore Libya, CM 18.5",
+            "EPSGCode": "0"
+          },
+          {
+            "ID": "SS:ELD79-UTM32N",
+            "ZoneName": "Libya UTM32N CM9 East, Meters",
+            "EPSGCode": "2077"
+          },
+          {
+            "ID": "SS:LIBYA12E",
+            "ZoneName": "Libya (12 East)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:LIBYA17E",
+            "ZoneName": "Libya (17 East)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:LIBYA19E",
+            "ZoneName": "Libya (19 East)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:LIBYA21E",
+            "ZoneName": "Libya (21 East)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:LIBYA23E",
+            "ZoneName": "Libya (23 east)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:LIBYA13E",
+            "ZoneName": "Libya (13 East)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:LIBYA15E",
+            "ZoneName": "Libya (15 East)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Nigeria",
+        "Zones": [
+          {
+            "ID": "SS:NIGERIEB",
+            "ZoneName": "Nigeria East Belt - Minna",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NIGERIMB",
+            "ZoneName": "Nigeria Mid Belt - Minna",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NIGERIWB",
+            "ZoneName": "Nigeria West Belt - Minna",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NIGER31N",
+            "ZoneName": "UTM Zone 31N - Minna",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NIGER32N",
+            "ZoneName": "UTM Zone 32N - Minna",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NIGER33N",
+            "ZoneName": "UTM Zone 33N - Minna",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:TM6-NE",
+            "ZoneName": "Nigeria TM6 (NE) - WGS84 (CM: 6)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Angola",
+        "Zones": [
+          {
+            "ID": "SS:CAMACUPA",
+            "ZoneName": "Camacupa - Clarke 1880 - WGS84 (CM 11.5) South",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:CAMACUPA15",
+            "ZoneName": "Camacupa - Clarke 1880 - WGS84 (CM 15) South",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Algeria",
+        "Zones": [
+          {
+            "ID": "SS:IGN-LSA",
+            "ZoneName": "Lambert Algerie Projection (Clark 1880, LSA)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ALGERIE-SUD",
+            "ZoneName": "Sud Algerie Projection (ancienne) Clark IGN",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ALGERIE-NORD",
+            "ZoneName": "Nord Algerie Projection (ancienne) Clark IGN",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ALGERIE-SUD-CFW",
+            "ZoneName": "Sud Algerie Projection (Compass) Clark IGN",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ALGERIE-NORD-CFW",
+            "ZoneName": "Nord Algerie Projection (Compass) Clark IGN",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NORD-SAHARA-29N",
+            "ZoneName": "Nord Sahara 1959 - UTM Zone 29N",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NORD-SAHARA-30N",
+            "ZoneName": "Nord Sahara 1959 - UTM Zone 30N",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NORD-SAHARA-31N",
+            "ZoneName": "Nord Sahara 1959 - UTM Zone 31N",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NORD-SAHARA-32N",
+            "ZoneName": "Nord Sahara 1959 - UTM Zone 32N",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Cameroon",
+        "Zones": [
+          {
+            "ID": "SS:SEREPCA-ELF",
+            "ZoneName": "Serepca Elf 1962 Manoca (CM 9)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Gabon",
+        "Zones": [
+          {
+            "ID": "SS:GABON9S",
+            "ZoneName": "Clarke 1880 - Gabon (CM 9) South",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:MPORALOKO",
+            "ZoneName": "M'Poraloko (IGN) - Gabon (CM: 9) South",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Niger",
+        "Zones": [
+          {
+            "ID": "SS:NIGER-CM13",
+            "ZoneName": "UTM Clarke 1880 IGN (CM:13)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Congo",
+        "Zones": [
+          {
+            "ID": "SS:CONGO-PN",
+            "ZoneName": "Congo Pointe Noire - Clarke 1880 IGN (CM:9S)",
+            "EPSGCode": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "RegionName": "Europe",
+    "Locations": [
+      {
+        "LocationName": "United Kingdom",
+        "Zones": [
+          {
+            "ID": "SS:UK-OS",
+            "ZoneName": "Ordnance Survey of Great Britain",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:UK-30",
+            "ZoneName": "UK UTM Zone 30 on ED50-GB Datum",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:UK-31",
+            "ZoneName": "UK-UTM Zone 31 on ED50-GB Datum",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Norway",
+        "Zones": [
+          {
+            "ID": "SS:NS-32",
+            "ZoneName": "UTM Zone 32 on ED50 Datum",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NS-30",
+            "ZoneName": "UTM Zone 30 on ED50 Datum",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NS-31",
+            "ZoneName": "UTM Zone 31 on ED50 Datum",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NS-30X",
+            "ZoneName": "UTM CM Greenwich on ED50 Datum",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NS-29",
+            "ZoneName": "UTM Zone 29 on ED50 Datum",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Netherlands",
+        "Zones": [
+          {
+            "ID": "SS:TM-NL1",
+            "ZoneName": "Dutch National (approx TM)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:TM-NL",
+            "ZoneName": "TM CM 5E on Dutch ED50",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NOR1",
+            "ZoneName": "TM CE 6E on ED50 Datum",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:AMERSFOORT",
+            "ZoneName": "Amersfoort - Dutch National Grid",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Austria",
+        "Zones": [
+          {
+            "ID": "SS:AUSTRIA1",
+            "ZoneName": "TM CM 9E on ED50 Datum",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:RAG-AUS",
+            "ZoneName": "Austria (RAG) Gauss Kruger",
+            "EPSGCode": "0"
+          }
+        ]
+      },
+      {
+        "LocationName": "Italy",
+        "Zones": [
+          {
+            "ID": "SS:ITAL1",
+            "ZoneName": "TM CM 15E on ED50 Datum",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:MONTIMARIO",
+            "ZoneName": "MontiMario Gauss-Boaga- CM15 - Internatonal",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:UTM33-AGIP",
+            "ZoneName": "UTM Zone 33 for Agip Ivana - FE = 2520000",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Germany",
+        "Zones": [
+          {
+            "ID": "SS:GERMGK2",
+            "ZoneName": "TM Germany 6E (Gauss Kruger Zone 2)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:GERMGK3",
+            "ZoneName": "TM Germany 9E (Gauss Kruger Zone 3)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:GERMGK4",
+            "ZoneName": "TM Germany 12E (Gauss Kruger Zone 4)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:GEB6BES",
+            "ZoneName": "Gauss Europe Belt 6 - Bessel 1841",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Poland",
+        "Zones": [
+          {
+            "ID": "SS:GERMGK6",
+            "ZoneName": "TM Poland (Gauss Kruger Zone 6)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:PULKOVO42",
+            "ZoneName": "Pulkovo 1942 - Krassovsky, Zone 39 (CM 51)",
+            "EPSGCode": "2592"
+          },
+          {
+            "ID": "SS:PULKOVO42-40",
+            "ZoneName": "Pulkovo 1942 - Krassovsky, Zone 40 (CM 57)",
+            "EPSGCode": "2594"
+          }
+        ]
+      },
+      {
+        "LocationName": "Yugoslavia",
+        "Zones": [
+          {
+            "ID": "SS:YUGO7",
+            "ZoneName": "Yugoslavia (Gauss-Kruger Zone 7) - Bessel 41",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Croatia",
+        "Zones": [
+          {
+            "ID": "SS:CROATIA",
+            "ZoneName": "Croatia Gauss-Kruger Zone 6 - Bessel 41",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:CROATIA15",
+            "ZoneName": "Croatia Gauss-Kruger - CM15 - Bessel 41",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Turkmenistan",
+        "Zones": [
+          {
+            "ID": "SS:TURKMENISTAN",
+            "ZoneName": "Turkmenistan Gauss-Kruger - CM51 - Krassovsky 1940",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Portugal",
+        "Zones": [
+          {
+            "ID": "SS:NS-29",
+            "ZoneName": "UTM Zone 29 on ED50 Datum",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Greece",
+        "Zones": [
+          {
+            "ID": "SS:GREECE27E",
+            "ZoneName": "Greece - Gauss-Kruger, Bessel 41 (CM 27)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Russia",
+        "Zones": [
+          {
+            "ID": "SS:KHARYAGA",
+            "ZoneName": "Russia - Kharyaga 2000",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:KRASSOVSKY-43",
+            "ZoneName": "Krassovsky 1940 - Zone 43 (CM 75)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:KRASSOVSKY-40",
+            "ZoneName": "Krassovsky 1940 - Zone 40 (CM 57)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:KRASSOVSKY-41",
+            "ZoneName": "Krassovsky 1940 - Zone 41 (CM 63)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:KRASSOVSKY-42",
+            "ZoneName": "Krassovsky 1940 - Zone 42 (CM 69)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:KRASSOVSKY-44",
+            "ZoneName": "Krassovsky 1940 - Zone 44 (CM 81)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:KRASSOVSKY-45",
+            "ZoneName": "Krassovsky 1940 - Zone 45 (CM 87)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:KRASSOVSKY-46",
+            "ZoneName": "Krassovsky 1940 - Zone 46 (CM 93)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:KRASSOVSKY-47",
+            "ZoneName": "Krassovsky 1940 - Zone 47 (CM 99)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:KRASSOVSKY-48",
+            "ZoneName": "Krassovsky 1940 - Zone 48 (CM 105)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:PULKOVO42-42",
+            "ZoneName": "Pulkovo 1942 - Krassovsky, Zone 42 (CM: 69)",
+            "EPSGCode": "2598"
+          },
+          {
+            "ID": "SS:PULKOVO42-43",
+            "ZoneName": "Pulkovo 1942 - Krassovsky, Zone 43 (CM: 75)",
+            "EPSGCode": "2601"
+          },
+          {
+            "ID": "SS:GK-POLKOVO",
+            "ZoneName": "Pulkovo 1942, GK-13N (CM: 75)",
+            "EPSGCode": "28413"
+          },
+          {
+            "ID": "SS:PULKOVO42-37",
+            "ZoneName": "Pulkovo 1942 - Krassovsky, Zone 37 (CM: 39)",
+            "EPSGCode": "28467"
+          }
+        ]
+      },
+      {
+        "LocationName": "Lithuania",
+        "Zones": [
+          {
+            "ID": "SS:PULKOVO-4N",
+            "ZoneName": "Pulkovo 1942 - Krassovsky - (CM21)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Kazakhstan",
+        "Zones": [
+          {
+            "ID": "SS:KRASSOVSKY-9TRUNC",
+            "ZoneName": "Krassovsky (1942), Zone 9 (Truncated) (CM: 51)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:KRASSOVSKY-38",
+            "ZoneName": "Krassovsky 1940 - Zone 38 (CM 45)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:KRASSOVSKY-39",
+            "ZoneName": "Krassovsky 1940 - Zone 39 (CM 51)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:PULKOVO42-38",
+            "ZoneName": "Pulkovo 1942 - Krassovsky, Zone 38 (CM: 45)",
+            "EPSGCode": "2590"
+          },
+          {
+            "ID": "SS:PULKOVO42-39",
+            "ZoneName": "Pulkovo 1942 - Krassovsky, Zone 39 (CM: 51)",
+            "EPSGCode": "2592"
+          },
+          {
+            "ID": "SS:PULKOVO42-40",
+            "ZoneName": "Pulkovo 1942 - Krassovsky, Zone 40 (CM: 57)",
+            "EPSGCode": "2594"
+          },
+          {
+            "ID": "SS:PULKOVO42-41",
+            "ZoneName": "Pulkovo 1942 - Krassovsky, Zone 41 (CM: 63)",
+            "EPSGCode": "2596"
+          },
+          {
+            "ID": "SS:KRASSOVSKY-9",
+            "ZoneName": "Krassovsky (1942), Zone 9 (CM: 51)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:KRASSOVSKY-11",
+            "ZoneName": "Krassovsky (1942), Zone 11 (CM:63)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:KAZAKHSTAN-G-63",
+            "ZoneName": "Kazakhstan G-63 - Zone 4, Shagyrly-Shomyshty",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Azerbajan",
+        "Zones": [
+          {
+            "ID": "SS:KRASSOVSKY-9TRUNC",
+            "ZoneName": "Krassovsky (1942), Zone 9 (Truncated) (CM: 51)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:KRASSOVSKY-9",
+            "ZoneName": "Krassovsky (1942), Zone 9 (CM: 51)",
+            "EPSGCode": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "RegionName": "Asia",
+    "Locations": [
+      {
+        "LocationName": "India",
+        "Zones": [
+          {
+            "ID": "SS:INDIA75",
+            "ZoneName": "Indian Datum (CM 75)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:INDIA81",
+            "ZoneName": "Indian Datum (CM 81)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:INDIA69",
+            "ZoneName": "Indian Datum (CM 69)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Thailand",
+        "Zones": [
+          {
+            "ID": "SS:INDTV",
+            "ZoneName": "Everest (Thailand & Vietnam)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Brunei",
+        "Zones": [
+          {
+            "ID": "SS:BRSO",
+            "ZoneName": "Timbalai 1948 (NW. Borneo RSO)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Bangladesh",
+        "Zones": [
+          {
+            "ID": "SS:BANGLDSH",
+            "ZoneName": "Everest 1830 (Bangladesh)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Japan",
+        "Zones": [
+          {
+            "ID": "SS:JAPAN",
+            "ZoneName": "Japanese UTM",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Indonesia",
+        "Zones": [
+          {
+            "ID": "SS:EKALIMANTAN",
+            "ZoneName": "DJakarta Datum, East Kalimantan, Indonesia",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-069S-BESSEL",
+            "ZoneName": "UTM Zone 42 South, Bessel 1841 (CM 69)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-099N-WGS72",
+            "ZoneName": "UTM Zone 47 North, WGS 1972 (CM 99)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-099S-WGS72",
+            "ZoneName": "UTM Zone 47 South, WGS 1972 (CM 99)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-105N-BESSEL",
+            "ZoneName": "UTM Zone 48 North, Bessel 1841 (CM 105)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-105S-BESSEL",
+            "ZoneName": "UTM Zone 48 South, Bessel 1841 (CM 105)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-105S-GRS80",
+            "ZoneName": "UTM Zone 48 South, GRS 1980 (CM 105)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-105S-INT24",
+            "ZoneName": "UTM Zone 48 South, International 1924 (CM 105)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-105S-WGS72",
+            "ZoneName": "UTM Zone 48 South, WGS 1972 (CM 105)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-108S-BESSEL",
+            "ZoneName": "UTM Zone 48 South, Bessel 1841 (CM 108)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-111S-WGS72",
+            "ZoneName": "UTM Zone 49 South, WGS 1972 (CM 111)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-116S-GRS80",
+            "ZoneName": "UTM Zone 49 South, GRS 1980 (CM 116)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-116S-WGS72",
+            "ZoneName": "UTM Zone 49 South, WGS 1972 (CM 116)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-117N-BESSEL",
+            "ZoneName": "UTM Zone 50 North, Bessel 1841 (CM 117)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-117N-WGS72",
+            "ZoneName": "UTM Zone 50 North, WGS 1972 (CM 117)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-129S-BESSEL",
+            "ZoneName": "UTM Zone 52 South, Bessel 1841 (CM 129)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-129S-WGS72",
+            "ZoneName": "UTM Zone 52 South, WGS72 (CM 129)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-135S-GRS80",
+            "ZoneName": "UTM Zone 53 South, GRS80 (CM 135)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-135S-WGS72",
+            "ZoneName": "UTM Zone 53 South, WGS72 (CM 135)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:SEMBOJA-117S",
+            "ZoneName": "P2Ex-T9 Semboja (CM:117) South",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-106S-WGS84",
+            "ZoneName": "WGS84 Indonesia (CM:106S)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:ASIA-105N-WGS72",
+            "ZoneName": "UTM Zone 48 North, WGS72 (CM: 105N)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:BUKIT-RIMPAH",
+            "ZoneName": "Bukit Rimpah - Bangka, Beltung Is. (CM:108)",
+            "EPSGCode": "4219"
+          }
+        ]
+      },
+      {
+        "LocationName": "China",
+        "Zones": [
+          {
+            "ID": "SS:S-CHINA-SEA-LAMBERT",
+            "ZoneName": "Lambert South China Sea",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:CHINA115",
+            "ZoneName": "UTM Zone 49 - WGS84, (CM 115)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:CHINA111",
+            "ZoneName": "UTM Zone 49 - WGS84, (CM 111)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:BEIJING54-13N",
+            "ZoneName": "Beijing 1954, Gauss-Kruger Zone 13N (CM:75)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:BEIJING54-14N",
+            "ZoneName": "Beijing 1954, Gauss-Kruger Zone 14N (CM:81)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:BEIJING54-15N",
+            "ZoneName": "Beijing 1954, Gauss-Kruger Zone 15N (CM:87)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:BEIJING54-16N",
+            "ZoneName": "Beijing 1954, Gauss-Kruger Zone 16N (CM:93)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:BEIJING54-17N",
+            "ZoneName": "Beijing 1954, Gauss-Kruger Zone 17N (CM:99)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:BEIJING54-18N",
+            "ZoneName": "Beijing 1954, Gauss-Kruger Zone 18N (CM:105)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:BEIJING54-19N",
+            "ZoneName": "Beijing 1954, Gauss-Kruger Zone 19N (CM:111)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:BEIJING54-20N",
+            "ZoneName": "Beijing 1954, Gauss-Kruger Zone 20N (CM:117)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:BEIJING54-21N",
+            "ZoneName": "Beijing 1954, Gauss-Kruger Zone 21N (CM:123)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:BEIJING54-22N",
+            "ZoneName": "Beijing 1954, Gauss-Kruger Zone 22N (CM:129)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:BEIJING54-23N",
+            "ZoneName": "Beijing 1954, Gauss-Kruger Zone 23N (CM:135)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:CHINA120N",
+            "ZoneName": "China TM:120N - WGS84 (CM:120)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:CHINA123N",
+            "ZoneName": "UTM Zone 51N WGS84 (CM:123)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Malaysia",
+        "Zones": [
+          {
+            "ID": "SS:KERTAU48",
+            "ZoneName": "Malaysia - UTM Zone 48 North, Kertau 1948 (CM:105)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:BRSO-PC",
+            "ZoneName": "Timbalai 1830, BRSO (Petronas Carigali)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:TIMBALAI49",
+            "ZoneName": "Timbalai 1830 - Zone 49 (Petronas Carigali)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:TIMBALAI50",
+            "ZoneName": "Timbalai 1830 - Zone 50 (Petronas Carigali)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:TIMBALAI49X",
+            "ZoneName": "Timbalai 1830 - CM:114 (Petronas Carigali)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:UTM8449X",
+            "ZoneName": "WGS84, CM:114 (Petronas Carigali)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Pakistan",
+        "Zones": [
+          {
+            "ID": "SS:PAKISTAN",
+            "ZoneName": "Everest 1830 (Pakistan)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Vietnam",
+        "Zones": [
+          {
+            "ID": "SS:VIETNAM111",
+            "ZoneName": "Vietnam - WGS72 BE (BP) (CM: 111), Meters",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:VIETNAM109",
+            "ZoneName": "Vietnam - WGS72 (CM: 109N)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Philippines",
+        "Zones": [
+          {
+            "ID": "SS:LUZON1911-ZONE1",
+            "ZoneName": "Philippine Zones - Luzon 1911 (Clarke 1866) Zone 1",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:LUZON1911-ZONE2",
+            "ZoneName": "Philippine Zones - Luzon 1911 (Clarke 1866) Zone 2",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:LUZON1911-ZONE3",
+            "ZoneName": "Philippine Zones - Luzon 1911 (Clarke 1866) Zone 3",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:LUZON1911-ZONE4",
+            "ZoneName": "Philippine Zones - Luzon 1911 (Clarke 1866) Zone 4",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:LUZON1911-ZONE5",
+            "ZoneName": "Philippine Zones - Luzon 1911 (Clarke 1866) Zone 5",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:PRS92-ZONE1",
+            "ZoneName": "Philippine Zones - PRS92 (Clarke 1866) Zone 1",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:PRS92-ZONE2",
+            "ZoneName": "Philippine Zones - PRS92 (Clarke 1866) Zone 2",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:PRS92-ZONE3",
+            "ZoneName": "Philippine Zones - PRS92 (Clarke 1866) Zone 3",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:PRS92-ZONE4",
+            "ZoneName": "Philippine Zones - PRS92 (Clarke 1866) Zone 4",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:PRS92-ZONE5",
+            "ZoneName": "Philippine Zones - PRS92 (Clarke 1866) Zone 5",
+            "EPSGCode": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "RegionName": "Central America",
+    "Locations": [
+      {
+        "LocationName": "Mexico",
+        "Zones": [
+          {
+            "ID": "SS:UTM-15",
+            "ZoneName": "UTM Zone 15 - Mexcio",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Trinidad and Tobago",
+        "Zones": [
+          {
+            "ID": "SS:NAPARIMA-20N",
+            "ZoneName": "Naparima 1972 - Zone 20N (CM 297)",
+            "EPSGCode": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "RegionName": "Australia and New Zealand",
+    "Locations": [
+      {
+        "LocationName": "New Zealand",
+        "Zones": [
+          {
+            "ID": "NZEALAND",
+            "ZoneName": "GD1949, National Grid",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NZGD2000",
+            "ZoneName": "New Zealand Geodetic Datum 2000",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NZGD1949",
+            "ZoneName": "New Zealand Geodetic Datum 1949 (Bursa Wolfe)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:NZMAP",
+            "ZoneName": "New Zealand Map Grid 1949",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Australia",
+        "Zones": [
+          {
+            "ID": "SS:AUS-49",
+            "ZoneName": "UTM Zone 49S on Australian Datum 1984",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:AUS-50",
+            "ZoneName": "UTM Zone 50S on Australian Datum 1984",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:AUS-51",
+            "ZoneName": "UTM Zone 51S on Australian Datum 1984",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:AUS-52",
+            "ZoneName": "UTM Zone 52S on Australian Datum 1984",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:AUS-53",
+            "ZoneName": "UTM Zone 53S on Australian Datum 1984",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:AUS-54",
+            "ZoneName": "UTM Zone 54S on Australian Datum 1984",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:AUS-55",
+            "ZoneName": "UTM Zone 55S on Australian Datum 1984",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:AUS-56",
+            "ZoneName": "UTM Zone 56S on Australian Datum 1984",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:GDA94-49",
+            "ZoneName": "GDA94, Zone 49",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:GDA94-50",
+            "ZoneName": "GDA94, Zone 50",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:GDA94-51",
+            "ZoneName": "GDA94, Zone 51",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:GDA94-52",
+            "ZoneName": "GDA94, Zone 52",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:GDA94-53",
+            "ZoneName": "GDA94, Zone 53",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:GDA94-54",
+            "ZoneName": "GDA94, Zone 54",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:GDA94-55",
+            "ZoneName": "GDA94, Zone 55",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:GDA94-56",
+            "ZoneName": "GDA94, Zone 56",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:AGD66-49",
+            "ZoneName": "AGD66 - Zone 49S (CM 111)",
+            "EPSGCode": "20249"
+          },
+          {
+            "ID": "SS:AGD66-50",
+            "ZoneName": "AGD66 - Zone 50S (CM 117)",
+            "EPSGCode": "20250"
+          },
+          {
+            "ID": "SS:AGD66-51",
+            "ZoneName": "AGD66 - Zone 51S (CM 123)",
+            "EPSGCode": "20251"
+          },
+          {
+            "ID": "SS:AGD66-52",
+            "ZoneName": "AGD66 - Zone 52S (CM 129)",
+            "EPSGCode": "20252"
+          },
+          {
+            "ID": "SS:AGD66-53",
+            "ZoneName": "AGD66 - Zone 53S (CM 135)",
+            "EPSGCode": "20253"
+          },
+          {
+            "ID": "SS:AGD66-54",
+            "ZoneName": "AGD66 - Zone 54S (CM 141)",
+            "EPSGCode": "20254"
+          },
+          {
+            "ID": "SS:AGD66-55",
+            "ZoneName": "AGD66 - Zone 55S (CM 147)",
+            "EPSGCode": "20255"
+          },
+          {
+            "ID": "SS:AGD66-56",
+            "ZoneName": "AGD66 - Zone 56S (CM 153)",
+            "EPSGCode": "20256"
+          },
+          {
+            "ID": "SS:WGS84-49S",
+            "ZoneName": "WGS84 - Zone 49S (CM 111)",
+            "EPSGCode": "32749"
+          },
+          {
+            "ID": "SS:WGS84-50S",
+            "ZoneName": "WGS84 - Zone 50S (CM 117)",
+            "EPSGCode": "32750"
+          },
+          {
+            "ID": "SS:WGS84-51S",
+            "ZoneName": "WGS84 - Zone 51S (CM 123)",
+            "EPSGCode": "32751"
+          },
+          {
+            "ID": "SS:WGS84-52S",
+            "ZoneName": "WGS84 - Zone 52S (CM 129)",
+            "EPSGCode": "32752"
+          },
+          {
+            "ID": "SS:WGS84-53S",
+            "ZoneName": "WGS84 - Zone 53S (CM 135)",
+            "EPSGCode": "32753"
+          },
+          {
+            "ID": "SS:WGS84-54S",
+            "ZoneName": "WGS84 - Zone 54S (CM 141)",
+            "EPSGCode": "32754"
+          },
+          {
+            "ID": "SS:WGS84-55S",
+            "ZoneName": "WGS84 - Zone 55S (CM 147)",
+            "EPSGCode": "32755"
+          },
+          {
+            "ID": "SS:WGS84-56S",
+            "ZoneName": "WGS84 - Zone 56S (CM 153)",
+            "EPSGCode": "32756"
+          },
+          {
+            "ID": "SS:AGD84-49S",
+            "ZoneName": "AGD84 - Zone 49S (CM 111)",
+            "EPSGCode": "20349"
+          },
+          {
+            "ID": "SS:AGD84-50S",
+            "ZoneName": "AGD84 - Zone 50S (CM 117)",
+            "EPSGCode": "20350"
+          },
+          {
+            "ID": "SS:AGD84-51S",
+            "ZoneName": "AGD84 - Zone 51S (CM 123)",
+            "EPSGCode": "20351"
+          },
+          {
+            "ID": "SS:AGD84-52S",
+            "ZoneName": "AGD84 - Zone 52S (CM 129)",
+            "EPSGCode": "20352"
+          },
+          {
+            "ID": "SS:AGD84-53S",
+            "ZoneName": "AGD84 - Zone 53S (CM 135)",
+            "EPSGCode": "20353"
+          },
+          {
+            "ID": "SS:AGD84-54S",
+            "ZoneName": "AGD84 - Zone 54S (CM 141)",
+            "EPSGCode": "20354"
+          },
+          {
+            "ID": "SS:AGD84-55S",
+            "ZoneName": "AGD84 - Zone 55S (CM 147)",
+            "EPSGCode": "20355"
+          },
+          {
+            "ID": "SS:AGD84-56S",
+            "ZoneName": "AGD84 - Zone 56S (CM 153)",
+            "EPSGCode": "20356"
+          },
+          {
+            "ID": "SS:AGD84-49XS",
+            "ZoneName": "AGD84 - Zone 49xS (CM 114)",
+            "EPSGCode": "20349"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "RegionName": "UTM Zones - WGS84",
+    "Locations": [
+      {
+        "LocationName": "Northern Hemisphere",
+        "Zones": [
+          {
+            "ID": "SS:UTM8419",
+            "ZoneName": "UTM Zone 19 - WGS84 (CM: 291)",
+            "EPSGCode": "32619"
+          },
+          {
+            "ID": "SS:UTM8431",
+            "ZoneName": "UTM Zone 31 - WGS84 (CM: 3)",
+            "EPSGCode": "32631"
+          },
+          {
+            "ID": "SS:UTM8450",
+            "ZoneName": "UTM Zone 50 - WGS84 (CM: 117)",
+            "EPSGCode": "32650"
+          },
+          {
+            "ID": "SS:UTM8420",
+            "ZoneName": "UTM Zone 20 - WGS84 (CM: 297)",
+            "EPSGCode": "32620"
+          },
+          {
+            "ID": "SS:UTM8439",
+            "ZoneName": "UTM Zone 39 - WGS84 (CM: 51)",
+            "EPSGCode": "32639"
+          },
+          {
+            "ID": "SS:UTM8415",
+            "ZoneName": "UTM Zone 15 - WGS84 (CM: 267)",
+            "EPSGCode": "32615"
+          },
+          {
+            "ID": "SS:UTM8437",
+            "ZoneName": "UTM Zone 37 - WGS84 (CM: 39)",
+            "EPSGCode": "32637"
+          },
+          {
+            "ID": "SS:UTM8460",
+            "ZoneName": "UTM Zone 60 - WGS84 (CM: 177)",
+            "EPSGCode": "32660"
+          },
+          {
+            "ID": "SS:UTM8426",
+            "ZoneName": "UTM Zone 26 - WGS84 (CM: 333)",
+            "EPSGCode": "32626"
+          },
+          {
+            "ID": "SS:UTM8435",
+            "ZoneName": "UTM Zone 35 - WGS84 (CM: 27)",
+            "EPSGCode": "32635"
+          },
+          {
+            "ID": "SS:UTM8436",
+            "ZoneName": "UTM Zone 36 - WGS84 (CM: 33)",
+            "EPSGCode": "32636"
+          },
+          {
+            "ID": "SS:UTM8449",
+            "ZoneName": "UTM Zone 49 - WGS84 (CM: 111)",
+            "EPSGCode": "32649"
+          },
+          {
+            "ID": "SS:UTM8427",
+            "ZoneName": "UTM Zone 27 - WGS84 (CM: 339)",
+            "EPSGCode": "32627"
+          },
+          {
+            "ID": "SS:UTM8428",
+            "ZoneName": "UTM Zone 28 - WGS84 (CM: 345)",
+            "EPSGCode": "32628"
+          },
+          {
+            "ID": "SS:UTM8429",
+            "ZoneName": "UTM Zone 29 - WGS84 (CM: 351)",
+            "EPSGCode": "32629"
+          },
+          {
+            "ID": "SS:UTM8430",
+            "ZoneName": "UTM Zone 30 - WGS84 (CM: 357)",
+            "EPSGCode": "32630"
+          },
+          {
+            "ID": "SS:UTM8432",
+            "ZoneName": "UTM Zone 32 - WGS84 (CM: 9)",
+            "EPSGCode": "32632"
+          },
+          {
+            "ID": "SS:UTM8433",
+            "ZoneName": "UTM Zone 33 - WGS84 (CM: 15)",
+            "EPSGCode": "32633"
+          },
+          {
+            "ID": "SS:UTM8434",
+            "ZoneName": "UTM Zone 34 - WGS84 (CM: 21)",
+            "EPSGCode": "32634"
+          },
+          {
+            "ID": "SS:UTM8440",
+            "ZoneName": "UTM Zone 40 - WGS84 (CM: 57)",
+            "EPSGCode": "32640"
+          },
+          {
+            "ID": "SS:UTM8438",
+            "ZoneName": "UTM Zone 38 - WGS84 (CM: 45)",
+            "EPSGCode": "32638"
+          },
+          {
+            "ID": "SS:UTM8448",
+            "ZoneName": "UTM Zone 48 - WGS84 (CM: 105)",
+            "EPSGCode": "32648"
+          },
+          {
+            "ID": "SS:UTM8444",
+            "ZoneName": "UTM Zone 44 - WGS84 (CM: 81)",
+            "EPSGCode": "32644"
+          },
+          {
+            "ID": "SS:UTM8453",
+            "ZoneName": "UTM Zone 53 - WGS84 (CM 135)",
+            "EPSGCode": "32653"
+          },
+          {
+            "ID": "SS:UTM8454",
+            "ZoneName": "UTM Zone 54 - WGS84 (CM 141)",
+            "EPSGCode": "32654"
+          },
+          {
+            "ID": "SS:UTM8455",
+            "ZoneName": "UTM Zone 55 - WGS84 (CM 147)",
+            "EPSGCode": "32655"
+          },
+          {
+            "ID": "SS:UTM8441",
+            "ZoneName": "UTM Zone 41 - WGS84 (CM: 63)",
+            "EPSGCode": "32641"
+          },
+          {
+            "ID": "SS:UTM8442",
+            "ZoneName": "UTM Zone 42 - WGS84 (CM: 69)",
+            "EPSGCode": "32642"
+          },
+          {
+            "ID": "SS:UTM8443",
+            "ZoneName": "UTM Zone 43 - WGS84 (CM: 75)",
+            "EPSGCode": "32643"
+          },
+          {
+            "ID": "SS:UTM8445",
+            "ZoneName": "UTM Zone 45 - WGS84 (CM: 87)",
+            "EPSGCode": "32645"
+          },
+          {
+            "ID": "SS:UTM8446",
+            "ZoneName": "UTM Zone 46 - WGS84 (CM: 93)",
+            "EPSGCode": "32646"
+          },
+          {
+            "ID": "SS:UTM8447",
+            "ZoneName": "UTM Zone 47 - WGS84 (CM: 99)",
+            "EPSGCode": "32647"
+          },
+          {
+            "ID": "SS:UTM8414",
+            "ZoneName": "UTM Zone 14 - WGS84 (CM: 261)",
+            "EPSGCode": "32614"
+          },
+          {
+            "ID": "SS:UTM8413",
+            "ZoneName": "UTM Zone 13 - WGS84 (CM: 255)",
+            "EPSGCode": "32613"
+          },
+          {
+            "ID": "SS:UTM8412",
+            "ZoneName": "UTM Zone 12 - WGS84 (CM: 249)",
+            "EPSGCode": "32612"
+          },
+          {
+            "ID": "SS:UTM8411",
+            "ZoneName": "UTM Zone 11 - WGS84 (CM: 243)",
+            "EPSGCode": "32611"
+          },
+          {
+            "ID": "SS:UTM8410",
+            "ZoneName": "UTM Zone 10 - WGS84 (CM: 237)",
+            "EPSGCode": "32610"
+          },
+          {
+            "ID": "SS:UTM8409",
+            "ZoneName": "UTM Zone 9 - WGS84 (CM: 231)",
+            "EPSGCode": "32609"
+          },
+          {
+            "ID": "SS:UTM8408",
+            "ZoneName": "UTM Zone 8 - WGS84 (CM: 225)",
+            "EPSGCode": "32608"
+          },
+          {
+            "ID": "SS:UTM8407",
+            "ZoneName": "UTM Zone 7 - WGS84 (CM: 219)",
+            "EPSGCode": "32607"
+          },
+          {
+            "ID": "SS:UTM8406",
+            "ZoneName": "UTM Zone 6 - WGS84 (CM: 213)",
+            "EPSGCode": "32606"
+          },
+          {
+            "ID": "SS:UTM8405",
+            "ZoneName": "UTM Zone 5 - WGS84 (CM: 207)",
+            "EPSGCode": "32605"
+          },
+          {
+            "ID": "SS:UTM8404",
+            "ZoneName": "UTM Zone 4 - WGS84 (CM: 201)",
+            "EPSGCode": "32604"
+          },
+          {
+            "ID": "SS:UTM8403",
+            "ZoneName": "UTM Zone 3 - WGS84 (CM: 195)",
+            "EPSGCode": "32603"
+          },
+          {
+            "ID": "SS:UTM8402",
+            "ZoneName": "UTM Zone 2 - WGS84 (CM: 189)",
+            "EPSGCode": "32602"
+          },
+          {
+            "ID": "SS:UTM8401",
+            "ZoneName": "UTM Zone 1 - WGS84 (CM: 183)",
+            "EPSGCode": "32601"
+          },
+          {
+            "ID": "SS:UTM8421",
+            "ZoneName": "UTM Zone 21 - WGS84 (CM: 303)",
+            "EPSGCode": "32621"
+          },
+          {
+            "ID": "SS:UTM8422",
+            "ZoneName": "UTM Zone 22 - WGS84 (CM: 309)",
+            "EPSGCode": "32622"
+          },
+          {
+            "ID": "SS:UTM8416",
+            "ZoneName": "UTM Zone 16 - WGS84 (CM: 273)",
+            "EPSGCode": "32616"
+          },
+          {
+            "ID": "SS:UTM8417",
+            "ZoneName": "UTM Zone 17 - WGS84 (CM: 279)",
+            "EPSGCode": "32617"
+          },
+          {
+            "ID": "SS:UTM8418",
+            "ZoneName": "UTM Zone 18 - WGS84 (CM: 285)",
+            "EPSGCode": "32618"
+          },
+          {
+            "ID": "SS:UTM8423",
+            "ZoneName": "UTM Zone 23 - WGS84 (CM: 315)",
+            "EPSGCode": "32623"
+          },
+          {
+            "ID": "SS:UTM8424",
+            "ZoneName": "UTM Zone 24 - WGS84 (CM: 321)",
+            "EPSGCode": "32624"
+          },
+          {
+            "ID": "SS:UTM8425",
+            "ZoneName": "UTM Zone 25 - WGS84 (CM: 327)",
+            "EPSGCode": "32625"
+          },
+          {
+            "ID": "SS:UTM8451",
+            "ZoneName": "UTM Zone 51 - WGS84 (CM: 123)",
+            "EPSGCode": "32651"
+          },
+          {
+            "ID": "SS:UTM8452",
+            "ZoneName": "UTM Zone 52 - WGS84 (CM: 129)",
+            "EPSGCode": "32652"
+          },
+          {
+            "ID": "SS:UTM8456",
+            "ZoneName": "UTM Zone 56 - WGS84 (CM: 153)",
+            "EPSGCode": "32656"
+          },
+          {
+            "ID": "SS:UTM8457",
+            "ZoneName": "UTM Zone 57 - WGS84 (CM: 159)",
+            "EPSGCode": "32657"
+          },
+          {
+            "ID": "SS:UTM8458",
+            "ZoneName": "UTM Zone 58 - WGS84 (CM: 165)",
+            "EPSGCode": "32658"
+          },
+          {
+            "ID": "SS:UTM8459",
+            "ZoneName": "UTM Zone 59 - WGS84 (CM: 171)",
+            "EPSGCode": "32659"
+          }
+        ]
+      },
+      {
+        "LocationName": "Southern Hemisphere",
+        "Zones": [
+          {
+            "ID": "SS:UTM8420S",
+            "ZoneName": "UTM Zone 20 - WGS84 South (CM: 297)",
+            "EPSGCode": "32720"
+          },
+          {
+            "ID": "SS:UTM8460S",
+            "ZoneName": "UTM Zone 60 - WGS84 South (CM: 177)",
+            "EPSGCode": "32760"
+          },
+          {
+            "ID": "SS:UTM8450S",
+            "ZoneName": "UTM Zone 50 - WGS84 South (CM: 117)",
+            "EPSGCode": "32750"
+          },
+          {
+            "ID": "SS:UTM8436S",
+            "ZoneName": "UTM Zone 36 - WGS84 South (CM: 33)",
+            "EPSGCode": "32736"
+          },
+          {
+            "ID": "SS:UTM8433S",
+            "ZoneName": "UTM Zone 33 - WGS84 South (CM: 15)",
+            "EPSGCode": "32733"
+          },
+          {
+            "ID": "SS:UTM8419S",
+            "ZoneName": "UTM Zone 19 - WGS84 South (CM: 291)",
+            "EPSGCode": "32719"
+          },
+          {
+            "ID": "SS:UTM8417S",
+            "ZoneName": "UTM Zone 17 - WGS84 South (CM: 279)",
+            "EPSGCode": "32717"
+          },
+          {
+            "ID": "SS:UTM8418S",
+            "ZoneName": "UTM Zone 18 - WGS84 South (CM: 285)",
+            "EPSGCode": "32718"
+          },
+          {
+            "ID": "SS:UTM8421S",
+            "ZoneName": "UTM Zone 21 - WGS84 South (CM: 303)",
+            "EPSGCode": "32721"
+          },
+          {
+            "ID": "SS:UTM8422S",
+            "ZoneName": "UTM Zone 22 - WGS84 South (CM: 309)",
+            "EPSGCode": "32722"
+          },
+          {
+            "ID": "SS:UTM8423S",
+            "ZoneName": "UTM Zone 23 - WGS84 South (CM: 315)",
+            "EPSGCode": "32723"
+          },
+          {
+            "ID": "SS:UTM8424S",
+            "ZoneName": "UTM Zone 24 - WGS84 South (CM: 321)",
+            "EPSGCode": "32724"
+          },
+          {
+            "ID": "SS:UTM8425S",
+            "ZoneName": "UTM Zone 25 - WGS84 South (CM: 327)",
+            "EPSGCode": "32725"
+          },
+          {
+            "ID": "SS:UTM8426S",
+            "ZoneName": "UTM Zone 26 - WGS84 South (CM: 333)",
+            "EPSGCode": "32726"
+          },
+          {
+            "ID": "SS:UTM8427S",
+            "ZoneName": "UTM Zone 27 - WGS84 South (CM: 339)",
+            "EPSGCode": "32727"
+          },
+          {
+            "ID": "SS:UTM8428S",
+            "ZoneName": "UTM Zone 28 - WGS84 South (CM: 345)",
+            "EPSGCode": "32728"
+          },
+          {
+            "ID": "SS:UTM8429S",
+            "ZoneName": "UTM Zone 29 - WGS84 South (CM: 351)",
+            "EPSGCode": "32729"
+          },
+          {
+            "ID": "SS:UTM8430S",
+            "ZoneName": "UTM Zone 30 - WGS84 South (CM: 357)",
+            "EPSGCode": "32730"
+          },
+          {
+            "ID": "SS:UTM8431S",
+            "ZoneName": "UTM Zone 31 - WGS84 South (CM: 3)",
+            "EPSGCode": "32731"
+          },
+          {
+            "ID": "SS:UTM8432S",
+            "ZoneName": "UTM Zone 32 - WGS84 South (CM: 9)",
+            "EPSGCode": "32732"
+          },
+          {
+            "ID": "SS:UTM8434S",
+            "ZoneName": "UTM Zone 34 - WGS84 South (CM: 21)",
+            "EPSGCode": "32734"
+          },
+          {
+            "ID": "SS:UTM8435S",
+            "ZoneName": "UTM Zone 35 - WGS84 South (CM: 27)",
+            "EPSGCode": "32735"
+          },
+          {
+            "ID": "SS:UTM8447S",
+            "ZoneName": "UTM Zone 47 - WGS84 South (CM: 99)",
+            "EPSGCode": "32747"
+          },
+          {
+            "ID": "SS:UTM8448S",
+            "ZoneName": "UTM Zone 48 - WGS84 South (CM: 105)",
+            "EPSGCode": "32748"
+          },
+          {
+            "ID": "SS:UTM8449S",
+            "ZoneName": "UTM Zone 49 - WGS84 South (CM: 111)",
+            "EPSGCode": "32749"
+          },
+          {
+            "ID": "SS:UTM8432XS",
+            "ZoneName": "UTM Zone 32.5 - WGS84 South (CM: 12)",
+            "EPSGCode": "0"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "RegionName": "UTM Clarke 1880",
+    "Locations": [
+      {
+        "LocationName": "Northern Hemisphere",
+        "Zones": [
+          {
+            "ID": "SS:CLRK45",
+            "ZoneName": "UTM Clarke 1880 (CM 45)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:CLRK51",
+            "ZoneName": "UTM Clarke 1880 (CM 51)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:CLRK57",
+            "ZoneName": "UTM Clarke 1880 (CM 57)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:CLRK-5",
+            "ZoneName": "UTM Clarke 1880 (CM -5)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:CLRK21",
+            "ZoneName": "UTM Clarke 1880 (CM 21)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:CLRK9",
+            "ZoneName": "UTM Clarke 1880 (CM 9)",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:CLRK03",
+            "ZoneName": "UTM Clarke 1880 (CM 3)",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Southern Hemisphere",
+        "Zones": [
+          {
+            "ID": "SS:CLRK21S",
+            "ZoneName": "UTM Clarke 1880 (CM 21) South",
+            "EPSGCode": ""
+          },
+          {
+            "ID": "SS:CLRK57S",
+            "ZoneName": "UTM Clarke 1880 (CM 57) South",
+            "EPSGCode": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "RegionName": "North America",
+    "Locations": [
+      {
+        "LocationName": "Alberta, Canada",
+        "Zones": [
+          {
+            "ID": "SS:3TM111W",
+            "ZoneName": "3TM - Zone 111 West",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Offshore Canada",
+        "Zones": [
+          {
+            "ID": "SS:NAD8323",
+            "ZoneName": "UTM Zone 23 - NAD83 (CM 315)",
+            "EPSGCode": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "RegionName": "User Defined - Northern Hemisphere",
+    "Locations": [
+      {
+        "LocationName": "Airy 1830",
+        "Zones": [
+          {
+            "ID": "UD:AIRY1830",
+            "ZoneName": "UTM - Airy 1830",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Airy 1849",
+        "Zones": [
+          {
+            "ID": "UD:AIRY1849",
+            "ZoneName": "UTM - Airy 1849",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Australian 1965",
+        "Zones": [
+          {
+            "ID": "UD:AUST1965",
+            "ZoneName": "UTM - Australian 1965",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Bessel 1841",
+        "Zones": [
+          {
+            "ID": "UD:BESL1841",
+            "ZoneName": "UTM - Bessel 1841",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Clarke 1866",
+        "Zones": [
+          {
+            "ID": "UD:CLRK1866",
+            "ZoneName": "UTM - Clarke 1866",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Clarke 1880",
+        "Zones": [
+          {
+            "ID": "UD:CLRK1880",
+            "ZoneName": "UTM - Clarke 1880",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Everest 1830",
+        "Zones": [
+          {
+            "ID": "UD:EVST1830",
+            "ZoneName": "UTM - Everest 1830",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "International 1924",
+        "Zones": [
+          {
+            "ID": "UD:INTL1924",
+            "ZoneName": "UTM - International 1924",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Krasovsky 1940",
+        "Zones": [
+          {
+            "ID": "UD:KRAS1940",
+            "ZoneName": "UTM - Krasovsky 1940",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "World Geodetic 1960",
+        "Zones": [
+          {
+            "ID": "UD:WGS1960",
+            "ZoneName": "UTM - World Geodetic 1960",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "World Geodetic 1972",
+        "Zones": [
+          {
+            "ID": "UD:WGS1972",
+            "ZoneName": "UTM - World Geodetic 1972",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "World Geodetic 1984",
+        "Zones": [
+          {
+            "ID": "UD:WGS1984",
+            "ZoneName": "UTM - World Geodetic 1984",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Geodetic Reference System 1967",
+        "Zones": [
+          {
+            "ID": "UD:GRS1967",
+            "ZoneName": "UTM - Geodetic Reference System 1967",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Geodetic Reference System 1980",
+        "Zones": [
+          {
+            "ID": "UD:GRS1980",
+            "ZoneName": "UTM - Geodetic Reference System 1980",
+            "EPSGCode": ""
+          }
+        ]
+      }
+    ]
+  },
+  
+  {
+    "RegionName": "User Defined - Southern Hemisphere",
+    "Locations": [
+      {
+        "LocationName": "Airy 1830",
+        "Zones": [
+          {
+            "ID": "UD:AIRY1830S",
+            "ZoneName": "UTM - Airy 1830 - South",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Airy 1849",
+        "Zones": [
+          {
+            "ID": "UD:AIRY1849S",
+            "ZoneName": "UTM - Airy 1849 - South",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Australian 1965",
+        "Zones": [
+          {
+            "ID": "UD:AUST1965S",
+            "ZoneName": "UTM - Australian 1965 - South",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Bessel 1841",
+        "Zones": [
+          {
+            "ID": "UD:BESL1841S",
+            "ZoneName": "UTM - Bessel 1841 - South",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Clarke 1866",
+        "Zones": [
+          {
+            "ID": "UD:CLRK1866S",
+            "ZoneName": "UTM - Clarke 1866 - South",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Clarke 1880",
+        "Zones": [
+          {
+            "ID": "UD:CLRK1880S",
+            "ZoneName": "UTM - Clarke 1880 - South",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Everest 1830",
+        "Zones": [
+          {
+            "ID": "UD:EVST1830S",
+            "ZoneName": "UTM - Everest 1830 - South",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "International 1924",
+        "Zones": [
+          {
+            "ID": "UD:INTL1924S",
+            "ZoneName": "UTM - International 1924 - South",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Krasovsky 1940",
+        "Zones": [
+          {
+            "ID": "UD:KRAS1940S",
+            "ZoneName": "UTM - Krasovsky 1940 - South",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "World Geodetic 1960",
+        "Zones": [
+          {
+            "ID": "UD:WGS1960S",
+            "ZoneName": "UTM - World Geodetic 1960 - South",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "World Geodetic 1972",
+        "Zones": [
+          {
+            "ID": "UD:WGS1972S",
+            "ZoneName": "UTM - World Geodetic 1972 - South",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "World Geodetic 1984",
+        "Zones": [
+          {
+            "ID": "UD:WGS1984S",
+            "ZoneName": "UTM - World Geodetic 1984 - South",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Geodetic Reference System 1967",
+        "Zones": [
+          {
+            "ID": "UD:GRS1967S",
+            "ZoneName": "UTM - Geodetic Reference System 1967 - South",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "Geodetic Reference System 1980",
+        "Zones": [
+          {
+            "ID": "UD:GRS1980S",
+            "ZoneName": "UTM - Geodetic Reference System 1980 - South",
+            "EPSGCode": ""
+          }
+        ]
+      },
+      {
+        "LocationName": "AGD66 (Australian Geodetic Datum)",
+        "Zones": [
+          {
+            "ID": "UD:AGD66S",
+            "ZoneName": "AGD66 (Australian Geodetic Datum) - South",
+            "EPSGCode": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "RegionName": "Undefined",
+    "Locations": [
+
+    ]
+  },
+  {
+    "RegionName": "UTM-NAD27",
+    "Locations": []
+  },
+  {
+    "RegionName": "UTM-NAD83",
+    "Locations": []
+  }
+ 
+]

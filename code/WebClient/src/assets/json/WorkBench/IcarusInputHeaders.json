@@ -1,0 +1,57 @@
+[
+  {
+    "Order": 0,
+    "FriendlyName": "MSA State",
+    "Visible": true,
+    "Variable": "msaState",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": true,
+    "DecPlaces":1,
+    "ColumnWidth": "100px"
+  },
+  {
+    "Order": 1,
+    "FriendlyName": "Depth (ft)",
+    "Visible": true,
+    "Variable": "Depth",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": true,
+    "DecPlaces":2,
+    "ColumnWidth": "70px"
+  },
+  {
+    "Order": 3,
+    "FriendlyName": "Gx (g)",
+    "Visible": false,
+    "Variable": "Gx",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "DecPlaces":5,
+    "ColumnWidth": "70px"
+  },
+  {
+    "Order": 4,
+    "FriendlyName": "Gy (g)",
+    "Visible": false,
+    "Variable": "Gy",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "DecPlaces":5,
+    "ColumnWidth": "70px"
+  },
+  {
+    "Order": 5,
+    "FriendlyName": "Gz (g)",
+    "Visible": false,
+    "Variable": "Gz",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "DecPlaces":5,
+    "ColumnWidth": "70px"
+  }
+]

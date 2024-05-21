@@ -1,0 +1,81 @@
+[
+  {
+    "Order": 0,
+    "FriendlyName": "Depth (ft)",
+    "Visible": true,
+    "Variable": "depth",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "DecPlaces":2,
+    "ColumnWidth": "65px"
+  },
+  {
+    "Order": 1,
+    "FriendlyName": "Inc (°)",
+    "Visible": false,
+    "Variable": "aziErrorInclination",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "DecPlaces":2,
+    "ColumnWidth": "50px"
+  },
+  {
+    "Order": 2,
+    "FriendlyName": "Azi <Grid> (°)",
+    "Visible": false,
+    "Variable": "aziErrorAzimuth",
+    "ColorVariable":"aziErrorAzimuth",
+    "ColorCodes":["bg-purple"],
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "DecPlaces":2,
+    "ColumnWidth": "87px"
+  },
+  {
+    "Order": 3,
+    "FriendlyName": "North (ft)",
+    "Visible": false,
+    "Variable": "north",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "DecPlaces":2,
+    "ColumnWidth": "64px"
+  },
+  {
+    "Order": 4,
+    "FriendlyName": "East (ft)",
+    "Visible": false,
+    "Variable": "east",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "DecPlaces":2,
+    "ColumnWidth": "64px"
+  },
+  {
+    "Order": 5,
+    "FriendlyName": "Vertical (ft)",
+    "Visible": false,
+    "Variable": "vertical",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "DecPlaces":2,
+    "ColumnWidth": "74px"
+  },
+  {
+    "Order": 6,
+    "FriendlyName": "Lateral (ft)",
+    "Visible": false,
+    "Variable": "lateral",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "DecPlaces":2,
+    "ColumnWidth": "71px"
+  }
+]

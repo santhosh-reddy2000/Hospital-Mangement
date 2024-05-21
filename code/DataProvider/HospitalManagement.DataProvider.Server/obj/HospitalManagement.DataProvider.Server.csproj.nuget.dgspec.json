@@ -1,0 +1,390 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.DataProvider.Server\\HospitalManagement.DataProvider.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\angularprojects\\Repositories\\Core\\HospitalManagement.Core.Common\\HospitalManagement.Core.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\angularprojects\\Repositories\\Core\\HospitalManagement.Core.Common\\HospitalManagement.Core.Common.csproj",
+        "projectName": "HospitalManagement.Core.Common",
+        "projectPath": "C:\\angularprojects\\Repositories\\Core\\HospitalManagement.Core.Common\\HospitalManagement.Core.Common.csproj",
+        "packagesPath": "C:\\Users\\Santhosh.Reddy\\.nuget\\packages\\",
+        "outputPath": "C:\\angularprojects\\Repositories\\Core\\HospitalManagement.Core.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Santhosh.Reddy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.DataProvider.Common\\HospitalManagement.DataProvider.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.DataProvider.Common\\HospitalManagement.DataProvider.Common.csproj",
+        "projectName": "HospitalManagement.DataProvider.Common",
+        "projectPath": "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.DataProvider.Common\\HospitalManagement.DataProvider.Common.csproj",
+        "packagesPath": "C:\\Users\\Santhosh.Reddy\\.nuget\\packages\\",
+        "outputPath": "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.DataProvider.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Santhosh.Reddy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\angularprojects\\Repositories\\Core\\HospitalManagement.Core.Common\\HospitalManagement.Core.Common.csproj": {
+                "projectPath": "C:\\angularprojects\\Repositories\\Core\\HospitalManagement.Core.Common\\HospitalManagement.Core.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.DataProvider.Server\\HospitalManagement.DataProvider.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.DataProvider.Server\\HospitalManagement.DataProvider.Server.csproj",
+        "projectName": "HospitalManagement.DataProvider.Server",
+        "projectPath": "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.DataProvider.Server\\HospitalManagement.DataProvider.Server.csproj",
+        "packagesPath": "C:\\Users\\Santhosh.Reddy\\.nuget\\packages\\",
+        "outputPath": "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.DataProvider.Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Santhosh.Reddy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.DataProvider.Common\\HospitalManagement.DataProvider.Common.csproj": {
+                "projectPath": "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.DataProvider.Common\\HospitalManagement.DataProvider.Common.csproj"
+              },
+              "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.Dataprovider.Services\\HospitalManagement.Dataprovider.Services.csproj": {
+                "projectPath": "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.Dataprovider.Services\\HospitalManagement.Dataprovider.Services.csproj"
+              },
+              "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.Repository\\HospitalManagement.Repository.csproj": {
+                "projectPath": "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.Repository\\HospitalManagement.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.Dataprovider.Services\\HospitalManagement.Dataprovider.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.Dataprovider.Services\\HospitalManagement.Dataprovider.Services.csproj",
+        "projectName": "HospitalManagement.Dataprovider.Services",
+        "projectPath": "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.Dataprovider.Services\\HospitalManagement.Dataprovider.Services.csproj",
+        "packagesPath": "C:\\Users\\Santhosh.Reddy\\.nuget\\packages\\",
+        "outputPath": "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.Dataprovider.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Santhosh.Reddy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.DataProvider.Common\\HospitalManagement.DataProvider.Common.csproj": {
+                "projectPath": "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.DataProvider.Common\\HospitalManagement.DataProvider.Common.csproj"
+              },
+              "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.Repository\\HospitalManagement.Repository.csproj": {
+                "projectPath": "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.Repository\\HospitalManagement.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.Repository\\HospitalManagement.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.Repository\\HospitalManagement.Repository.csproj",
+        "projectName": "HospitalManagement.Repository",
+        "projectPath": "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.Repository\\HospitalManagement.Repository.csproj",
+        "packagesPath": "C:\\Users\\Santhosh.Reddy\\.nuget\\packages\\",
+        "outputPath": "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Santhosh.Reddy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\angularprojects\\Repositories\\Core\\HospitalManagement.Core.Common\\HospitalManagement.Core.Common.csproj": {
+                "projectPath": "C:\\angularprojects\\Repositories\\Core\\HospitalManagement.Core.Common\\HospitalManagement.Core.Common.csproj"
+              },
+              "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.DataProvider.Common\\HospitalManagement.DataProvider.Common.csproj": {
+                "projectPath": "C:\\angularprojects\\Repositories\\DataProvider\\HospitalManagement.DataProvider.Common\\HospitalManagement.DataProvider.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

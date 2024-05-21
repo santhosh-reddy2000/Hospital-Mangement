@@ -1,0 +1,6107 @@
+[
+  {
+    "seriesName": "GtGTotalNom",
+    "name": "Nom Gt",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#D9D9D9",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GtGTotalQCMax",
+    "name": "Nom Gt +QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "GtGTotalQCMin",
+    "name": "Nom Gt -QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "GtGTotal",
+    "name": "Solution Gt",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FCD5B4",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GtIcarusGTotal",
+    "name": "ICA Gt",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#61D6FF",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IcarusGxyzInclination",
+    "name": "ICA Gxyz Inc",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#61D6FF",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GtHsgIcarusGTotal",
+    "name": "ICA Gt",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#EE82EE",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GtHsgGTotalNom",
+    "name": "Nom Gt",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#D9D9D9",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GtHsgGTotalQCMax",
+    "name": "Nom Gt +QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "GtHsgGTotalQCMin",
+    "name": "Nom Gt -QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "GtHsgGTotal",
+    "name": "Solution Gt",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MWDShortCollarAzimuth",
+    "name": "MWD SC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#EEECE1",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "MWDLongCollarAzimuth",
+    "name": "MWD LC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "MMShortCollarAzimuth",
+    "name": "MFM SC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#EEECE1",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MMLongCollarAzimuth",
+    "name": "MFM LC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IFRShortCollarAzimuth",
+    "name": "IFR1 SC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IFRLongCollarAzimuth",
+    "name": "IFR1 LC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#E26B0A",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IIFRShortCollarAzimuth",
+    "name": "IFR2 SC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IIFRLongCollarAzimuth",
+    "name": "IFR2 LC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#95B3D7",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "CazAzimuth",
+    "name": "Caz Az",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#61D6FF",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MWDIncAzimuth",
+    "name": "MWD Inc",
+    "type": "line",
+    "yAxisIndex": 1,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#F79646",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "GxyzIncAzimuth",
+    "name": "Gxyz Inc",
+    "type": "line",
+    "yAxisIndex": 1,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FCD5B4",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MMBTotalNom",
+    "name": "MFM Bt",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#D9D9D9",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MMBTotalQCMax",
+    "name": "MFM Bt +QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "MMBTotalQCMin",
+    "name": "MFM Bt -QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "MMBTotalBzC",
+    "name": "MFM Btotal BzC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#D9D9D9",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BTotalMeasured",
+    "name": "Btotal Measured",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IFRBTotalNom",
+    "name": "IFR1 Bt",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IFRBTotalQCMax",
+    "name": "IFR1 Bt +QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "IFRBTotalQCMin",
+    "name": "IFR1 Bt -QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "IFRBTotalBzC",
+    "name": "IFR1 Btotal BzC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IIFRBTotalNom",
+    "name": "IFR2 Bt",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IIFRBTotalQCMax",
+    "name": "IFR2 Bt +QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "IIFRBTotalQCMin",
+    "name": "IFR2 Bt -QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "IIFRBTotalBzC",
+    "name": "IFR2 Btotal BzC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "CazBTotalCalc",
+    "name": "Caz Bt",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#61D6FF",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BTotalGxyzInc",
+    "name": "Gxyz Inc",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FCD5B4",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "BTotalMMSC",
+    "name": "MFM SC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#EEECE1",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BTotalMMLC",
+    "name": "MFM LC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BTotalTemperature",
+    "name": "Temp",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "CazBTotal",
+    "name": "Btotal Caz",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#61D6FF",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MMDipNom",
+    "name": "MFM Dip",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#D9D9D9",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MMDipQCMax",
+    "name": "MFM Dip +QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "MMDipQCMin",
+    "name": "MFM Dip -QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "MMDipBzC",
+    "name": "MFM Dip BzC ",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#D9D9D9",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DipMeasured",
+    "name": "Dip Measured",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IFRDipNom",
+    "name": "IFR1 Dip",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IFRDipQCMax",
+    "name": "IFR1 Dip +QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "IFRDipQCMin",
+    "name": "IFR1 Dip -QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "IFRDipBzC",
+    "name": "IFR1 Dip BzC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IIFRDipNom",
+    "name": "IFR2 Dip",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IIFRDipQCMax",
+    "name": "IFR2 Dip +QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "IIFRDipQCMin",
+    "name": "IFR2 Dip -QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "IIFRDipBzC",
+    "name": "IFR2 Dip BzC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "CazDipCalc",
+    "name": "Caz Dip",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#61D6FF",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DipGxyzInc",
+    "name": "Gxyz Inc",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#DBD5B4",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DipMMSC",
+    "name": "MFM SC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#EEECE1",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DipMMLC",
+    "name": "MFM LC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DipTemperature",
+    "name": "Temp",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "CazDip",
+    "name": "Dip Caz",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#61D6FF",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MMBtDipQcLC",
+    "name": "MFM BtDip QC LC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "MMBtDipQcSC",
+    "name": "MFM BtDip QC SC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "MMBtDipLC",
+    "name": "MFM BtDip LC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MMBtDipSC",
+    "name": "MFM BtDip SC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#EEECE1",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IFRBtDipQcLC",
+    "name": "IFR1 BtDip QC LC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "IFRBtDipQcSC",
+    "name": "IFR1 BtDip QC SC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "IFRBtDipLC",
+    "name": "IFR1 BtDip LC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#E26B0A",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IFRBtDipSC",
+    "name": "IFR1 BtDip SC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IIFRBtDipQcLC",
+    "name": "IFR2 BtDip QC LC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "IIFRBtDipQcSC",
+    "name": "IFR2 BtDip QC SC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "IIFRBtDipLC",
+    "name": "IFR2 BtDip LC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#95B3D7",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IIFRBtDipSC",
+    "name": "IFR2 BtDip SC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "CazBtDip",
+    "name": "BtDip Caz",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#61D6FF",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "CazBtDipCalc",
+    "name": "Caz BtDip",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#61D6FF",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BtDipGxyzInc",
+    "name": "Gxyz Inc",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FCD5B4",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BtDipMMSC",
+    "name": "MFM SC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#EEECE1",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BtDipMMLC",
+    "name": "MFM LC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MWDInclination",
+    "name": "MWD Inc",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#F79646",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "SagInclination",
+    "name": "SAG Inc",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "GxyzInclination",
+    "name": "Gxyz Inc",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FCD5B4",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GxyInclination",
+    "name": "Gxy Inc",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#D69D85",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GzInclination",
+    "name": "Gz Inc",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DecMFM",
+    "name": "MFM Dec",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#D9D9D9",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DecIFR",
+    "name": "IFR1 Dec",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DecIIFR",
+    "name": "IFR2 Dec",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DecNom",
+    "name": "Nom Dec",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "ObservatoryDip",
+    "name": "Dip",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFFFFF",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "ObservatoryBTotal",
+    "name": "BTotal",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFFFFF",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "ObservatoryDeclination",
+    "name": "Declination",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFFFFF",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GtHsgGTotalRaw",
+    "name": "Gt (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GtHsgGTotalRaw_Caz",
+    "name": "Gt (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#D69D85",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GtHsgSinGtRaw",
+    "name": "Sin (Gt) (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GtHsgSinGt",
+    "name": "Sin (Gt)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GtHsgGtTFC",
+    "name": "Gt (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GtHsgSinGtTFC",
+    "name": "Sin (Gt) (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GtHsgGtTransXY",
+    "name": "Gt (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GtHsgSinGtTransXY",
+    "name": "Sin (Gt) (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GtHsgGtSFEXY",
+    "name": "Gt (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GtHsgSinGtSFEXY",
+    "name": "Sin (Gt) (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GtHsgGtOSSXY",
+    "name": "Gt (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GtHsgSinGtOSSXY",
+    "name": "Sin (Gt) (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaGxdGxTFC",
+    "name": "dGx (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaGxdGxTFCMin",
+    "name": "dGx (TFC-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaGxdGxTFCMax",
+    "name": "dGx (TFC+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaGxdGxTrans",
+    "name": "dGx (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaGxdGxTransMin",
+    "name": "dGx (Trans-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaGxdGxTransMax",
+    "name": "dGx (Trans+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaGxdGxSFE",
+    "name": "dGx (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaGxdGxSFEMin",
+    "name": "dGx (SFE-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaGxdGxSFEMax",
+    "name": "dGx (SFE+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaGydGyTFC",
+    "name": "dGy (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaGydGyTFCMin",
+    "name": "dGy (TFC-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaGydGyTFCMax",
+    "name": "dGy (TFC+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaGydGyTrans",
+    "name": "dGy (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaGydGyTransMin",
+    "name": "dGy (Trans-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaGydGyTransMax",
+    "name": "dGy (Trans+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaGydGySFE",
+    "name": "dGy (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaGydGySFEMin",
+    "name": "dGy (SFE-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaGydGySFEMax",
+    "name": "dGy (SFE+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaGzdGzTFC",
+    "name": "dGz (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaGzdGzSFE",
+    "name": "dGz (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GTotalGe",
+    "name": "Nom Gt",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4842",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "GTotalGtRaw",
+    "name": "Gt (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#D69D85",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GTotalGtTFC",
+    "name": "Gt (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GTotalGtTransXY",
+    "name": "Gt (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GTotalGtSFE",
+    "name": "Gt (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GTotalGtOSS",
+    "name": "Gt (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IncRaw",
+    "name": "Inc (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GxyIncRaw",
+    "name": "Gxy Inc (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#D69D85",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "GzIncRaw",
+    "name": "Gz Inc (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IncTFC",
+    "name": "Inc (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IncOSS",
+    "name": "Inc (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IncTransXY",
+    "name": "Inc (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IncSFE",
+    "name": "Inc (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BvMeasured",
+    "name": "{0}-{1}-Bv Measured",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BhMeasured",
+    "name": "{0}-{1}-Bh Measured",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#A0BF61",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MFMBvBzCalc",
+    "name": "MFM Bv Bz Calc",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#D9D9D9",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MFMBhBzCalc",
+    "name": "{0}-{1}-MFM Bh Bz Calc",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#948A54",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IFR1BvBzCalc",
+    "name": "{0}-{1}-IFR1 Bv Bz Calc",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IFR1BhBzCalc",
+    "name": "{0}-{1}-IFR1 Bh Bz Calc",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#B8CCE4",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IFR2BhBzCalc",
+    "name": "{0}-{1}-IFR2 Bh Bz Calc",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#E6B8B7",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IFR2BvBzCalc",
+    "name": "{0}-{1}-IFR2 Bv Bz Calc",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IFR1Bv",
+    "name": "{0}-{1}-IFR1 Bv",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IFR1Bh",
+    "name": "{0}-{1}-IFR1 Bh",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IFR2Bv",
+    "name": "{0}-{1}-IFR2 Bv",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#95B3D7",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "IFR2Bh",
+    "name": "{0}-{1}-IFR2 Bh",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "CazandraBv",
+    "name": "{0}-{1}-Caz Bv",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#95B3D7",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "CazandraBh",
+    "name": "{0}-{1}-Caz Bh",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#61D6FF",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MFMBv",
+    "name": "{0}-{1}-MFM Bv",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#D9D9D9",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MFMBh",
+    "name": "{0}-{1}-MFM Bh",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#D9D9D9",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SolBh",
+    "name": "{0}-{1}-Solution Bh",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#D9D9D9",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SolBv",
+    "name": "{0}-{1}-Solution Bv",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#E26B0A",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "NomBv",
+    "name": "{0}-{1}-Nom Bv",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "NomBh",
+    "name": "{0}-{1}-Nom Bh",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBxdBxTFC",
+    "name": "dBx (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBxdBxTFCMin",
+    "name": "dBx (TFC-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaBxdBxTFCMax",
+    "name": "dBx (TFC+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaBxdBxTrans",
+    "name": "dBx (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBxdBxTransMin",
+    "name": "dBx (Trans-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaBxdBxTransMax",
+    "name": "dBx (Trans+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaBxdBxSFE",
+    "name": "dBx (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBxdBxSFEMin",
+    "name": "dBx (SFE-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaBxdBxSFEMax",
+    "name": "dBx (SFE+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaBxdBxOSS",
+    "name": "dBx (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBydByTFC",
+    "name": "dBy (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBydByTFCMin",
+    "name": "dBy (TFC-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaBydByTFCMax",
+    "name": "dBy (TFC+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaBydByTrans",
+    "name": "dBy (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBydByTransMin",
+    "name": "dBy (Trans-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaBydByTransMax",
+    "name": "dBy (Trans+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaBydBySFE",
+    "name": "dBy (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBydBySFEMin",
+    "name": "dBy (SFE-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaBydBySFEMax",
+    "name": "dBy (SFE+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DeltaBydByOSS",
+    "name": "dBy (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBzSRaw",
+    "name": "dBz S (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBzMAvRaw",
+    "name": "dBz MAv (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBzdBzTFC",
+    "name": "dBz (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBzSTFC",
+    "name": "dBz S (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBzMAvTFC",
+    "name": "dBz MAv (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBzdBzTrans",
+    "name": "dBz (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBzSTrans",
+    "name": "dBz S (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBzMAvTrans",
+    "name": "dBz MAv (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBzdBzSFE",
+    "name": "dBz (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBzSSFE",
+    "name": "dBz S (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBzMAvSFE",
+    "name": "dBz MAv (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBzdBzOSS",
+    "name": "dBz (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaBzdBzMAvOSS",
+    "name": "dBz MAv (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LongCollarAzAzSRaw",
+    "name": "Az S (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#C13D36",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LongCollarAzAzLRaw",
+    "name": "Az L (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LongCollarAzAzLTFC",
+    "name": "Az L (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0D4",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LongCollarAzAzLTrans",
+    "name": "Az L (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LongCollarAzAzLSFE",
+    "name": "Az L (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7C5AD5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LongCollarAzAzLOSS",
+    "name": "Az L (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "Dip",
+    "name": "Dipe",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DipQcMax",
+    "name": "Dipe +QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DipQcMin",
+    "name": "Dipe -QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DipRaw",
+    "name": "Dipc (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#D69D85",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DipTFC",
+    "name": "Dipc (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#0DB0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DipTrans",
+    "name": "Dipc (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#5EFF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DipSFE",
+    "name": "Dipc (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#A561D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DipOSS",
+    "name": "Dipc (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MavLongCollarAzAzSRaw",
+    "name": "Az S (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#C13D36",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MavLongCollarAzAzLRaw",
+    "name": "Az L (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MavLongCollarAzAzLMavRaw",
+    "name": "Az L Mav (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#D69D85",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MavLongCollarAzAzLMavTFC",
+    "name": "Az L Mav (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0D4",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MavLongCollarAzAzLMavTrans",
+    "name": "Az L Mav (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MavLongCollarAzAzLMavSFE",
+    "name": "Az L Mav (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7C5AD5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MavLongCollarAzAzLMavOSS",
+    "name": "Az L Mav (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "ShortCollarAzAzSRaw",
+    "name": "Az S (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#C13D36",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "ShortCollarAzAzSTFC",
+    "name": "Az S (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0D4",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "ShortCollarAzAzSTrans",
+    "name": "Az S (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "ShortCollarAzAzSSFE",
+    "name": "Az S (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7C5AD5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "ShortCollarAzAzSOSS",
+    "name": "Az S (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MAvDip",
+    "name": "Dipe",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MAvDipQcMax",
+    "name": "Dipe+QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "MAvDipQcMin",
+    "name": "Dipe-QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "MAvDipRaw",
+    "name": "Dipc MAv (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#D69D85",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MAvDipTFC",
+    "name": "Dipc MAv (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#0DB0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MAvDipTrans",
+    "name": "Dipc MAv (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#5EFF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MAvDipSFE",
+    "name": "Dipc MAv (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#A561D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MAvDipOSS",
+    "name": "Dipc MAv (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BtDipRaw",
+    "name": "BtDip (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#D69D85",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BtDipTFC",
+    "name": "BtDip (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#0DB0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BtDipTrans",
+    "name": "BtDip (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#5EFF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BtDipSFE",
+    "name": "BtDip (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#A561D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BtDipOSS",
+    "name": "BtDip (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MAvBtDipRaw",
+    "name": "BtDip MAv (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#D69D85",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MAvBtDipTFC",
+    "name": "BtDip MAv (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#0DB0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MAvBtDipTrans",
+    "name": "BtDip MAv (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#5EFF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MAvBtDipSFE",
+    "name": "BtDip MAv (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#A561D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MAvBtDipOSS",
+    "name": "BtDip MAv (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BGmRaw",
+    "name": "BGm (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BGmTfc",
+    "name": "BGm (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BGmTrans",
+    "name": "BGm (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BGmSfe",
+    "name": "BGm (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BGmOSS",
+    "name": "BGm (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BGmMAvOSS",
+    "name": "BGm MAv (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BGmMAvRaw",
+    "name": "BGm MAv (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BGmMAvTfc",
+    "name": "BGm MAv (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BGmMAvTrans",
+    "name": "BGm MAv (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BGmMAvSfe",
+    "name": "BGm MAv (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BTotalBe",
+    "name": "Be",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BTotalBeMaxQc",
+    "name": "Be +QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "BTotalBeMinQc",
+    "name": "Be -QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "BcRaw",
+    "name": "Bc (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#D69D85",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BcTfc",
+    "name": "Bc (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BcTrans",
+    "name": "Bc (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BcSfe",
+    "name": "Bc (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BcOSS",
+    "name": "Bc (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MAvBTotalBe",
+    "name": "Be",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MAvBTotalBeMaxQc",
+    "name": "Be +QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "MAvBTotalBeMinQc",
+    "name": "Be -QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "BtDip",
+    "name": "BtDipe",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BtDipBtDipMaxQc",
+    "name": "BtDipe +QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "MAvBtDipBtDip",
+    "name": "BtDipe",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "MAvBtDipBtDipMaxQc",
+    "name": "BtDipe +QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "BcMAvRaw",
+    "name": "Bc MAv (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#D69D85",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BcMAvTfc",
+    "name": "Bc MAv (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BcMAvTrans",
+    "name": "Bc MAv (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BcMAvSfe",
+    "name": "Bc MAv (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BcMAvOSS",
+    "name": "Bc MAv (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SxyMAvRaw",
+    "name": "Sxy MAv (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SxyMAvTfc",
+    "name": "Sxy MAv (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SxyMAvTrans",
+    "name": "Sxy MAv (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SxyMAvOSS",
+    "name": "Sxy MAv (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SxSfe",
+    "name": "Sx (%)(SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SxSfeMax",
+    "name": "Sx (SFE+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "SxSfeMin",
+    "name": "Sx (SFE-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#B961D5",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "SySfe",
+    "name": "Sy (%)(SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#CCC0DA",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SySfeMax",
+    "name": "Sy (SFE+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#CCC0DA",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "SySfeMin",
+    "name": "Sy (SFE-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#CCC0DA",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "SxOSS",
+    "name": "Sx (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SyOSS",
+    "name": "Sy (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaDisplacementSCRaw",
+    "name": "dDsp SC (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaDisplacementLCRaw",
+    "name": "dDsp LC (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaDisplacementMAvLCRaw",
+    "name": "dDsp LC MAv (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#D69D85",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaDisplacementSCTFC",
+    "name": "dDsp SC (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0D4",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaDisplacementLCTFC",
+    "name": "dDsp LC (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0D4",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaDisplacementMAvLCTFC",
+    "name": "dDsp LC MAv (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0D4",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaDisplacementSCTrans",
+    "name": "dDsp SC (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaDisplacementLCTrans",
+    "name": "dDsp LC (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaDisplacementMAvLCTrans",
+    "name": "dDsp LC MAv (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaDisplacementSCSFE",
+    "name": "dDsp SC (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7C5AD5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaDisplacementLCSFE",
+    "name": "dDsp LC (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7C5AD5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaDisplacementMAvLCSFE",
+    "name": "dDsp LC MAv (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7C5AD5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaDisplacementSCOSS",
+    "name": "dDsp SC (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaDisplacementLCOSS",
+    "name": "dDsp LC (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaDisplacementMAvLCOSS",
+    "name": "dDsp LC MAv (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaPositionSCRaw",
+    "name": "dPos SC (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF4B4B",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaPositionLCRaw",
+    "name": "dPos LC (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaPositionMAvLCRaw",
+    "name": "dPos LC MAv (Raw)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#D69D85",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaPositionSCTFC",
+    "name": "dPos SC (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0D4",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaPositionLCTFC",
+    "name": "dPos LC (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0D4",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaPositionMAvLCTFC",
+    "name": "dPos LC MAv (TFC)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0D4",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaPositionSCTrans",
+    "name": "dPos SC (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaPositionLCTrans",
+    "name": "dPos LC (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaPositionMAvLCTrans",
+    "name": "dPos LC MAv (Trans)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "cross",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#66FF99",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaPositionSCSFE",
+    "name": "dPos SC (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7C5AD5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaPositionLCSFE",
+    "name": "dPos LC (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7C5AD5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaPositionMAvLCSFE",
+    "name": "dPos LC MAv (SFE)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "plus",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7C5AD5",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaPositionSCOSS",
+    "name": "dPos SC (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaPositionLCOSS",
+    "name": "dPos LC (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DeltaPositionMAvLCOSS",
+    "name": "dPos LC MAv (OSS)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FAB900",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BTotalSolutionBt",
+    "name": "Solution Bt ",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BTotalNomBt",
+    "name": "Nom Bt",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 2.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BTotalNomBtQCMin",
+    "name": "Nom Bt -QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 2.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "BTotalNomBtQCMax",
+    "name": "Nom Bt +QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 2.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DipSolution",
+    "name": "Solution Dip",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DipNom",
+    "name": "Nom Dip",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 0.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "DipNomQCMin",
+    "name": "Nom Dip -QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "DipNomQCMax",
+    "name": "Nom Dip +QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "BtDipSolution",
+    "name": "Solution BtDip",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "BtDipNomMax",
+    "name": "Nom BtDip QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "SolutionAzimuth",
+    "name": "Solution Az",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "AzRSSMin",
+    "name": "Az_RSS",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "AzRSSMax",
+    "name": "Az+RSS",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "AziRSSLimit",
+    "name": "Azi RSS Limit",
+    "type": "line",
+    "yAxisIndex": 2,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#A0BF61",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LC_dAzdBz",
+    "name": "LC dAz(dBz)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LC_dAzSxy",
+    "name": "LC dAz(Sxy)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LC_dAzBGm",
+    "name": "LC dAz(BGm)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dDipdBz",
+    "name": "dDip(dBz)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dDipSxy",
+    "name": "dDip(Sxy)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dDipBGm",
+    "name": "dDip(BGm)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dBtdBz",
+    "name": "dBt(dBz)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dBtSxy",
+    "name": "dBt(Sxy)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dAzdDipePlus",
+    "name": "dAz(dDipe+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dAzdDipeMinus",
+    "name": "dAz(dDipe-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "dAzdBePlus",
+    "name": "dAz(dBe+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dAzdBeMinus",
+    "name": "dAz(dBe-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "SC_dAzSxy",
+    "name": "SC dAz(Sxy)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_dAzBGm",
+    "name": "SC dAz(BGm)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dDipcdDipePlus",
+    "name": "dDipc(dDipe+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dDipcdDipeMinus",
+    "name": "dDipc(dDipe-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "dDipcdBePlus",
+    "name": "dDipc(dBe+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dDipcdBeMinus",
+    "name": "dDipc(dBe-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "dDipcSxy",
+    "name": "dDipc(Sxy)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dDipcBGm",
+    "name": "dDipc(BGm)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dBtcdDipePlus",
+    "name": "dBtc(dDipe+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dBtcdDipeMinus",
+    "name": "dBtc(dDipe-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "dBtcdBePlus",
+    "name": "dBtc(dBe+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dBtcdBeMinus",
+    "name": "dBtc(dBe-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "dBtcSxy",
+    "name": "dBtc(Sxy)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dBtcBGm",
+    "name": "dBtc(BGm)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LC_N_dBz",
+    "name": "LC N dBz",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LC_N_Sxy",
+    "name": "LC N Sxy",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LC_N_BGm",
+    "name": "LC N BGm",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LC_N_dDecle",
+    "name": "LC N dDecle",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#A6ECFF",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LC_E_dBz",
+    "name": "LC E dBz",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LC_E_Sxy",
+    "name": "LC E Sxy",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LC_E_BGm",
+    "name": "LC E BGm",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LC_E_dDecle",
+    "name": "LC E dDecle",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#A6ECFF",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LC_Lat_dBz",
+    "name": "LC Lat dBz",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00CC66",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LC_Lat_Sxy",
+    "name": "LC Lat Sxy",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LC_Lat_BGm",
+    "name": "LC Lat BGm",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LC_Lat_dDecle",
+    "name": "LC Lat dDecle",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#A6ECFF",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_N_dDipePlus",
+    "name": "SC N dDipe(+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_N_dDipeMinus",
+    "name": "SC N dDipe(-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "SC_N_dBePlus",
+    "name": "SC N dBe(+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_N_dBeMinus",
+    "name": "SC N dBe(-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "SC_N_Sxy",
+    "name": "SC N Sxy",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_N_BGm",
+    "name": "SC N BGm",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_N_dDecle",
+    "name": "SC N dDecle",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#A6ECFF",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_E_dDipePlus",
+    "name": "SC E dDipe(+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_E_dDipeMinus",
+    "name": "SC E dDipe(-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "SC_E_dBePlus",
+    "name": "SC E dBe(+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_E_dBeMinus",
+    "name": "SC E dBe(-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "SC_E_Sxy",
+    "name": "SC E Sxy",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_E_BGm",
+    "name": "SC E BGm",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_E_dDecle",
+    "name": "SC E dDecle",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#A6ECFF",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_Lat_dDipePlus",
+    "name": "SC Lat dDipe(+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_Lat_dDipeMinus",
+    "name": "SC Lat dDipe(-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "SC_Lat_dBePlus",
+    "name": "SC Lat dBe(+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_Lat_dBeMinus",
+    "name": "SC Lat dBe(-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00B0F0",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "SC_Lat_Sxy",
+    "name": "SC Lat Sxy",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "triangle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#EE6ED6",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_Lat_BGm",
+    "name": "SC Lat BGm",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#FFC000",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_Lat_dDecle",
+    "name": "SC Lat dDecle",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#A6ECFF",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LC_dAztotal",
+    "name": "LC dAz(total)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7FFF00",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dDip_total",
+    "name": "dDip (total)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7FFF00",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dBt_total",
+    "name": "dBt (total)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7FFF00",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_dAztotalPlus",
+    "name": "SC dAz(total+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7FFF00",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_dAztotalMinus",
+    "name": "SC dAz(total-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7FFF00",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "dDipctotalPlus",
+    "name": "dDipc(total+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7FFF00",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dDipctotalMinus",
+    "name": "dDipc(total-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7FFF00",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "dBtctotalPlus",
+    "name": "dBtc(total+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7FFF00",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "dBtctotalMinus",
+    "name": "dBtc(total-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7FFF00",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "LC_N_total",
+    "name": "LC N total",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7FFF00",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LC_E_total",
+    "name": "LC E total",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7FFF00",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "LC_Lat_total",
+    "name": "LC Lat total",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7FFF00",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_N_totalPlus",
+    "name": "SC N total(+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7FFF00",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_N_totalMinus",
+    "name": "SC N total(-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7FFF00",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "SC_E_totalPlus",
+    "name": "SC E total(+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7FFF00",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_E_totalMinus",
+    "name": "SC E total(-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7FFF00",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "SC_Lat_totalPlus",
+    "name": "SC Lat total(+)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7FFF00",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "SC_Lat_totalMinus",
+    "name": "SC Lat total(-)",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "star",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#7FFF00",
+      "width": 3.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "GeGtQCMax",
+    "name": "Nom Gt +QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "GeGtQCMin",
+    "name": "Nom Gt -QC",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "none",
+    "symbolSize": 0.0,
+    "data": [],
+    "smooth": false,
+    "lineStyle": {
+      "color": "#FF0000",
+      "width": 0.0,
+      "type": "dashed"
+    }
+  },
+  {
+    "seriesName": "UncertaintySigmaN",
+    "name": "SigmaN",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00D8F8",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "UncertaintySigmaE",
+    "name": "SigmaE",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#F7AFEC",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "UncertaintySigmaV",
+    "name": "SigmaV",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00E7AA",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "UncertaintySigmaH",
+    "name": "SigmaH",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00D8F8",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "UncertaintySigmaL",
+    "name": "SigmaL",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#F7AFEC",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "UncertaintySigmaA",
+    "name": "SigmaA",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00E7AA",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "UncertaintyHMajSA",
+    "name": "HMajSA",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00D8F8",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "UncertaintyHMinSA",
+    "name": "HMinSA",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#F7AFEC",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "UncertaintySemiAx1",
+    "name": "SemiAx1",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "circle",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00D8F8",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "UncertaintySemiAx2",
+    "name": "SemiAx2",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "diamond",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#F7AFEC",
+      "width": 3.0,
+      "type": "solid"
+    }
+  },
+  {
+    "seriesName": "UncertaintySemiAx3",
+    "name": "SemiAx3",
+    "type": "line",
+    "yAxisIndex": 0,
+    "symbol": "square",
+    "symbolSize": 6.0,
+    "data": [],
+    "smooth": true,
+    "lineStyle": {
+      "color": "#00E7AA",
+      "width": 3.0,
+      "type": "solid"
+    }
+  }
+]

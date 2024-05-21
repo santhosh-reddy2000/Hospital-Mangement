@@ -1,0 +1,99 @@
+{
+    "Asia Pacific": {
+      "Australia": ["Perth"],
+      "Bangladesh": ["Bangladesh"],
+      "Brunei": ["Brunei"],
+      "Cambodia": ["Cambodia"],
+      "China": ["Tianjin"],
+      "India": ["India"],
+      "Indonesia": ["Balikpapan", "Duri", "Jakarta"],
+      "Japan": ["Niigata"],
+      "Korea": ["Korea"],
+      "Malaysia": ["Kemaman", "Labuan"],
+      "New Zealand": ["New Plymouth"],
+      "Papua New Guinea": ["Papua New Guinea"],
+      "Philippines": ["Philippines"],
+      "Thailand": ["Bangkok"],
+      "Viet Nam": ["Viet Nam"]
+    },
+    "ESSA": {
+      "Angola": ["Luanda"],
+      "Austria": ["Austria"],
+      "Cabinda": ["Cabinda"],
+      "Cameroon": ["Cameroon"],
+      "Congo": ["Congo"],
+      "DRC": ["Dem Rep of Congo"],
+      "Denmark": ["Denmark"],
+      "Equatorial Guinea": ["Equatorial Guinea"],
+      "France": ["France"],
+      "Gabon": ["Gabon"],
+      "Germany": ["Germany"],
+      "Ghana": ["Ghana"],
+      "Hungary": ["Hungary"],
+      "Israel": ["Israel"],
+      "Kenya": ["Kenya"],
+      "Mozambique": ["Mozambique"],
+      "Netherlands": ["Netherlands"],
+      "Nigeria": ["Port Harcourt"],
+      "Norway": ["Norway"],
+      "Poland": ["Poland"],
+      "Portugal": ["Portugal"],
+      "Romania": ["Romania"],
+      "Tanzania": ["Tanzania"],
+      "Togo": ["Togo"],
+      "Turkey": ["Turkey"],
+      "UK": ["Aberdeen"]
+    },
+    "Eurasia": {
+      "Azerbaijan": ["Azerbaijan"],
+      "Kazakhstan": ["Aktau"],
+      "Russia": [
+        "BurService",
+        "Buzuluk",
+        "Usinsk",
+        "Gubkinsky",
+        "Nefteyugansk",
+        "Nizhnevartovsk",
+        "Noyabrsk",
+        "N. Urengoy",
+        "Nyagan",
+        "Sakhalin",
+        "Taas"
+      ],
+      "Turkmenistan": ["Turkmenistan"]
+    },
+    "Gulf of Mexico": {
+      "USA": ["Lafayette"]
+    },
+    "Latin America": {
+      "Argentina": ["Neuquen"],
+      "Brazil": ["Catu", "Aracaju", "Macae", "Manaus"],
+      "Colombia": ["Bogota"],
+      "Ecuador": ["Ecuador"],
+      "Mexico": ["Poza Rica", "Cuidad Del Carmen", "Reforma", "Reynosa"],
+      "Peru": ["Peru"],
+      "Trinidad": ["Trinidad"],
+      "Venezuela": ["Maturin", "Pta Camacho"]
+    },
+    "Middle East/North Africa": {
+      "Algeria": ["Hassi Messaoud"],
+      "Bahrain": ["Bahrain"],
+      "Egypt": ["Cairo"],
+      "Iraq": ["Iraq-Basrah", "Erbil"],
+      "Kuwait": ["Kuwait"],
+      "Libya": ["Tripoli", "Libya"],
+      "Oman": ["Oman"],
+      "Pakistan": ["Pakistan"],
+      "Qatar": ["Qatar"],
+      "Saudi Arabia": ["Saudi Arabia"],
+      "United Arab Emirates": ["Abu Dhabi", "Dubai", "Southern Gulf (Dubai)"],
+      "Yemen": ["Yemen"]
+    },
+    "Northern US": {
+      "Canada": ["Nisku"],
+      "USA": ["Anchorage", "Casper", "Oklahoma", "Bakersfield"]
+    },
+    "Southern US": {
+      "USA": ["Carmichaels-Northeast", "Houston", "Midland Odessa"]
+    }
+  }

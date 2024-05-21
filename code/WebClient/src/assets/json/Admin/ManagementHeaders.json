@@ -1,0 +1,57 @@
+[
+  {
+    
+      "FriendlyName": "Sl No",
+      "Visible": true,
+      "Variable": "SerialNumber",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": "100px",
+      "columnKey" : "SerialNumber"
+  },
+  {
+    "Order": 0,
+    "FriendlyName": "Name",
+    "Visible": true,
+    "Variable": "Name",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 70,
+    "columnKey" : "Name"
+  },
+  {
+    "Order": 1,
+    "FriendlyName": "Customer",
+    "Visible": true,
+    "Variable": "Company",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 80,
+    "columnKey" : "Company"
+  },
+  {
+    "Order": 2,
+    "FriendlyName": "LockedBy",
+    "Visible": true,
+    "Variable": "LockedBy",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 80,
+    "columnKey" : "LockedBy"
+  },
+  {
+    "Order": 3,
+    "FriendlyName": "Is Locked",
+    "Visible": true,
+    "Variable": "Locked",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 80,
+    "columnKey" : "Locked"
+  }
+]

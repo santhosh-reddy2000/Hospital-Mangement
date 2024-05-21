@@ -1,0 +1,92 @@
+[
+  {
+    "Order": 0,
+    "FriendlyName": "Depth (ft)",
+    "Visible": true,
+    "Variable": "depth",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": true,
+    "DecPlaces":2,
+    "ColumnWidth": "70px"
+  },
+  {
+    "Order": 1,
+    "FriendlyName": "Inc (°)",
+    "Visible": false,
+    "Variable": "aziErrorInclination",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": true,
+    "DecPlaces":2,
+    "ColumnWidth": "50px"
+  },
+  {
+    "Order": 2,
+    "FriendlyName": "Azi <Grid> (°)",
+    "Visible": false,
+    "Variable": "aziErrorAzimuth",
+    "ColorVariable":"aziErrorAzimuth",
+    "ColorCodes":["bg-purple"],
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "DecPlaces":2,
+    "ColumnWidth": "86px"
+  },
+  {
+    "Order": 3,
+    "FriendlyName": "Dipe (°)",
+    "Visible": false,
+    "Variable": "aziErrorDipe",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "DecPlaces":3,
+    "ColumnWidth": "58px"
+  },
+  {
+    "Order": 4,
+    "FriendlyName": "Be (nT)",
+    "Visible": false,
+    "Variable": "gz",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "DecPlaces":0,
+    "ColumnWidth": "55px"
+  },
+  {
+    "Order": 5,
+    "FriendlyName": "dDecle (°)",
+    "Visible": false,
+    "Variable": "aziErrordDecle",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "DecPlaces":3,
+    "ColumnWidth": "71px"
+  },
+  {
+    "Order": 6,
+    "FriendlyName": "Decle (°)",
+    "Visible": false,
+    "Variable": "aziErrorDecle",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "DecPlaces":3,
+    "ColumnWidth": "67px"
+  },
+  {
+    "Order": 7,
+    "FriendlyName": "Nom Grid (°)",
+    "Visible": false,
+    "Variable": "nomGrid",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "DecPlaces":3,
+    "ColumnWidth": "86px"
+  }
+]

@@ -1,0 +1,106 @@
+.sidebar-logo {
+  position: relative;
+  height: 48px;
+  padding-left: 1px;
+  overflow: hidden;
+  line-height: 46px;
+  transition: all 0.3s;
+}
+
+.sidebar-logo img {
+  display: inline-block;
+  width: 35px;
+  vertical-align: middle;
+  margin-left: 7px;
+}
+
+.sidebar-logo h1 {
+  display: inline-block;
+  line-height: initial;
+  margin: 0 5px 0 10px !important;
+  font-weight: 600;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.version {
+  font-size: 11px;
+}
+
+.status {
+  position: absolute;
+  right: 4px;
+  top: 16px;
+}
+
+.server-status {
+  width: 13px;
+  height: 13px;
+  border-radius: 100%;
+  box-shadow: inset 0px 1px 0px rgba(0, 0, 0, .1);
+  -webkit-animation: led 1.5s infinite;
+  -moz-animation: led 1.5s infinite;
+  -ms-animation: led 1.5s infinite;
+  -o-animation: led 1.5s infinite;
+  animation: led 1.5s infinite;
+
+}
+
+.server-status.green {
+  background: #5de900;
+}
+
+.server-status.red {
+  background: #fd0000;
+}
+
+/* keyframes */
+@-webkit-keyframes led {
+  from {
+    opacity: .2;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes led {
+  from {
+    opacity: .2;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes led {
+  from {
+    opacity: .2;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes led {
+  from {
+    opacity: .2;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes led {
+  from {
+    opacity: .2;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

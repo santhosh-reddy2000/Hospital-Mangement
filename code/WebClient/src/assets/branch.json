@@ -1,0 +1,47 @@
+[
+  {
+    "HeadofficeList": "VSC",
+    "BranchName": "RJS",
+    "Branchcode": "875665",
+    "BranchServices": "All Body Checkups",
+    "Managername": "Santhosh",
+    "Address": "palamaner",
+    "MobileNo": "7997414964",
+    "Email": "santhoshreddyk2000@gmail.com"
+    
+    
+  },
+  {
+    "HeadofficeList": "VSC",
+    "BranchName": "Halliburton",
+    "Branchcode": "875665",
+    "BranchServices": "Checkups",
+    "Managername": "Srikanth",
+    "Address": "Bihar",
+    "MobileNo": "8647414964",
+    "Email": "srikanth2001@gmail.com"
+    
+    
+  },
+  {
+    "HeadofficeList": "VSC",
+    "BranchName": "CNC",
+    "Branchcode": "875665",
+    "BranchServices": "checkups",
+    "Managername": "Arun",
+    "Address": "Dharmapuri",
+    "MobileNo": "9947414964",
+    "Email": "arun2002@gmail.com"
+  },
+
+  {
+    "HeadofficeList": "santhu",
+    "BranchName": "CNC",
+    "Branchcode": "875665",
+    "BranchServices": "checkups",
+    "Managername": "Arun",
+    "Address": "Dharmapuri",
+    "MobileNo": "9947414964",
+    "Email": "arun2002@gmail.com"
+  }
+]

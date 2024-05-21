@@ -1,0 +1,152 @@
+[
+    {
+      "Order": 0,
+      "FriendlyName": "Run Number",
+      "Visible": true,
+      "Variable": "Run.RunNumber",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80,
+      "ColumnKey":"Run.RunNumber"
+    },
+    {
+      "Order": 1,
+      "FriendlyName": "Serial Number",
+      "Visible": true,
+      "Variable": "Run.SerialNumber",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80,
+      "ColumnKey":"Run.SerialNumber"
+    },
+    {
+      "Order": 2,
+      "FriendlyName": "Primary or Secondary",
+      "Visible": true,
+      "Variable": "Run.PrimaryOrSecondary",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80,
+      "EnumName": "primaryOrSecondaryOptions",
+      "ColumnKey":"Run.PrimaryOrSecondary"
+    },
+    {
+      "Order": 3,
+      "FriendlyName": "Start Depth",
+      "Visible": true,
+      "Variable": "StartDepth",
+      "UnitName": "ft",
+      "FormatType": 1,
+      "IsFrozen": false,
+      "ColumnWidth": 80,
+      "DecimalFormat": true,
+      "ColumnKey":"StartDepth"
+    },
+    {
+      "Order": 4,
+      "FriendlyName": "End Depth",
+      "Visible": true,
+      "Variable": "EndDepth",
+      "UnitName": "ft",
+      "FormatType": 1,
+      "IsFrozen": false,
+      "ColumnWidth": 80,
+      "DecimalFormat": true,
+      "ColumnKey":"EndDepth"
+    },
+    {
+      "Order": 5,
+      "FriendlyName": "Service",
+      "Visible": true,
+      "Variable": "Service",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80,
+      "EnumName": "serviceOptions",
+      "ColumnKey":"Service"
+    },
+    {
+      "Order": 6,
+      "FriendlyName": "Inclination solution",
+      "Visible": true,
+      "Variable": "InclinationSolution",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80,
+      "EnumName":"inclinationSolutionType",
+      "ColumnKey":"InclinationSolution"
+    },
+    {
+      "Order": 7,
+      "FriendlyName": "Azimuth Solution",
+      "Visible": true,
+      "Variable": "SolutionType",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80,
+      "EnumName":"azimuthType",
+      "ColumnKey":"SolutionType"
+    },
+    {
+      "Order": 8,
+      "FriendlyName": "Pumps",
+      "Visible": true,
+      "Variable": "PumpStatusFilter",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80,
+      "EnumName": "pumpsStatusList",
+      "ColumnKey":"PumpStatusFilter"
+    },
+    {
+      "Order": 9,
+      "FriendlyName": "Last Edited By",
+      "Visible": false,
+      "Variable": "LastEditedBy",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80,
+      "ColumnKey":"LastEditedBy"
+    },
+    {
+      "Order": 10,
+      "FriendlyName": "Last Edited Date",
+      "Visible": false,
+      "Variable": "LastEditedTime",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80,
+      "ColumnKey":"LastEditedTime"
+    },
+    {
+      "Order": 11,
+      "FriendlyName": "Created By",
+      "Visible": false,
+      "Variable": "CreatedBy",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80,
+      "ColumnKey":"CreatedBy"
+    },
+    {
+      "Order": 12,
+      "FriendlyName": "Created Date",
+      "Visible": false,
+      "Variable": "CreatedTime",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80,
+      "ColumnKey":"CreatedTime"
+    }
+  ]

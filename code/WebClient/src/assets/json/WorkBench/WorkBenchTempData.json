@@ -1,0 +1,189 @@
+{
+  "wbInput": {
+    "caz1": [
+      {
+        "id": 1,
+        "state": [
+          {
+            "value": "Normal",
+            "label": "Normal"
+          },
+          {
+            "value": "Excluded",
+            "label": "Excluded"
+          },
+          {
+            "value": "Ignored",
+            "label": "Ignored"
+          }
+        ],
+        "selectedState": "Excluded",
+        "depth": "111",
+        "gx": "0.0011",
+        "gy": "0.0010",
+        "gz": "0.00111"
+      },
+      {
+        "id": 2,
+        "state": [
+          {
+            "value": "Normal",
+            "label": "Normal"
+          },
+          {
+            "value": "Excluded",
+            "label": "Excluded"
+          },
+          {
+            "value": "Ignored",
+            "label": "Ignored"
+          }
+        ],
+        "selectedState": "Excluded",
+        "depth": "111",
+        "gx": "0.0011",
+        "gy": "0.0010",
+        "gz": "0.00111"
+      }
+    ],
+    "icarus": [
+      {
+        "id": 1,
+        "state": [
+          {
+            "value": "Normal",
+            "label": "Normal"
+          },
+          {
+            "value": "Excluded",
+            "label": "Excluded"
+          },
+          {
+            "value": "Ignored",
+            "label": "Ignored"
+          }
+        ],
+        "selectedState": "Excluded",
+        "depth": "134",
+        "gx": "0.0032",
+        "gy": "0.0034",
+        "gz": "0.00992"
+      },
+      {
+        "id": 2,
+        "state": [
+          {
+            "value": "Normal",
+            "label": "Normal"
+          },
+          {
+            "value": "Excluded",
+            "label": "Excluded"
+          },
+          {
+            "value": "Ignored",
+            "label": "Ignored"
+          }
+        ],
+        "selectedState": "Excluded",
+        "depth": "134",
+        "gx": "0.0032",
+        "gy": "0.0034",
+        "gz": "0.00992"
+      }
+    ],
+    "caz2": [
+      {
+        "id": 1,
+        "state": [
+          {
+            "value": "Normal",
+            "label": "Normal"
+          },
+          {
+            "value": "Excluded",
+            "label": "Excluded"
+          },
+          {
+            "value": "Ignored",
+            "label": "Ignored"
+          }
+        ],
+        "selectedState": "Excluded",
+        "depth": "234",
+        "gx": "0.00437",
+        "gy": "0.002349",
+        "gz": "0.003247"
+      },
+      {
+        "id": 2,
+        "state": [
+          {
+            "value": "Normal",
+            "label": "Normal"
+          },
+          {
+            "value": "Excluded",
+            "label": "Excluded"
+          },
+          {
+            "value": "Ignored",
+            "label": "Ignored"
+          }
+        ],
+        "selectedState": "Excluded",
+        "depth": "42",
+        "gx": "0.0023",
+        "gy": "0.0023",
+        "gz": "0.00234"
+      }
+    ],
+    "aziError": [
+      {
+        "id": 1,
+        "state": [
+          {
+            "value": "Normal",
+            "label": "Normal"
+          },
+          {
+            "value": "Excluded",
+            "label": "Excluded"
+          },
+          {
+            "value": "Ignored",
+            "label": "Ignored"
+          }
+        ],
+        "selectedState": "Excluded",
+        "depth": "234",
+        "gx": "0.00437",
+        "gy": "0.002349",
+        "gz": "0.003247"
+      },
+      {
+        "id": 2,
+        "state": [
+          {
+            "value": "Normal",
+            "label": "Normal"
+          },
+          {
+            "value": "Excluded",
+            "label": "Excluded"
+          },
+          {
+            "value": "Ignored",
+            "label": "Ignored"
+          }
+        ],
+        "selectedState": "Excluded",
+        "depth": "42",
+        "gx": "0.0023",
+        "gy": "0.0023",
+        "gz": "0.00234"
+      }
+    ]
+  }
+ 
+}

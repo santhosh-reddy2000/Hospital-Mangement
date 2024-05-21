@@ -1,0 +1,67 @@
+[
+  {
+    
+    "doctorNamelist": "santhosh",
+    "PatientName": "madhu",
+    "Age": "24",
+    "RegistrationDate": "12-10-2024",
+    "Reasonforvist": "fever",
+    "Address": "chittoor",
+    "MobileNumber": "8637414964",
+    "email": "reddy@gmail.com",
+    "languageKnow": "telugu",
+    "Gender": "male",
+    "BloodGroup": "o+positive",
+    "maritalStatus": "unmarried"
+    
+  },
+  {
+    
+    "doctorNamelist": "praveen",
+    "PatientName": "ganesh",
+    "Age": "20",
+    "RegistrationDate": "12-10-2024",
+    "Reasonforvist": "fever",
+    "Address": "tirupathi",
+    "MobileNumber": "9447414964",
+    "email": "praveen@gmail.com",
+    "languageKnow": "english",
+    "Gender": "male",
+    "BloodGroup": "B+positive",
+    "maritalStatus": "unmarried"
+    
+  },
+  {
+    
+    "doctorNamelist": "mohan",
+    "PatientName": "sivu",
+    "Age": "23",
+    "RegistrationDate": "12-10-2024",
+    "Reasonforvist": "fever",
+    "Address": "sivmoga",
+    "MobileNumber": "9947414964",
+    "email": "mohan2002@gmail.com",
+    "languageKnow": "telugu",
+    "Gender": "male",
+    "BloodGroup": "o-Negitive",
+    "maritalStatus": "married"
+    
+  },
+  {
+    
+    "doctorNamelist": "suresh",
+    "PatientName": "patil",
+    "Age": "22",
+    "RegistrationDate": "12-10-2024",
+    "Reasonforvist": "fever",
+    "Address": "palamaner",
+    "MobileNumber": "8347414964",
+    "email": "santhosh2000@gmail.com",
+    "languageKnow": "tamil",
+    "Gender": "male",
+    "BloodGroup": "B+positive",
+    "maritalStatus": "unmarried"
+    
+  }
+  
+]

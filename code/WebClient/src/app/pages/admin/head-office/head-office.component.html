@@ -1,0 +1,58 @@
+<form nz-form [formGroup]="headOfficeForm" (ngSubmit)="submitForm()">
+
+  <nz-form-item>
+    <nz-form-label [nzSpan]="10" nzRequired> HeadOffice Name :</nz-form-label>
+    <nz-form-control [nzSpan]="5" nzHasFeedback nzValidatingTip="Validating...">
+      <input nz-input formControlName="HeadOfficeName" type="text" id="text" placeholder="Enter HeadOffice Name" />
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label [nzSpan]="10" nzRequired>Pin code :</nz-form-label>
+    <nz-form-control [nzSpan]="5" nzHasFeedback nzValidatingTip="Validating..." nzErrorTip="The input is not pincode!">
+      <input nz-input formControlName="pincode" placeholder="Enter pin code " />
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label [nzSpan]="10" nzRequired>Address :</nz-form-label>
+    <nz-form-control [nzSpan]="5" nzHasFeedback nzValidatingTip="Validating...">
+      <input nz-input formControlName="Address" type="text" id="text" placeholder="Enter Address" />
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label [nzSpan]="10" nzRequired>Mobile No :</nz-form-label>
+    <nz-form-control [nzSpan]="5" nzHasFeedback nzValidatingTip="Validating..."
+      nzErrorTip="The input is not valid Mobile Number!">
+      <input nz-input formControlName="MobileNo" type="number" id="number" placeholder="Enter Mobile No " />
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label [nzSpan]="10" nzRequired>Website :</nz-form-label>
+    <nz-form-control [nzSpan]="5" nzHasFeedback nzValidatingTip="Validating...">
+      <input nz-input formControlName="Website" type="text" id="text" placeholder="Enter Website" />
+    </nz-form-control>
+  </nz-form-item>
+
+  <nz-form-item>
+    <nz-form-label [nzSpan]="10" nzRequired>E-mail :</nz-form-label>
+    <nz-form-control [nzSpan]="5" nzHasFeedback nzValidatingTip="Validating... "
+      nzErrorTip="The input is not valid E-mail!">
+      <input nz-input formControlName="email" placeholder="Enter email" />
+    </nz-form-control>
+  </nz-form-item>
+
+
+
+  <nz-form-item>
+    <nz-form-control [nzOffset]="10" [nzSpan]="5">
+      <div style="display: flex; justify-content:flex-end; gap: 10px; margin-left: 50px;">
+        <button nz-button (click)="resetForm($event)">Reset</button>
+        <button nz-button nzType="primary" [disabled]="!headOfficeForm.valid">Submit</button>
+      </div>
+    </nz-form-control>
+  </nz-form-item>
+
+</form>

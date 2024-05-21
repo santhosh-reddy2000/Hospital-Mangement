@@ -1,0 +1,36 @@
+[
+    {
+      
+      "FriendlyName": "Sl No",
+      "Visible": true,
+      "Variable": "SerialNumber",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 10,
+      "columnKey" : "SerialNumber"
+    
+  },
+    {
+      "Order": 0,
+      "FriendlyName": "Email",
+      "Visible": true,
+      "Variable": "EmailId",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 100.00,
+      "columnKey" : "EmailId"
+    },
+    {
+      "Order": 1,
+      "FriendlyName": "Name",
+      "Visible": true,
+      "Variable": "EmailId",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 100.00,
+      "columnKey" : "EmailId"
+    }
+]

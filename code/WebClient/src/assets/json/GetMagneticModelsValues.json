@@ -1,0 +1,257 @@
+[
+  {
+    "PrimaryKey": 8,
+    "ID": "6IGRF90",
+    "Description": "International Geomagnetic Reference Field 1990"
+  },
+  {
+    "PrimaryKey": 14,
+    "ID": "7IGRF95",
+    "Description": "International Geomagnetic Reference Field 1995"
+  },
+  {
+    "PrimaryKey": 30,
+    "ID": "7IGRF95X",
+    "Description": "Unknown Source"
+  },
+  {
+    "PrimaryKey": 12,
+    "ID": "8IGRF00",
+    "Description": "International Geomagnetic Reference Field 2000"
+  },
+  {
+    "PrimaryKey": 41,
+    "ID": "BGGM1991",
+    "Description": "British Geological Society (1945-1993)"
+  },
+  {
+    "PrimaryKey": 42,
+    "ID": "BGGM1992",
+    "Description": "British Geological Society (1945-1994)"
+  },
+  {
+    "PrimaryKey": 43,
+    "ID": "BGGM1993",
+    "Description": "British Geological Society (1945-1995)"
+  },
+  {
+    "PrimaryKey": 44,
+    "ID": "BGGM1994",
+    "Description": "British Geological Society (1945-1996)"
+  },
+  {
+    "PrimaryKey": 45,
+    "ID": "BGGM1995",
+    "Description": "British Geological Society (1945-1997)"
+  },
+  {
+    "PrimaryKey": 46,
+    "ID": "BGGM1996",
+    "Description": "British Geological Society (1945-1998)"
+  },
+  {
+    "PrimaryKey": 47,
+    "ID": "BGGM1997",
+    "Description": "British Geological Society (1945-1999)"
+  },
+  {
+    "PrimaryKey": 48,
+    "ID": "BGGM1998",
+    "Description": "British Geological Society (1945-2000)"
+  },
+  {
+    "PrimaryKey": 17,
+    "ID": "BGGM1999",
+    "Description": "British Geological Society (1945-2001)"
+  },
+  {
+    "PrimaryKey": 18,
+    "ID": "BGGM2000",
+    "Description": "British Geological Society (1945-2002)"
+  },
+  {
+    "PrimaryKey": 19,
+    "ID": "BGGM2001",
+    "Description": "British Geological Society (1945-2003)"
+  },
+  {
+    "PrimaryKey": 20,
+    "ID": "BGGM2002",
+    "Description": "British Geological Society (1945-2004)"
+  },
+  {
+    "PrimaryKey": 21,
+    "ID": "BGGM2003",
+    "Description": "British Geological Society (1945-2005)"
+  },
+  {
+    "PrimaryKey": 22,
+    "ID": "BGGM2004",
+    "Description": "British Geological Society (1945-2006)"
+  },
+  {
+    "PrimaryKey": 25,
+    "ID": "BGGM2005",
+    "Description": "British Geological Society (1945-2007)"
+  },
+  {
+    "PrimaryKey": 26,
+    "ID": "BGGM2006",
+    "Description": "British Geological Society (1945-2008)"
+  },
+  {
+    "PrimaryKey": 27,
+    "ID": "BGGM2007",
+    "Description": "British Geological Society (1945-2009)"
+  },
+  {
+    "PrimaryKey": 28,
+    "ID": "BGGM2008",
+    "Description": "British Geological Society (1945-2010)"
+  },
+  {
+    "PrimaryKey": 29,
+    "ID": "BGGM2009",
+    "Description": "British Geological Society (1945-2011)"
+  },
+  {
+    "PrimaryKey": 31,
+    "ID": "BGGM2010",
+    "Description": "British Geological Society (1945-2012)"
+  },
+  {
+    "PrimaryKey": 32,
+    "ID": "BGGM2011",
+    "Description": "British Geological Society (1945-2013)"
+  },
+  {
+    "PrimaryKey": 33,
+    "ID": "BGGM2012",
+    "Description": "British Geological Society (1945-2014)"
+  },
+  {
+    "PrimaryKey": 34,
+    "ID": "BGGM2013",
+    "Description": "British Geological Society (1945-2015)"
+  },
+  {
+    "PrimaryKey": 35,
+    "ID": "BGGM2014",
+    "Description": "British Geological Society (1945-2016)"
+  },
+  {
+    "PrimaryKey": 36,
+    "ID": "BGGM2015",
+    "Description": "British Geological Society (1945-2017)"
+  },
+  {
+    "PrimaryKey": 39,
+    "ID": "BGGM2016",
+    "Description": "British Geological Society (1945-2018)"
+  },
+  {
+    "PrimaryKey": 49,
+    "ID": "BGGM2017",
+    "Description": "British Geological Society (1945-2019)"
+  },
+  {
+    "PrimaryKey": 50,
+    "ID": "BGGM2018",
+    "Description": "British Geological Society (1945-2020)"
+  },
+  {
+    "PrimaryKey": 51,
+    "ID": "BGGM2019",
+    "Description": "British Geological Society (1945-2021)"
+  },
+  {
+    "PrimaryKey": 1,
+    "ID": "BGM92",
+    "Description": "British Geological Society (1980-1995)"
+  },
+  {
+    "PrimaryKey": 52,
+    "ID": "HDGM2019",
+    "Description": "Unknown Source"
+  },
+  {
+    "PrimaryKey": 53,
+    "ID": "HDGM2020",
+    "Description": "Unknown Source"
+  },
+  {
+    "PrimaryKey": 13,
+    "ID": "IGBGCF00",
+    "Description": "British Geological Society (1940-2001)"
+  },
+  {
+    "PrimaryKey": 15,
+    "ID": "IGBGCF01",
+    "Description": "British Geological Society (1940-2002)"
+  },
+  {
+    "PrimaryKey": 16,
+    "ID": "IGBGCF02",
+    "Description": "British Geological Society (1940-2003)"
+  },
+  {
+    "PrimaryKey": 2,
+    "ID": "IGBGCF93",
+    "Description": "British Geological Society (1940-1995)"
+  },
+  {
+    "PrimaryKey": 3,
+    "ID": "IGBGCF94",
+    "Description": "British Geological Society (1940-1995)"
+  },
+  {
+    "PrimaryKey": 4,
+    "ID": "IGBGCF95",
+    "Description": "British Geological Society (1940-1997)"
+  },
+  {
+    "PrimaryKey": 5,
+    "ID": "IGBGCF96",
+    "Description": "British Geological Society (1940-1998)"
+  },
+  {
+    "PrimaryKey": 6,
+    "ID": "IGBGCF97",
+    "Description": "British Geological Society (1940-1998)"
+  },
+  {
+    "PrimaryKey": 7,
+    "ID": "IGBGCF98",
+    "Description": "British Geological Society (1940-1999)"
+  },
+  {
+    "PrimaryKey": 11,
+    "ID": "IGBGCF99",
+    "Description": "British Geological Society (1940-2000)"
+  },
+  {
+    "PrimaryKey": 24,
+    "ID": "IGRF2000",
+    "Description": "International Geomagnetic Reference Field 2000"
+  },
+  {
+    "PrimaryKey": 37,
+    "ID": "IGRF2011",
+    "Description": "Unknown Source"
+  },
+  {
+    "PrimaryKey": 40,
+    "ID": "IGRFG12",
+    "Description": "Unknown Source"
+  },
+  {
+    "PrimaryKey": 38,
+    "ID": "IGRFGEN102P21",
+    "Description": "Unknown Source"
+  },
+  {
+    "PrimaryKey": 23,
+    "ID": "IGRFGEN9",
+    "Description": "9th Generation IGRF Coefficients (1945-2005)"
+  }
+]

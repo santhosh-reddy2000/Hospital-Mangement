@@ -1,0 +1,45 @@
+[
+  {
+    "FriendlyName": "Sl No",
+    "Visible": true,
+    "Variable": "SerialNumber",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "100px",
+    "columnKey" : "SerialNumber"
+  },
+  {
+    "Order": 0,
+    "FriendlyName": "Name",
+    "Visible": true,
+    "Variable": "TemplateName",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 80,
+    "columnKey" : "TemplateName"
+  },
+  {
+    "Order": 1,
+    "FriendlyName": "Description",
+    "Visible": true,
+    "Variable": "Description",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 80,
+    "columnKey" : "Description"
+  },
+  {
+    "Order": 2,
+    "FriendlyName": "Type",
+    "Visible": true,
+    "Variable": "TemplateType",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 80.00,
+    "columnKey" : "TemplateType"
+  }
+]

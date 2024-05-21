@@ -1,0 +1,254 @@
+<div class="doctor-Details">
+  <button nz-button nzType="primary" nz-dropdown nz-size="small" nzTrigger="click" [nzDropdownMenu]="menu">
+    Add Doctor Details
+    <span nz-icon nzType="down"></span></button>
+</div>
+
+<nz-dropdown-menu #menu="nzDropdownMenu">
+  <form nz-form [formGroup]="DoctorDetailsForm" (ngSubmit)="submitForm()">
+
+    <nz-form-item>
+      <nz-form-label [nzSpan]="10" nzRequired>Select Branch Name :</nz-form-label>
+      <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+        <nz-select nzShowSearch nzAllowClear nzPlaceHolder="Select Branch Name" formControlName="branchDetailList">
+          <nz-option *ngFor="let branchDetails of _commonService.branchOfficeFormData"
+            [nzLabel]="branchDetails.BranchName" [nzValue]="branchDetails.BranchName"></nz-option>
+        </nz-select>
+
+      </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+      <nz-form-label [nzSpan]="10" nzRequired> Doctor Name :</nz-form-label>
+      <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+        <input nz-input formControlName="doctorName" type="text" id="text" placeholder="Enter Doctor Name" />
+      </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item>
+      <nz-form-label [nzSpan]="10" nzRequired>Specialization :</nz-form-label>
+      <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+        <input nz-input formControlName="specialization" type="text" id="text" placeholder="Enter specialization " />
+      </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item>
+      <nz-form-label [nzSpan]="10" nzRequired>Qulification :</nz-form-label>
+      <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+        <input nz-input formControlName="Qulification" type="text" id="text" placeholder="Enter Qulification " />
+      </nz-form-control>
+    </nz-form-item>
+
+
+    <nz-form-item>
+      <nz-form-label [nzSpan]="10" nzRequired>Country :</nz-form-label>
+      <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+        <input nz-input formControlName="country" type="text" id="text" placeholder="Enter Country" />
+      </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item>
+      <nz-form-label [nzSpan]="10" nzRequired>Address :</nz-form-label>
+      <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+        <input nz-input formControlName="Address" type="text" id="text" placeholder="Enter Address" />
+      </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item>
+      <nz-form-label [nzSpan]="10" nzRequired>Mobile No :</nz-form-label>
+      <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating..."
+        nzErrorTip="The input is not valid Mobile Number!">
+        <input nz-input formControlName="MobileNumber" type="number" id="number" placeholder="Enter MobileNumber" />
+      </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item>
+      <nz-form-label [nzSpan]="10" nzRequired>E-mail :</nz-form-label>
+      <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating... "
+        nzErrorTip="The input is not valid E-mail!">
+        <input nz-input formControlName="email" placeholder="Enter email" />
+      </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item>
+      <nz-form-label [nzSpan]="10" nzRequired>Languages Know :</nz-form-label>
+      <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+        <nz-select formControlName="languageKnow" nzPlaceHolder="Select Language">
+          <nz-option nzValue="Telugu" nzLabel="Telugu"></nz-option>
+          <nz-option nzValue="Kanada" nzLabel="Kanada"></nz-option>
+          <nz-option nzValue="Hindi" nzLabel="Hindi"></nz-option>
+          <nz-option nzValue="Tamil" nzLabel="Tamil"></nz-option>
+        </nz-select>
+      </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item>
+      <nz-form-label [nzSpan]="10" nzRequired>Gender :</nz-form-label>
+      <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+        <nz-select formControlName="Gender" nzPlaceHolder="Select Gender">
+          <nz-option nzValue="Male" nzLabel="Male"></nz-option>
+          <nz-option nzValue="Female" nzLabel="Female"></nz-option>
+        </nz-select>
+      </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item>
+      <nz-form-control [nzOffset]="10" [nzSpan]="5">
+        <div style="display: flex; justify-content:flex-end; gap: 10px; margin-left: 50px;">
+          <button nz-button (click)="resetForm($event)">Reset</button>
+          <button nz-button nzType="primary" [disabled]="!DoctorDetailsForm.valid">Submit</button>
+        </div>
+      </nz-form-control>
+    </nz-form-item>
+
+  </form>
+</nz-dropdown-menu>
+
+<div style="padding: 10px;" *ngIf="_commonService.doctorDetailsFormData.length > 0">
+  <nz-table #basicTable [nzData]="['']" [nzShowPagination]="false" nzSize="small" [nzFrontPagination]="false">
+    <thead>
+      <tr>
+        <th>Select Branch Name</th>
+        <th>Doctor Name</th>
+        <th>Specialization</th>
+        <th>Qulification</th>
+        <th>Country</th>
+        <th>Address</th>
+        <th>Mobile Number</th>
+        <th>E-mail</th>
+        <th>Language Known</th>
+        <th>Gender</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of _commonService.doctorDetailsFormData;let i=index">
+        <td>{{product.branchDetailList}}</td>
+        <td>{{product.doctorName}}</td>
+        <td>{{product.specialization}}</td>
+        <td>{{product.Qulification}}</td>
+        <td>{{product.country}}</td>
+        <td>{{product.Address}}</td>
+        <td>{{product.MobileNumber}}</td>
+        <td>{{product.email}}</td>
+        <td>{{product.languageKnow}}</td>
+        <td>{{product.Gender}}</td>
+        <td>
+          <button nz-button nzType="primary" (click)="showEditModel(i)" nz-tooltip nzTooltipTitle="Edit"><span nz-icon
+              nzType="edit" nzTheme="outline"></span></button>
+          <button nz-button nzType="primary" nzDanger (click)="deleteData(i)" class="buttons" nz-tooltip
+            nzTooltipTitle="Delete"><span nz-icon nzType="delete" nzTheme="outline"></span></button>
+
+        </td>
+      </tr>
+
+    </tbody>
+  </nz-table>
+</div>
+<div style="text-align: center; position: absolute; left: 50%; top: 50%;"
+  *ngIf="_commonService.doctorDetailsFormData.length === 0">
+  <h2>No Data Available</h2>
+</div>
+
+<nz-modal [(nzVisible)]="isVisible" nzTitle="DoctorDetails" (nzOnCancel)="handleCancel()" nzWidth="400px">
+  <ng-container *nzModalContent>
+    <form nz-form [formGroup]="DoctorDetailsForm" (ngSubmit)="submitForm()">
+      <nz-form-item>
+        <nz-form-label [nzSpan]="10" nzRequired>Select Branch Name :</nz-form-label>
+        <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+          <nz-select nzShowSearch nzAllowClear nzPlaceHolder="Select Branch Name" formControlName="branchDetailList">
+            <nz-option *ngFor="let branchDetails of _commonService.branchOfficeFormData"
+              [nzLabel]="branchDetails.BranchName" [nzValue]="branchDetails.BranchName"></nz-option>
+          </nz-select>
+
+        </nz-form-control>
+      </nz-form-item>
+      <nz-form-item>
+        <nz-form-label [nzSpan]="10" nzRequired> Doctor Name :</nz-form-label>
+        <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+          <input nz-input formControlName="doctorName" type="text" id="text" placeholder="Enter Doctor Name" />
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-label [nzSpan]="10" nzRequired>Specialization :</nz-form-label>
+        <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+          <input nz-input formControlName="specialization" type="text" id="text" placeholder="Enter specialization " />
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-label [nzSpan]="10" nzRequired>Qulification :</nz-form-label>
+        <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+          <input nz-input formControlName="Qulification" type="text" id="text" placeholder="Enter Qulification " />
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-label [nzSpan]="10" nzRequired>Country :</nz-form-label>
+        <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+          <input nz-input formControlName="country" type="text" id="text" placeholder="Enter Country" />
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-label [nzSpan]="10" nzRequired>Address :</nz-form-label>
+        <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+          <input nz-input formControlName="Address" type="text" id="text" placeholder="Enter Address" />
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-label [nzSpan]="10" nzRequired>Mobile No :</nz-form-label>
+        <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating..."
+          nzErrorTip="The input is not valid Mobile Number!">
+          <input nz-input formControlName="MobileNumber" type="number" id="number" placeholder="Enter MobileNumber" />
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-label [nzSpan]="10" nzRequired>E-mail :</nz-form-label>
+        <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating... "
+          nzErrorTip="The input is not valid E-mail!">
+          <input nz-input formControlName="email" placeholder="Enter email" />
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-label [nzSpan]="10" nzRequired>Languages Know :</nz-form-label>
+        <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+          <nz-select formControlName="languageKnow" nzPlaceHolder="Select Language">
+            <nz-option nzValue="Telugu" nzLabel="Telugu"></nz-option>
+            <nz-option nzValue="Kanada" nzLabel="Kanada"></nz-option>
+            <nz-option nzValue="Hindi" nzLabel="Hindi"></nz-option>
+            <nz-option nzValue="Tamil" nzLabel="Tamil"></nz-option>
+          </nz-select>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-label [nzSpan]="10" nzRequired>Gender :</nz-form-label>
+        <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+          <nz-select formControlName="Gender" nzPlaceHolder="Select Gender">
+            <nz-option nzValue="Male" nzLabel="Male"></nz-option>
+            <nz-option nzValue="Female" nzLabel="Female"></nz-option>
+          </nz-select>
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-control [nzOffset]="10" [nzSpan]="5">
+          <div style="display: flex; justify-content:flex-end; gap: 10px; margin-left: 50px;">
+            <button nz-button (click)="resetForm($event)">Reset</button>
+            <button nz-button nzType="primary" [disabled]="!DoctorDetailsForm.valid">Submit</button>
+          </div>
+        </nz-form-control>
+      </nz-form-item>
+
+    </form>
+  </ng-container>
+  <ng-container *nzModalFooter>
+
+    <button nz-button nzType="primary" nz-size="small" (click)="handleCancel()">Cancel</button>
+    <button nz-button nzType="primary" nz-size="small" (click)="submitForm()">Submit</button>
+  </ng-container>
+</nz-modal>

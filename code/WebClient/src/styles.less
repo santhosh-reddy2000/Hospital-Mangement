@@ -1,0 +1,313 @@
+
+// Custom Theming for NG-ZORRO
+// For more information: https://ng.ant.design/docs/customize-theme/en
+@import "../node_modules/ng-zorro-antd/ng-zorro-antd.less";
+@import '../node_modules/ng-zorro-antd/resizable/style/entry.less';
+
+@import 'styles/dark.less';
+// @import 'styles/default.less';
+// @import 'styles/blue.less';
+// @import 'styles/green.less';
+
+@font-face {
+  font-family: 'AptosNarrow';
+  src: url('assets/fonts/AptosNarrow.eot');
+  src: url('assets/fonts/AptosNarrow.eot') format('embedded-opentype'),
+       url('assets/fonts/AptosNarrow.woff2') format('woff2'),
+       url('assets/fonts/AptosNarrow.woff') format('woff'),
+       url('assets/fonts/AptosNarrow.ttf') format('truetype'),
+       url('assets/fonts/AptosNarrow.svg#AptosNarrow') format('svg');
+}
+
+
+
+// Override less variables to here
+// View all variables: https://github.com/NG-ZORRO/ng-zorro-antd/blob/master/components/style/themes/default.less
+
+// @primary-color: #1890ff;
+/* You can add global styles to this file, and also import other style files */
+
+
+body{
+  font-family: 'AptosNarrow' !important;
+}
+
+.ant-layout{
+    height: 100%;
+}
+
+
+.upload-btn-wrapper {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+  
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    cursor: pointer;
+    z-index: 99;
+    width: 100%;
+  }
+
+  .ant-input-affix-wrapper{
+    padding: 0px !important;
+  }
+
+
+  .ant-input-affix-wrapper > input.ant-input{
+    padding: 0px 10px !important;
+  }
+
+
+  .top-menu .ant-menu{
+    background-color: transparent !important;
+  }
+
+  .ant-select{
+    align-items: center !important;
+  }
+
+
+  h1,h2,h3,h4,h5,h6,p{
+    margin: 0px !important;
+  }
+
+  .ant-card-extra{
+    display: flex;
+    width: 100%;
+    padding: 0px !important;
+  }
+
+  .ant-card-head{
+    padding: 0px !important;
+  }
+  
+  
+
+  .pass-box{
+    box-shadow: 1px 1px 6px #058405de  !important;
+    .ant-card-head{
+        background-color:#0672099a !important
+    }
+}
+
+.suspended-session-expired-box{
+    box-shadow: 1px 1px 6px #e86c078e !important;
+    .ant-card-head{
+        background-color:#c77208   !important
+    }
+}
+
+
+.suspended-asa-failed-box{
+    box-shadow: 1px 1px 6px #ee1414de  !important;
+    .ant-card-head{
+        background-color:#8f0000de    !important
+    }
+}
+
+.ant-menu-root{
+  margin-top: 2px;
+}
+
+.bg-values{
+  min-width: 130px !important;
+  padding: 3px 20px !important;
+}
+
+
+.ant-layout-content{
+  overflow: auto !important;
+}
+
+.nomargin{
+  margin: 0px !important;
+}
+
+.messages{
+  .ant-collapse-content > .ant-collapse-content-box{
+    padding: 0!important;
+  }
+}
+
+.dashboard-left-view{
+  .dashboard {
+    width: 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    flex: auto;
+  }
+}
+
+.action{
+  width: 100px;
+}
+
+.center{
+  right: -11px !important;
+}
+
+.ant-timeline-item{
+  padding-bottom: 5px !important;
+}
+
+
+.ant-page-header{
+  padding: 0px 5px !important;
+}
+
+.ant-page-header-back-button{
+  color: #fff !important;
+}
+
+.ant-alert-success {
+  background-color: #1c3306 !important;
+  border: 1px solid #45652c !important;
+  padding: 0px 3px !important;
+  font-size: 16px;
+}
+
+.ant-alert-success .ant-alert-icon{
+  color: #52c41a;
+  font-size: 28px;
+}
+
+.ant-alert-message{
+  font-size: 18px;
+}
+
+
+.total-wells{
+  .ant-alert-success {
+    background-color: #045e8f63 !important;
+    border: 1px solid #0f7ab39c !important;
+    padding: 0px 3px !important;
+    font-size: 16px;
+  }
+}
+
+.archive-wells{
+  .ant-alert-success {
+    background-color: #9c9c9c75 !important;
+    border: 1px solid rgba(225, 225, 225, 0.361) !important;
+    padding: 0px 3px !important;
+    font-size: 16px;
+  }
+
+  .icon{
+    color: #e7e8e96a !important;
+  }
+}
+
+// .hometable{
+//   table{
+//     table-layout: auto;
+//   }
+  
+//   th:last-child,td:last-child{
+//     width: 90px;
+   
+//   }
+  
+//   th:last-child{
+//    right:-15px !important
+//   }
+// }
+
+
+// th,td{
+//   width: 150px;
+// }
+// .trigger {
+//   font-size: 18px;
+//   line-height: 64px;
+//   padding: 0 24px;
+//   cursor: pointer;
+//   transition: color 0.3s;
+// }
+
+// .trigger:hover {
+//   color: #1890ff;
+// }
+
+// .logo {
+//   height: 32px;
+//   margin: 16px;
+// }
+
+// .ant-table-fixed {
+//   table-layout:auto !important;
+//   width: 100vw !important;
+// }
+
+// .ant-table-tbody > tr > td, .ant-table-thead > tr > th {
+//   width: 100% !important;
+// }
+
+// .ant-table-tbody > tr > td {
+//   white-space: normal !important;
+//   word-break:break-word  !important;
+//   word-break: break-all  !important;
+// }
+
+// .ant-table-header {
+//   overflow: hidden !important;
+// }..
+
+
+.nz-table{
+  th,td{
+    width: 150px !important;
+  }
+}
+
+.ant-input[disabled]{
+  color: #9b9999 !important;
+}
+
+
+.data-grid{
+  margin-bottom: 10px;
+  table{
+    table-layout: auto !important;
+  }
+}
+
+
+
+
+.original-table{
+table{
+  table-layout: auto !important;
+}
+
+.ant-table.ant-table-small .nz-table-hide-scrollbar{
+  overflow: hidden !important;
+}
+  
+.ant-table-wrapper{
+  width: 100%;
+  overflow: auto;
+}
+  th,td, .ant-table-thead > tr > th{
+    min-width: 120px !important;
+    width: 120px !important;
+    max-width: 120px !important;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+}
+
+.ant-table.ant-table-small .nz-table-hide-scrollbar{
+  overflow: hidden !important;
+}

@@ -1,0 +1,165 @@
+{
+  "globalRule": [
+    {
+      "FriendlyName": "Sl No",
+      "Visible": true,
+      "Variable": "SerialNumber",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": "100px",
+      "columnKey" : "SerialNumber"
+  },
+    {
+      "Order": 0,
+      "FriendlyName": "Name",
+      "Visible": true,
+      "Variable": "RuleName",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 70.0,
+      "columnKey" : "RuleName"
+    },
+    {
+      "Order": 1,
+      "FriendlyName": "Precondition",
+      "Visible": true,
+      "SubName": "none",
+      "Variable": "PreConditionRuleId",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80.0,
+      "columnKey" : "PreConditionRuleId"
+    },
+    {
+      "Order": 2,
+      "FriendlyName": "Equation1",
+      "Visible": true,
+      "Variable": "LHS",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80.0,
+      "columnKey" : "LHS"
+    },
+    {
+      "Order": 3,
+      "FriendlyName": "Operator",
+      "Visible": true,
+      "Variable": "Operator",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80.0,
+      "EnumName" : "preConditionEnum",
+      "columnKey" : "Operator"
+    },
+    {
+      "Order": 4,
+      "FriendlyName": "Equation2",
+      "Visible": true,
+      "Variable": "RHS",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80.0,
+      "columnKey" : "RHS"
+    },
+    {
+      "Order": 5,
+      "FriendlyName": "Unit",
+      "SubName": "unitless",
+      "Visible": true,
+      "Variable": "UnitSystem",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80.0,
+      "columnKey" : "UnitSystem"
+    },
+    {
+      "Order": 6,
+      "FriendlyName": "Is Mandatory",
+      "Visible": true,
+      "Variable": "IsMandatory",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80.0,
+      "columnKey" : "IsMandatory"
+    }
+  ],
+  "preConditionRule": [
+    {
+    
+      "FriendlyName": "Sl No",
+      "Visible": true,
+      "Variable": "SerialNumber",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": "100px",
+      "columnKey" : "SerialNumber"
+    
+  },
+    {
+      "Order": 0,
+      "FriendlyName": "Name",
+      "Visible": true,
+      "Variable": "name",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 70.0,
+      "columnKey" : "name"
+    },
+    {
+      "Order": 1,
+      "FriendlyName": "Equation1",
+      "Visible": true,
+      "Variable": "LHS",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80.0,
+      "columnKey" : "LHS"
+    },
+    {
+      "Order": 2,
+      "FriendlyName": "Operator",
+      "Visible": true,
+      "Variable": "Operator",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80.0,
+      "columnKey" : "Operator"
+    },
+    {
+      "Order": 3,
+      "FriendlyName": "Equation2",
+      "Visible": true,
+      "Variable": "RHS",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80.0,
+      "columnKey" : "RHS"
+    },
+    {
+      "Order": 4,
+      "FriendlyName": "Unit",
+      "SubName": "unitless",
+      "Visible": true,
+      "Variable": "UnitSystem",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "ColumnWidth": 80.0,
+      "columnKey" : "unitless"
+    }
+  ]
+}
+

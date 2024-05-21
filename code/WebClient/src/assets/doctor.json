@@ -1,0 +1,58 @@
+[
+  {
+  
+ "branchDetailList": "chunk",
+ "doctorName": "Dr.srikanth",
+ "specialization": "Testing",
+ "Qulification": "MBBS",
+ "country":"india",
+ "Address": "Bangalore",
+ "MobileNumber": "7997414964",
+ "email": "santhu@example.com",
+ "languageKnow": "telugu",
+ "Gender": "male"
+    
+  },
+  {
+    "branchDetailList": "jainagar",
+    "doctorName": "Dr.praveen",
+    "specialization": "operation",
+    "Qulification": "MBBS",
+    "country":"india",
+    "Address": "chittor",
+    "MobileNumber": "7997414964",
+    "email": "santhu@example.com",
+    "languageKnow": "telugu",
+    "Gender": "male"
+    
+  },
+  {
+    
+    "branchDetailList": "liferay",
+ "doctorName": "Dr.arun",
+ "specialization": "Testing",
+ "Qulification": "MBBS",
+ "country":"india",
+ "Address": "Dharamapuri",
+ "MobileNumber": "7997414964",
+ "email": "santhu@example.com",
+ "languageKnow": "telugu",
+ "Gender": "male"
+    
+  },
+  {
+    
+    "branchDetailList": "sunrise",
+    "doctorName": "Dr.Deviprasad",
+    "specialization": "bones",
+    "Qulification": "MBBS",
+    "country":"india",
+    "Address": "palamaner",
+    "MobileNumber": "7997414964",
+    "email": "santhu@example.com",
+    "languageKnow": "telugu",
+    "Gender": "male"
+    
+  }
+  
+]

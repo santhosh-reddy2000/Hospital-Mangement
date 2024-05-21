@@ -1,0 +1,135 @@
+[
+    {
+      "Order": 0,
+      "FriendlyName": "MSA State",
+      "Visible": true,
+      "Variable": "msaState",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "DecPlaces":1,
+      "ColumnWidth": "100px"
+    },
+    {
+      "Order": 1,
+      "FriendlyName": "Depth (ft)",
+      "Visible": true,
+      "Variable": "depth",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "DecPlaces":2,
+      "ColumnWidth": "80px"
+    },
+    {
+      "Order": 3,
+      "FriendlyName": "Gx (g)",
+      "Visible": false,
+      "Variable": "gx",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "DecPlaces":5,
+      "ColumnWidth": "70px"
+    },
+    {
+      "Order": 4,
+      "FriendlyName": "Gy (g)",
+      "Visible": false,
+      "Variable": "gy",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "DecPlaces":5,
+      "ColumnWidth": "70px"
+    },
+    {
+      "Order": 5,
+      "FriendlyName": "Gz (g)",
+      "Visible": false,
+      "Variable": "gz",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "DecPlaces":5,
+      "ColumnWidth": "70px"
+    },
+    {
+      "Order": 6,
+      "FriendlyName": "Bx (nT)",
+      "Visible": false,
+      "Variable": "bx",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "DecPlaces":0,
+      "ColumnWidth": "70px"
+    },
+    {
+      "Order": 7,
+      "FriendlyName": "By (nT)",
+      "Visible": false,
+      "Variable": "by",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "DecPlaces":0,
+      "ColumnWidth": "70px"
+    },
+    {
+      "Order": 8,
+      "FriendlyName": "Bz (nT)",
+      "Visible": false,
+      "Variable": "bz",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "DecPlaces":0,
+      "ColumnWidth": "70px"
+    },
+    {
+      "Order": 9,
+      "FriendlyName": "Dipe (°)",
+      "Visible": false,
+      "Variable": "nomDip",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "DecPlaces":3,
+      "ColumnWidth": "70px"
+    },
+    {
+      "Order": 10,
+      "FriendlyName": "Be (nT)",
+      "Visible": false,
+      "Variable": "nomBt",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "DecPlaces":0,
+      "ColumnWidth": "70px"
+    },
+    {
+      "Order": 11,
+      "FriendlyName": "Decle (°)",
+      "Visible": false,
+      "Variable": "nomDeclination",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "DecPlaces":3,
+      "ColumnWidth": "70px"
+    },
+    {
+      "Order": 11,
+      "FriendlyName": "Nom Grid(°)",
+      "Visible": false,
+      "Variable": "nomGrid",
+      "UnitName": "",
+      "FormatType": null,
+      "IsFrozen": false,
+      "DecPlaces":3,
+      "ColumnWidth": "90px"
+    }
+  ]
+  

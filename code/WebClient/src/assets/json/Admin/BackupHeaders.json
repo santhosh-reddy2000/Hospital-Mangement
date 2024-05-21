@@ -1,0 +1,54 @@
+[
+  {
+    
+    "FriendlyName": "Sl No",
+    "Visible": true,
+    "Variable": "SerialNumber",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "100px",
+    "columnKey" : "SerialNumber"
+  
+},
+  {
+    "Order": 0,
+    "FriendlyName": "HostUrl",
+    "Visible": true,
+    "Variable": "HostUrl",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 70.0
+  },
+  {
+    "Order": 1,
+    "FriendlyName": "Name",
+    "Visible": true,
+    "Variable": "Name",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0
+  },
+  {
+    "Order": 2,
+    "FriendlyName": "Port",
+    "Visible": true,
+    "Variable": "Port",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0
+  },
+  {
+    "Order": 3,
+    "FriendlyName": "BaseResource",
+    "Visible": true,
+    "Variable": "BaseResource",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0
+  }
+]

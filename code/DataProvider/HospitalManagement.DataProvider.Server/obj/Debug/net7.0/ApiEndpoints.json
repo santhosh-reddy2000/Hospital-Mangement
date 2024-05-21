@@ -1,0 +1,338 @@
+[
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.BranchController",
+    "Method": "Default",
+    "RelativePath": "api/v1/Branch",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.BranchController",
+    "Method": "AddBranch",
+    "RelativePath": "api/v1/Branch/AddBranch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branch",
+        "Type": "HospitalManagement.Core.Common.Models.Branch",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.BranchController",
+    "Method": "DeleteBranch",
+    "RelativePath": "api/v1/Branch/DeleteBranch",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branchId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.BranchController",
+    "Method": "GetAllBranches",
+    "RelativePath": "api/v1/Branch/GetAllBranches",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.BranchController",
+    "Method": "GetBranch",
+    "RelativePath": "api/v1/Branch/GetBranch",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branchId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.BranchController",
+    "Method": "UpdateBranch",
+    "RelativePath": "api/v1/Branch/UpdateBranch",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "branch",
+        "Type": "HospitalManagement.Core.Common.Models.Branch",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.DoctorController",
+    "Method": "Default",
+    "RelativePath": "api/v1/Doctor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.DoctorController",
+    "Method": "AddDoctor",
+    "RelativePath": "api/v1/Doctor/AddDoctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctor",
+        "Type": "HospitalManagement.Core.Common.Models.Doctor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.DoctorController",
+    "Method": "DeleteDoctor",
+    "RelativePath": "api/v1/Doctor/DeleteDoctor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.DoctorController",
+    "Method": "GetAllDoctors",
+    "RelativePath": "api/v1/Doctor/GetAllDoctors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.DoctorController",
+    "Method": "GetDoctor",
+    "RelativePath": "api/v1/Doctor/GetDoctor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctorId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.DoctorController",
+    "Method": "UpdateDoctor",
+    "RelativePath": "api/v1/Doctor/UpdateDoctor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "doctor",
+        "Type": "HospitalManagement.Core.Common.Models.Doctor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.HeadOfficeController",
+    "Method": "Default",
+    "RelativePath": "api/v1/HeadOffice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.HeadOfficeController",
+    "Method": "AddHeadOffice",
+    "RelativePath": "api/v1/HeadOffice/AddHeadOffice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "headOffice",
+        "Type": "HospitalManagement.Core.Common.Models.HeadOffice",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.HeadOfficeController",
+    "Method": "DeleteHeadOffice",
+    "RelativePath": "api/v1/HeadOffice/DeleteHeadOffice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "headOfficeId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.HeadOfficeController",
+    "Method": "GetAllHeadOffices",
+    "RelativePath": "api/v1/HeadOffice/GetAllHeadOffices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.HeadOfficeController",
+    "Method": "GetHeadOffice",
+    "RelativePath": "api/v1/HeadOffice/GetHeadOffice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "headOfficeId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.HeadOfficeController",
+    "Method": "UpdateHeadoffice",
+    "RelativePath": "api/v1/HeadOffice/UpdateHeadoffice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "headOffice",
+        "Type": "HospitalManagement.Core.Common.Models.HeadOffice",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.PatientController",
+    "Method": "Default",
+    "RelativePath": "api/v1/Patient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.PatientController",
+    "Method": "AddPatient",
+    "RelativePath": "api/v1/Patient/AddPatient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patient",
+        "Type": "HospitalManagement.Core.Common.Models.Patient",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.PatientController",
+    "Method": "DeletePatient",
+    "RelativePath": "api/v1/Patient/DeletePatient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.PatientController",
+    "Method": "GetAllPatients",
+    "RelativePath": "api/v1/Patient/GetAllPatients",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.PatientController",
+    "Method": "GetPatient",
+    "RelativePath": "api/v1/Patient/GetPatient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patientId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalManagement.DataProvider.Server.Controllers.PatientController",
+    "Method": "UpdatePatient",
+    "RelativePath": "api/v1/Patient/UpdatePatient",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "patient",
+        "Type": "HospitalManagement.Core.Common.Models.Patient",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

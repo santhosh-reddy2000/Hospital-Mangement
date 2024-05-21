@@ -1,0 +1,1171 @@
+[
+  {
+    "Order": 0,
+    "FriendlyName": "Status",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.SurveyStatus",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 70.0,
+    "EnumName" : "ASAStatusEnum"
+  },
+  {
+    "Order": 1,
+    "FriendlyName": "ASA",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.ASAResult",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0,
+    "EnumName" : "ASAStatusEnum"
+  },
+  {
+    "Order": 3,
+    "FriendlyName": "ASA Status",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.ASAStatusEnum",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 70.0,
+    "EnumName" : "ASAStatusEnum"
+  },
+  {
+    "Order": 4,
+    "FriendlyName": "ASA Mode",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.ASAMode",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0,
+    "EnumName" : "ASAModeEnum"
+  },
+  {
+    "Order": 5,
+    "FriendlyName": "Type",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.SurveyType",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 90.0,
+    "EnumName" : "surveyTypeEnum"
+    },
+
+  {
+    "Order": 7,
+    "FriendlyName": "Depth",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.Depth",
+    "UnitName": "ft",
+    "FormatType": 1,
+    "IsFrozen": false,
+    "ColumnWidth": 70.0
+  },
+  {
+    "Order": 8,
+    "FriendlyName": "Time&Date",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.DateTime",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 120.0,
+    "IsDateFormat": true
+    },
+  {
+    "Order": 9,
+    "FriendlyName": "SISA",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.SISA",
+    "UnitName": "",
+    "FormatType": 5,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0
+  },
+  {
+    "Order": 10,
+    "FriendlyName": "Gx Raw",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.Gx",
+    "UnitName": "g",
+    "FormatType": 6,
+    "IsFrozen": false,
+    "ColumnWidth": 65.0
+  },
+  {
+    "Order": 11,
+    "FriendlyName": "Gy Raw",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.Gy",
+    "UnitName": "g",
+    "FormatType": 6,
+    "IsFrozen": false,
+    "ColumnWidth": 65.0
+  },
+  {
+    "Order": 12,
+    "FriendlyName": "Gz Raw",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.Gz",
+    "UnitName": "g",
+    "FormatType": 6,
+    "IsFrozen": false,
+    "ColumnWidth": 65.0
+  },
+  {
+    "Order": 13,
+    "FriendlyName": "Bx Raw",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.Bx",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 65.0
+  },
+  {
+    "Order": 14,
+    "FriendlyName": "By Raw",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.By",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 65.0
+  },
+  {
+    "Order": 15,
+    "FriendlyName": "Bz Raw",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.Bz",
+    "UnitName": "CorrectedSurvey.nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 65.0
+  },
+  {
+    "Order": 16,
+    "FriendlyName": "Rig Inc",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.RigInclination",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 65.0
+  },
+  {
+    "Order": 17,
+    "FriendlyName": "MWD Inc",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.MWDInclination",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 70.0
+  },
+  {
+    "Order": 18,
+    "FriendlyName": "Sag Inc",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.SagInclination",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 70.0
+  },
+  {
+    "Order": 19,
+    "FriendlyName": "MWD SC",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.MWDShortCollar",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 70.0
+  },
+  {
+    "Order": 20,
+    "FriendlyName": "Rig SC",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.RigAzimuthSC",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 70.0
+  },
+  {
+    "Order": 21,
+    "FriendlyName": "MWD LC",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.MWDLongCollar",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 70.0
+  },
+  {
+    "Order": 22,
+    "FriendlyName": "Rig LC",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.RigAzimuthLC",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 70.0
+  },
+  {
+    "Order": 23,
+    "FriendlyName": "Pumps",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.PumpStatus",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 60.0,
+    "EnumName" : "pumpsEnum"
+  },
+  {
+    "Order": 25,
+    "FriendlyName": "Last Edited By",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.LastEditedBy",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 26,
+    "FriendlyName": "Type Edited By ",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.TypeEditedBy",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 27,
+    "FriendlyName": "Toolface Offset",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.ToolfaceOffset",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 28,
+    "FriendlyName": "Temperature",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.Temperature",
+    "UnitName": "°F",
+    "FormatType": 7,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 29,
+    "FriendlyName": "Comment",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.Comment",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 150.0
+  },
+  {
+    "Order": 30,
+    "FriendlyName": "Nom Gt",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.NomGt",
+    "UnitName": "g",
+    "FormatType": 5,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0
+  },
+  {
+    "Order": 31,
+    "FriendlyName": "Nom Bt",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.NomBt",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0
+  },
+  {
+    "Order": 32,
+    "FriendlyName": "Nom Dip",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.NomDip",
+    "UnitName": "°",
+    "FormatType": 4,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0
+  },
+  {
+    "Order": 33,
+    "FriendlyName": "Nom BtDip",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.NomBtDip",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 34,
+    "FriendlyName": "Nom Bv",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.NomBv",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0
+  },
+  {
+    "Order": 35,
+    "FriendlyName": "Nom Bh",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.NomBh",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0
+  },
+  {
+    "Order": 36,
+    "FriendlyName": "North Reference",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.NorthReference",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0
+  },
+  {
+    "Order": 37,
+    "FriendlyName": "Service",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.AppliedService",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 70.0
+  },
+  {
+    "Order": 38,
+    "FriendlyName": "Azimuth Solution",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.AppliedCazandraSolution",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 39,
+    "FriendlyName": "Inclination Solution",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.AppliedIcarusSolution",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 110.0
+  },
+  {
+    "Order": 40,
+    "FriendlyName": "Gt QC Delta",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.GtQcDelta",
+    "UnitName": "g",
+    "FormatType": 5,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 41,
+    "FriendlyName": "Bt QC Delta",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.BtQcDelta",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 42,
+    "FriendlyName": "Dip QC Delta",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.DipQcDelta",
+    "UnitName": "°",
+    "FormatType": 4,
+    "IsFrozen": false,
+    "ColumnWidth": 120.0
+  },
+  {
+    "Order": 43,
+    "FriendlyName": "BtDip QC Delta",
+    "Visible": true,
+    "Variable": "CorrectedSurvey.BtDipQcDelta",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 120.0
+  },
+  {
+    "Order": 44,
+    "FriendlyName": "Survey Time Offset (hh:mm:ss)",
+    "Visible": false,
+    "Variable": "RigTimeOffset",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 180.0
+  },
+  {
+    "Order": 45,
+    "FriendlyName": "Atomic Survey Time [UTC +05:30]",
+    "Visible": false,
+    "Variable": "AtomicRigTime",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 180.0
+  },
+  {
+    "Order": 46,
+    "FriendlyName": "Manual Rig Time Offset",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.ManualTimeOffsetFlag",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 140.0
+  },
+  {
+    "Order": 47,
+    "FriendlyName": "ToolFace Gravity",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.GravityToolFace",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 120.0
+  },
+  {
+    "Order": 48,
+    "FriendlyName": "Nom Dec",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.NomDeclination",
+    "UnitName": "°",
+    "FormatType": 4,
+    "IsFrozen": false,
+    "ColumnWidth": 70.0
+  },
+  {
+    "Order": 49,
+    "FriendlyName": "Nom Grid",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.NomGrid",
+    "UnitName": "°",
+    "FormatType": 4,
+    "IsFrozen": false,
+    "ColumnWidth": 70.0
+  },
+  {
+    "Order": 50,
+    "FriendlyName": "Gt Raw QC",
+    "Visible": false,
+    "Variable": "GtRawQC",
+    "UnitName": "g",
+    "FormatType": 5,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 51,
+    "FriendlyName": "Azi Type",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.AzimuthType",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 110.0,
+    "EnumName" : "aziTypeEnum"
+  },
+  {
+    "Order": 52,
+    "FriendlyName": "Bt Measured",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.BtMeasured",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 53,
+    "FriendlyName": "Dip Measured",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.DipMeasured",
+    "UnitName": "°",
+    "FormatType": 4,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 54,
+    "FriendlyName": "Bv Measured",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.BvMeasured",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 55,
+    "FriendlyName": "Bh Measured",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.BhMeasured",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 56,
+    "FriendlyName": "Raw Gxyz Inc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.GxyzInclination",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 57,
+    "FriendlyName": "Raw Gxy Inc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.GxyInclination",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 58,
+    "FriendlyName": "Raw Gz Inc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.GzInclination",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 59,
+    "FriendlyName": "MFM LC",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.MFMLC",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0
+  },
+  {
+    "Order": 60,
+    "FriendlyName": "MFM SC",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.MFMSC",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0
+  },
+  {
+    "Order": 61,
+    "FriendlyName": "MFM N/S",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.MFMNS",
+    "UnitName": "ft",
+    "FormatType": 1,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 62,
+    "FriendlyName": "MFM E/W",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.MFMEW",
+    "UnitName": "ft",
+    "FormatType": 1,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 63,
+    "FriendlyName": "MFM TVD",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.MFMTVD",
+    "UnitName": "ft",
+    "FormatType": 1,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 64,
+    "FriendlyName": "MFM Bt",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.MFMBt",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 65,
+    "FriendlyName": "MFM Dip",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.MFMDip",
+    "UnitName": "°",
+    "FormatType": 4,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0
+  },
+  {
+    "Order": 66,
+    "FriendlyName": "MFM Bv",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.MFMBv",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0
+  },
+  {
+    "Order": 67,
+    "FriendlyName": "MFM Bh",
+    "Visible": false,
+    "Variable": "MFMBh",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 80.0
+  },
+  {
+    "Order": 68,
+    "FriendlyName": "MFM Bt Bz Calc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.MFMBtBzCalc",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 140.0
+  },
+  {
+    "Order": 69,
+    "FriendlyName": "MFM Dip Bz Calc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.MFMDipBzCalc",
+    "UnitName": "°",
+    "FormatType": 4,
+    "IsFrozen": false,
+    "ColumnWidth": 120.0
+  },
+  {
+    "Order": 70,
+    "FriendlyName": "MFM BtDip Bz Calc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.MFMBtDipBzCalc",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 140.0
+  },
+  {
+    "Order": 71,
+    "FriendlyName": "MFM BtDip Bz Measured",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.MFMBtDipBzMeasured",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 160.0
+  },
+  {
+    "Order": 72,
+    "FriendlyName": "MFM Bv Bz Calc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.MFMBvBzCalc",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 120.0
+  },
+  {
+    "Order": 73,
+    "FriendlyName": "MFM Bh Bz Calc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.MFMBhBzCalc",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 120.0
+  },
+  {
+    "Order": 74,
+    "FriendlyName": "MFM Bz Calc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.MFMBzCalc",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 120.0
+  },
+  {
+    "Order": 75,
+    "FriendlyName": "IFR1 LC",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR1LC",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 76,
+    "FriendlyName": "IFR1 SC",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR1SC",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 77,
+    "FriendlyName": "IFR1 N/S",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR1NS",
+    "UnitName": "ft",
+    "FormatType": 1,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 78,
+    "FriendlyName": "IFR1 E/W",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR1EW",
+    "UnitName": "ft",
+    "FormatType": 1,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 79,
+    "FriendlyName": "IFR1 TVD",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR1TVD",
+    "UnitName": "ft",
+    "FormatType": 1,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 80,
+    "FriendlyName": "IFR1 Bt",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR1Bt",
+    "UnitName": "",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 81,
+    "FriendlyName": "IFR1 Dip",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR1Dip",
+    "UnitName": "°",
+    "FormatType": 4,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 82,
+    "FriendlyName": "IFR1 Bv",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR1Bv",
+    "UnitName": "",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 83,
+    "FriendlyName": "IFR1 Bh",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR1Bh",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 84,
+    "FriendlyName": "IFR1 Bt Bz Calc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR1BtBzCalc",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 120.0
+  },
+  {
+    "Order": 85,
+    "FriendlyName": "IFR1 Dip Bz Calc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR1DipBzCalc",
+    "UnitName": "°",
+    "FormatType": 4,
+    "IsFrozen": false,
+    "ColumnWidth": 120.0
+  },
+  {
+    "Order": 86,
+    "FriendlyName": "IFR1 BtDip Bz Calc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR1BtDipBzCalc",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 140.0
+  },
+  {
+    "Order": 87,
+    "FriendlyName": "IFR1 BtDip Bz Measured",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR1BtDipBzMeasured",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 160.0
+  },
+  {
+    "Order": 88,
+    "FriendlyName": "IFR1 Bv Bz Calc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR1BvBzCalc",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 120.0
+  },
+  {
+    "Order": 89,
+    "FriendlyName": "IFR1 Bh Bz Calc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR1BhBzCalc",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 120.0
+  },
+  {
+    "Order": 90,
+    "FriendlyName": "IFR1 Bz Calc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR1BzCalc",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 120.0
+  },
+  {
+    "Order": 91,
+    "FriendlyName": "IFR2 LC",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR2LC",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 92,
+    "FriendlyName": "IFR2 SC",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR2SC",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 93,
+    "FriendlyName": "IFR2 N/S",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR2NS",
+    "UnitName": "ft",
+    "FormatType": 1,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 94,
+    "FriendlyName": "IFR2 E/W",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR2EW",
+    "UnitName": "ft",
+    "FormatType": 1,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 95,
+    "FriendlyName": "IFR2 TVD",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR2TVD",
+    "UnitName": "ft",
+    "FormatType": 1,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 96,
+    "FriendlyName": "IFR2 Bt",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR2Bt",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 97,
+    "FriendlyName": "IFR2 Dip",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR2Dip",
+    "UnitName": "°",
+    "FormatType": 4,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 98,
+    "FriendlyName": "IFR2 Bv",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR2Bv",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 99,
+    "FriendlyName": "IFR2 Bh",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR2Bh",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 100,
+    "FriendlyName": "IFR2 Bt Bz Calc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR2BtBzCalc",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 120.0
+  },
+  {
+    "Order": 101,
+    "FriendlyName": "IFR2 Dip Bz Calc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR2DipBzCalc",
+    "UnitName": "°",
+    "FormatType": 4,
+    "IsFrozen": false,
+    "ColumnWidth": 120.0
+  },
+  {
+    "Order": 102,
+    "FriendlyName": "IFR2 BtDip Bz Calc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR2BtDipBzCalc",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 140.0
+  },
+  {
+    "Order": 103,
+    "FriendlyName": "IFR2 BtDip Bz Measured",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR2BtDipBzMeasured",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 160.0
+  },
+  {
+    "Order": 104,
+    "FriendlyName": "IFR2 Bv Bz Calc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR2BvBzCalc",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 120.0
+  },
+  {
+    "Order": 105,
+    "FriendlyName": "IFR2 Bh Bz Calc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR2BhBzCalc",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 120.0
+  },
+  {
+    "Order": 106,
+    "FriendlyName": "IFR2 Bz Calc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IFR2BzCalc",
+    "UnitName": "",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 107,
+    "FriendlyName": "Obs Bt Raw",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.ObservatoryBTRaw",
+    "UnitName": "nT",
+    "FormatType": 3,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 108,
+    "FriendlyName": "Obs Dip Raw",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.ObservatoryDipRaw",
+    "UnitName": "°",
+    "FormatType": 4,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 109,
+    "FriendlyName": "Obs Dec Raw",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.ObservatoryDecRaw",
+    "UnitName": "°",
+    "FormatType": 4,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 110,
+    "FriendlyName": "Obs Time&Date Raw [UTC +05:30]",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.ObservatoryDateTimeRaw",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 180.0
+  },
+  {
+    "Order": 111,
+    "FriendlyName": "IPM Code",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.Ipm",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 70.0
+  },
+  {
+    "Order": 112,
+    "FriendlyName": "Sigma",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.Sigma",
+    "UnitName": "",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 70.0
+  },
+  {
+    "Order": 113,
+    "FriendlyName": "Ica Gxyz Inc",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IcaGxyzInc",
+    "UnitName": "°",
+    "FormatType": 8,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 114,
+    "FriendlyName": "Ica Gx",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IcaGx",
+    "UnitName": "g",
+    "FormatType": 5,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 115,
+    "FriendlyName": "Ica Gy",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IcaGy",
+    "UnitName": "g",
+    "FormatType": 5,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 116,
+    "FriendlyName": "Ica Gz",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IcaGz",
+    "UnitName": "g",
+    "FormatType": 5,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 117,
+    "FriendlyName": "Ica Gt",
+    "Visible": false,
+    "Variable": "CorrectedSurvey.IcaGt",
+    "UnitName": "g",
+    "FormatType": 5,
+    "IsFrozen": false,
+    "ColumnWidth": 100.0
+  },
+  {
+    "Order": 118,
+    "FriendlyName": "Run",
+    "Visible": true,
+    "Variable": "RunNumber",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": 40.0
+  }
+]

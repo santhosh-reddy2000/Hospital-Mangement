@@ -1,0 +1,47 @@
+[
+  {
+    
+    "FriendlyName": "Sl No",
+    "Visible": true,
+    "Variable": "SerialNumber",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "100px",
+    "columnKey" : "SerialNumber"
+  
+},
+  {
+    "Order": 0,
+    "FriendlyName": "BGS Website Name",
+    "Visible": true,
+    "Variable": "Websitename",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "100px",
+    "columnKey" : "Websitename"
+  },
+  {
+    "Order": 1,
+    "FriendlyName": "BGS Website Url",
+    "Visible": true,
+    "Variable": "Websiteurl",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "300px",
+    "columnKey" : "Websiteurl"
+  },
+  {
+    "Order": 2,
+    "FriendlyName": "Status",
+    "Visible": true,
+    "Variable": "SiteStatus",
+    "UnitName": "",
+    "FormatType": null,
+    "IsFrozen": false,
+    "ColumnWidth": "80px",
+    "columnKey" : "SiteStatus"
+  }
+]

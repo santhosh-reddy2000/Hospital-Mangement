@@ -1,0 +1,169 @@
+{
+  "icarus": {
+    "1": [
+      {
+        "id": 1,
+        "name": "Gt (Raw)",
+        "type": "scatter",
+        "data": "GTotal",
+        "symbol": "path://M 0,10 L 10,0 L 20,10 L 10,20 Z",
+        "symbolSize": 10,
+          "convertData": 0
+      },
+      {
+        "id": 2,
+        "name": "Sin (Gt) (Raw)",
+        "type": "scatter",
+        "data": "GTotal",
+        "convertData": 1
+
+      },
+      {
+        "id": 3,
+        "name": "Gt (TFC)",
+        "type": "scatter",
+        "data": "data2",
+        "convertData": 0
+      },
+      {
+        "id": 4,
+        "name": "Sin (Gt) (TFC)",
+        "type": "scatter",
+        "data": "data2",
+        "convertData": 0
+      },
+      {
+        "id": 5,
+        "name": "Gt (Trans)",
+        "type": "scatter",
+        "data": "data2",
+        "convertData": 0
+
+      },
+      {
+        "id": 6,
+        "name": "Sin (Gt) (Trans)",
+        "type": "scatter",
+        "data": "data2",
+        "convertData": 0
+
+      },
+      {
+        "id": 7,
+        "name": "Gt (SFE)",
+        "type": "scatter",
+        "data": "data2",
+        "convertData": 0
+      }
+    ],
+    "2": [
+      {
+        "id": 1,
+        "name": "dGx (TFC)",
+        "type": "scatter",
+        "data": "data1",
+        "convertData": 0
+      },
+      {
+        "id": 2,
+        "name": "dGx (TFC-)",
+        "type": "scatter",
+        "data": "data2",
+        "convertData": 0
+      },
+      {
+        "convertData": 0,
+        "data": "data2",
+        "id": 3,
+        "name": "dGx (Trans)",
+        "type": "scatter"
+      },
+      {
+        "convertData": 0,
+        "data": "data2",
+        "id": 4,
+        "name": "dGx (Trans-)",
+        "type": "scatter"
+      },
+      {
+        "convertData": 0,
+        "data": "data2",
+        "id": 5,
+        "name": "dGx (Trans+)",
+        "type": "scatter"
+      }
+      
+    ]
+  },
+  "caz1": {
+    "1": [
+      {
+        "id": 1,
+        "name": "Gt Raw",
+        "type": "scatter",
+        "data": "data2",
+        "convertData": 0
+      },
+      {
+        "id": 2,
+        "name": "Sin (Gt)",
+        "type": "scatter",
+        "data": "data2",
+        "convertData": 0
+      }
+    ]
+  },
+  "caz2": {
+    "1": [
+      {
+        "id": 1,
+        "name": "Gt Raw",
+        "type": "scatter",
+        "data": "data2",
+        "convertData": 0
+      },
+      {
+        "id": 2,
+        "name": "Sin (Gt)",
+        "type": "scatter",
+        "data": "data2",
+        "convertData": 0
+      }
+    ]
+  },
+  "azierror": {
+    "1": [
+
+      {
+        "id": 1,
+        "name": "LC dAz(dBz)",
+        "type": "scatter",
+        "data": "data2",
+        "convertData": 0
+      },
+      {
+        "id": 2,
+        "name": "LC dAz(Sxy)",
+        "type": "scatter",
+        "data": "data2",
+        "convertData": 0
+      },
+      {
+        "id": 3,
+        "name": "LC dAz(BGm)",
+        "type": "scatter",
+        "data": "data2",
+        "convertData": 0
+      },
+      {
+        "id": 4,
+        "name": "LC dAz(total)",
+        "type": "scatter",
+        "data": "data2",
+        "convertData": 0
+      }
+
+    ]
+  }
+
+}

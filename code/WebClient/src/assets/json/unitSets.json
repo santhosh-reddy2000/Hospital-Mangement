@@ -1,0 +1,139 @@
+{
+      "UnitSet": [
+        {
+          "type": "1",
+          "Unit": [
+            {"name": "ft", "unitSystem": "English"},
+            {"name": "m", "unitSystem": "Metric"}
+          ]
+        },
+        {
+          "type": "2",
+          "Unit": [
+            {"name": "ft", "unitSystem": "English"},
+            {"name": "m", "unitSystem": "Metric"}
+          ]
+        },
+        {
+          "type": "3",
+          "Unit": [{"name": "nT"}]
+        },
+        {
+          "type": "4",
+          "Unit": [{"name": "°"}]
+        },
+        {
+          "type": "5",
+          "Unit": [{"name": "g"}]
+        },
+        {
+          "type": "6",
+          "Unit": [{"name": "g"}]
+        },
+        {
+          "type": "7",
+          "Unit": [
+            {"name": "°F", "unitSystem": "English"},
+            {"name": "°C", "unitSystem": "Metric"}
+          ]
+        },
+        {
+          "type": "8",
+          "Unit": [{"name": "°"}]
+        },
+        {
+          "type": "9",
+          "Unit": [
+            {"name": "nT/ft^2", "unitSystem": "English"},
+            {"name": "nT/m^2", "unitSystem": "Metric"}
+          ]
+        },
+        {
+          "type": "10",
+          "Unit": [
+            {"name": "1/ft", "unitSystem": "English"},
+            {"name": "1/m", "unitSystem": "Metric"}
+          ]
+        },
+        {
+          "type": "11",
+          "Unit": [
+            {"name": "ft^2", "unitSystem": "English"},
+            {"name": "m^2", "unitSystem": "Metric"}
+          ]
+        },
+        {
+          "type": "12",
+          "Unit": [
+            {"name": "inches", "unitSystem": "English"},
+            {"name": "cm", "unitSystem": "Metric"}
+          ]
+        },
+        {
+          "type": "13",
+          "Unit": [
+            {"name": "lb/ft^3", "unitSystem": "English"},
+            {"name": "kg/m^3", "unitSystem": "Metric"}
+          ]
+        },
+        {
+          "type": "14",
+          "Unit": [{"name": "milliG"}]
+        },
+        {
+          "type": "15",
+          "Unit": [{"name": "mg"}]
+        },
+        {
+          "type": "16",
+          "Unit": [{"name": "%"}]
+        },
+        {
+          "type": "17",
+          "Unit": [{"name": "%"}]
+        },
+        {
+          "type": "18",
+          "Unit": [{"name": "nT"}]
+        },
+        {
+          "type": "19",
+          "Unit": [{"name": "g"}]
+        },
+        {
+          "type": "19",
+          "Unit": [{"name": "g"}]
+        },
+        {
+          "type": "26",
+          "Unit": [{"name": "m"}]
+        },
+        {
+          "type": "27",
+          "Unit": [
+            {"name": "ft", "unitSystem": "English"},
+            {"name": "m", "unitSystem": "Metric"}
+          ]
+        },
+        {
+          "type": "29",
+          "Unit": [{"name": "unitlessNoPrecision"}]
+        },
+        {
+          "type": "30",
+          "Unit": [{"name": "unitlessTwoPrecision"}]
+        },
+        {
+          "type": "31",
+          "Unit": [{"name": "unitlessFourPrecision"}]
+        },
+        {
+          "type": "32",
+          "Unit": [
+            {"name": "mile", "unitSystem": "English"},
+            {"name": "kilometer", "unitSystem": "Metric"}
+          ]
+        }
+      ]
+    }
+  

@@ -1,0 +1,75 @@
+[
+  {
+    
+    "headOfficeName": "Satilite",
+    "pincode": "775845",
+    "address": "Hsr 17th Main Street",
+    "mobileNo": "7997414964",
+    "website": "http://www.vsc.com",
+    "email": "santhoshreddyk2000@gmail.com"
+    
+  },
+  {
+    
+    "headOfficeName": "Divisional",
+    "pincode": "775845",
+    "address": "Btm 2nd stage",
+    "mobileNo": "9553147611",
+    "website": "https://www.example.com",
+    "email": "example@example.com"    
+  },
+  {
+    
+    "headOfficeName": "Kamal",
+    "pincode": "775845",
+    "address": "kormangala 3rd Main Street",
+    "mobileNo": "8639489411",
+    "website": "http://www.kamala.com",
+    "email": "kamala@kamala.com"
+  },
+  {
+    
+    "headOfficeName": "Sunrise",
+    "pincode": "847156",
+    "address": "Chandapura 2nd cross ",
+    "mobileNo": "1234567890",
+    "website": "https://www.example.com",
+    "email": "sunrise@example.com"
+  },
+  {
+    
+    "headOfficeName": "Sunny",
+    "pincode": "775845",
+    "address": "123 Main Street",
+    "mobileNo": "7845650890",
+    "website": "https://www.example.com",
+    "email": "sunny@example.com"
+  },
+  {
+    
+    "headOfficeName": "liferay",
+    "pincode": "517408",
+    "address": "HSR 2nd Main Street",
+    "mobileNo": "8639489411",
+    "website": "https://www.example.com",
+    "email": "liferay@example.com"
+  },
+  {
+    
+    "headOfficeName": "Explorer",
+    "pincode": "775845",
+    "address": "123 Main Street",
+    "mobileNo": "9587460473",
+    "website": "https://www.example.com",
+    "email": "explorer@example.com"
+  },
+  {
+    
+    "headOfficeName": "Template",
+    "pincode": "775845",
+    "address": "Madiwala Main road",
+    "mobileNo": "1234567890",
+    "website": "https://www.example.com",
+    "email": "template@example.com"
+  }
+]

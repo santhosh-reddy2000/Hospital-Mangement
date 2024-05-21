@@ -1,0 +1,34 @@
+{
+    "raw": {
+        "dBzMAv":["bg-dark-blue"],
+        "hsSpread":["bg-blue"],
+        "azLcMAv":["bg-blue"],
+        "azScTrue":["bg-purple"],
+        "azLcTrue":["bg-purple"],
+        "azLcMavTrue":["bg-purple"],
+        "gtStatus":[null, "bg-red"],
+        "bcStatus":[null, "bg-red"],
+        "dipcStatus":[null, "bg-red"],
+        "bcMavStatus":["bg-blue", "bg-red"],
+        "dipcMavStatus":["bg-blue", "bg-red"],
+        "dBStatus":[null, "bg-red"],
+        "dDipStatus":[null, "bg-red"],
+        "btDipStatus":[null, "bg-red"],
+        "dBMavStatus":["bg-blue", "bg-red"],
+        "dDipMavStatus":["bg-blue", "bg-red"],
+        "btDipMavStatus":["bg-blue", "bg-red"],
+        "bGmMav":["bg-blue"],
+        "sxyMav":["bg-blue"]
+    },
+    "TFC": {
+        "Order": 0,
+        "FriendlyName": "MSA State",
+        "Visible": true,
+        "Variable": "msaState",
+        "UnitName": "",
+        "FormatType": null,
+        "IsFrozen": false,
+        "DecPlaces": 1,
+        "ColumnWidth": "100px"
+    }
+}

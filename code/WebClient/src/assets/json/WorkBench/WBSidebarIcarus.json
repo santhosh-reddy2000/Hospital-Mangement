@@ -1,0 +1,62 @@
+{
+  "consecutiveStations": "",
+  "gravity": {
+    "gravity": "0",
+    "probe": [
+      {
+        "id": "1",
+        "name": "DEP/PCDx/DM/PM3"
+      },
+      {
+        "id": "2",
+        "name": "PM/Other"
+      }
+    ],
+    "latitude": [
+      {
+        "id": "0",
+        "name": "Custom"
+      },
+      {
+        "id": "1",
+        "name": "Houston"
+
+      },
+      {
+        "id": "2",
+        "name": "Tewkesbury"
+
+      },
+      {
+        "id": "3",
+        "name": "Cheltenham"
+
+      }
+    ],
+    "0": {
+      "calibrationLatitudeDeci": "0.00000000",
+      "calibrationLatitudeDeg": "0° 0' 0.0000° N",
+      "wellLatitudeDeci": "",
+      "wellLatitudeDeg": ""
+    },
+    "1": {
+      "calibrationLatitudeDeci": "29.93750000 N",
+      "calibrationLatitudeDeg": "29° 56' 15.0000\" N",
+      "wellLatitudeDeci": "",
+      "wellLatitudeDeg": ""
+    },
+    "2": {
+      "calibrationLatitudeDeci": "52.00000000 N",
+      "calibrationLatitudeDeg": "52° 0' 0.0000\" N",
+      "wellLatitudeDeci": "",
+      "wellLatitudeDeg": ""
+    },
+    "3": {
+      "calibrationLatitudeDeci": "51.89850000 N",
+      "calibrationLatitudeDeg": "51° 53' 54.6000\" N",
+      "wellLatitudeDeci": "",
+      "wellLatitudeDeg": ""
+
+    }
+  }
+}

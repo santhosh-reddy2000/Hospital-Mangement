@@ -1,0 +1,219 @@
+{
+  "Icarus": [
+
+    {
+      "id": 1,
+      "name": "Gt vs Hsg"
+    },
+    {
+      "id": 2,
+      "name": "Delta Gx"
+    },
+    {
+      "id": 3,
+      "name": "Delta Gy"
+    },
+    {
+      "id": 4,
+      "name": "Delta Gz"
+    },
+    {
+      "id": 5,
+      "name": "GTotal"
+    },
+    {
+      "id": 6,
+      "name": "Inclination"
+    }
+  ],
+  "Caz1": [
+    {
+      "id": 1,
+      "name": "Gt vs Hsg"
+    },
+    {
+      "id": 2,
+      "name": "Delta Bx"
+    },
+    {
+      "id": 3,
+      "name": "Delta By"
+    },
+    {
+      "id": 4,
+      "name": "Delta Bz"
+    },
+    {
+      "id": 5,
+      "name": "Sxy"
+    },
+    {
+      "id": 6,
+      "name": "BGmis"
+    },
+    {
+      "id": 7,
+      "name": "BTotal"
+    },
+    {
+      "id": 8,
+      "name": "MAv BTotal"
+    },
+    {
+      "id": 9,
+      "name": "Dip"
+    },
+    {
+      "id": 10,
+      "name": "MAv Dip"
+    },
+    {
+      "id": 11,
+      "name": "BtDip"
+    },
+    {
+      "id": 12,
+      "name": "MAv BtDip"
+    },
+    {
+      "id": 13,
+      "name": "Short Collar Az"
+    },
+    {
+      "id": 14,
+      "name": "Long Collar Az"
+    },
+    {
+      "id": 15,
+      "name": "Delta Position"
+    },
+    {
+      "id": 16,
+      "name": "Delta Displacement"
+    },
+    {
+      "id": 17,
+      "name": "MAv Long Collar Az"
+    }
+  ],
+  "Caz2": [
+    {
+      "id": 1,
+      "name": "Gt vs Hsg"
+    },
+    {
+      "id": 2,
+      "name": "Delta Bx"
+    },
+    {
+      "id": 3,
+      "name": "Delta By"
+    },
+    {
+      "id": 4,
+      "name": "Delta Bz"
+    },
+    {
+      "id": 5,
+      "name": "Sxy"
+    },
+    {
+      "id": 6,
+      "name": "BGmis"
+    },
+    {
+      "id": 7,
+      "name": "BTotal"
+    },
+    {
+      "id": 8,
+      "name": "MAv BTotal"
+    },
+    {
+      "id": 9,
+      "name": "Dip"
+    },
+    {
+      "id": 10,
+      "name": "MAv Dip"
+    },
+    {
+      "id": 11,
+      "name": "BtDip"
+    },
+    {
+      "id": 12,
+      "name": "MAv BtDip"
+    },
+    {
+      "id": 13,
+      "name": "Short Collar Az"
+    },
+    {
+      "id": 14,
+      "name": "Long Collar Az"
+    },
+    {
+      "id": 15,
+      "name": "Delta Position"
+    },
+    {
+      "id": 16,
+      "name": "Delta Displacement"
+    },
+    {
+      "id": 17,
+      "name": "MAv Long Collar Az"
+    }
+  ],
+  "AziError": [
+
+    {
+      "id": 1,
+      "name": "dAZ LC"
+    },
+    {
+      "id": 2,
+      "name": "dDip LC"
+    },
+    {
+      "id": 3,
+      "name": "dBt LC"
+    },
+    {
+      "id": 4,
+      "name": "dNth LC"
+    },
+    {
+      "id": 5,
+      "name": "dEast LC"
+    },
+    {
+      "id": 6,
+      "name": "dLat LC"
+    },
+    {
+      "id": 7,
+      "name": "dAZ SC"
+    },
+    {
+      "id": 9,
+      "name": "dDipc SC"
+    },
+    {
+      "id": 10,
+      "name": "dNth SC"
+    },
+    {
+      "id": 11,
+      "name": "dEast SC"
+    },
+    {
+      "id": 12,
+      "name": "dLat SC"
+    }
+    
+  ]
+ 
+
+}

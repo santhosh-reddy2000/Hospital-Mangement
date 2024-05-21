@@ -1,0 +1,70 @@
+{
+  "surveys": [
+    {
+      "id": 0,
+      "name": "Surveys"
+    },
+    {
+      "id": 1,
+      "name": "Caz1"
+    },
+    {
+      "id": 2,
+      "name": "Caz2"
+    },
+    {
+      "id": 3,
+      "name": "Plan"
+    },
+    {
+      "id": 4,
+      "name": "Surveys + Plan"
+    }
+  ],
+  "Mode": [
+    {
+      "id": 0,
+      "name": "Basic Mode"
+    },
+    {
+      "id": 1,
+      "name": "Advanced Mode"
+    },
+    {
+      "id": 2,
+      "name": "User defined Mode"
+    }
+  ],
+  "azimuthType": [
+    {
+      "id": 0,
+      "name": "Short Collar"
+    },
+    {
+      "id": 1,
+      "name": "Long Collar"
+    }
+  ],
+  "outputSigma": [
+    {
+      "id": 0,
+      "name": 1.00
+    },
+    {
+      "id": 1,
+      "name": 2.00
+    },
+    {
+      "id": 2,
+      "name": 2.58
+    },
+    {
+      "id": 3,
+      "name": 3.00
+    },
+    {
+      "id": 4,
+      "name": 4.00
+    }
+  ]
+}

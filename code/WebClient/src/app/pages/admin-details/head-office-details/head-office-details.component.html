@@ -1,0 +1,161 @@
+<div class="head_office">
+    <button nz-button nzType="primary" nz-dropdown nz-size="small" nzTrigger="click" [nzDropdownMenu]="menu">Add
+      HeadOffice Details
+      <span nz-icon nzType="down"></span></button>
+  </div>
+  
+      <nz-dropdown-menu #menu="nzDropdownMenu">
+        <div class="head_office_data">
+          <form nz-form [formGroup]="headOfficeForm" (ngSubmit)="submitForm()">
+            <nz-form-item>
+              <nz-form-label [nzSpan]="10" nzRequired> Name :</nz-form-label>
+              <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+                <input nz-input formControlName="headOfficeName" type="text" id="text" placeholder="Enter HeadOffice Name" />
+              </nz-form-control>
+            </nz-form-item>
+           
+            <nz-form-item>
+              <nz-form-label [nzSpan]="10" nzRequired>Pin code :</nz-form-label>
+              <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating..."
+                nzErrorTip="The input is not pincode!">
+                <input nz-input formControlName="pincode" placeholder="Enter pin code " />
+              </nz-form-control>
+            </nz-form-item>
+      
+            <nz-form-item>
+              <nz-form-label [nzSpan]="10" nzRequired>Address :</nz-form-label>
+              <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+                <input nz-input formControlName="address" type="text" id="text" placeholder="Enter Address" />
+              </nz-form-control>
+            </nz-form-item>
+      
+            <nz-form-item>
+              <nz-form-label [nzSpan]="10" nzRequired>Mobile No :</nz-form-label>
+              <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating..."
+                nzErrorTip="The input is not valid Mobile Number!">
+                <input nz-input formControlName="mobileNo" type="number" id="number" placeholder="Enter Mobile No " />
+              </nz-form-control>
+            </nz-form-item>
+      
+            <nz-form-item>
+              <nz-form-label [nzSpan]="10" nzRequired>Website :</nz-form-label>
+              <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating...">
+                <input nz-input formControlName="website" type="text" id="text" placeholder="Enter Website" />
+              </nz-form-control>
+            </nz-form-item>
+      
+            <nz-form-item>
+              <nz-form-label [nzSpan]="10" nzRequired>E-mail :</nz-form-label>
+              <nz-form-control [nzSpan]="14" nzHasFeedback nzValidatingTip="Validating... "
+                nzErrorTip="The input is not valid E-mail!">
+                <input nz-input formControlName="email" placeholder="Enter E-mail" />
+              </nz-form-control>
+            </nz-form-item>
+          
+            <nz-form-item>
+              <nz-form-control [nzOffset]="10" [nzSpan]="5">
+                <div style="display: flex; justify-content:flex-end; gap: 10px; margin-left: 50px;">
+                  <button nz-button (click)="resetForm($event)">Reset</button>
+                  <button nz-button nzType="primary" [disabled]="!headOfficeForm.valid">Submit</button>
+                </div>
+              </nz-form-control>
+            </nz-form-item>
+      
+          </form>
+        </div>
+      
+      </nz-dropdown-menu>
+   
+  <div style="padding: 10px;" *ngIf="_commonService.headOfficeFormData.length > 0">
+    <nz-table #basicTable [nzData]="['']" [nzShowPagination]="false" [nzFrontPagination]="false" nzSize="small">
+      <thead>
+        <tr>
+          <th>Head Office Name</th>
+          <th>Pincode</th>
+          <th>Address</th>
+          <th>Mobile No</th>
+          <th>Website</th>
+          <th>Email</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of _commonService.headOfficeFormData;let i=index">
+          <td>{{data.headOfficeName}}</td>
+          <td>{{data.pincode}}</td>
+          <td>{{data.address}}</td>
+          <td>{{data.mobileNo}}</td>
+          <td>{{data.website}}</td>
+          <td>{{data.email}}</td>
+          <td>
+            <button nz-button nzType="primary" (click)="showEditModel(i)" nz-tooltip nzTooltipTitle="Edit"><span nz-icon nzType="edit"
+              nzTheme="outline"></span></button>
+            <button nz-button nzType="primary" nzDanger (click)="deleteData(i)" class="buttons" nz-tooltip nzTooltipTitle="Delete"><span nz-icon
+                nzType="delete" nzTheme="outline"></span></button>
+          
+          </td>
+        </tr>
+      </tbody>
+    </nz-table>
+  </div>
+  
+  <div style="text-align: center; position: absolute; left: 50%; top: 50%;"
+    *ngIf="_commonService.headOfficeFormData.length === 0">
+    <h2>No Data Available</h2>
+  </div>
+  
+  <nz-modal [(nzVisible)]="isVisible" nzTitle="Headoffice Details" (nzOnCancel)="handleCancel()" nzWidth="400px">
+    <ng-container *nzModalContent>
+      <form nz-form [formGroup]="headOfficeForm" (ngSubmit)="submitForm()">
+        <nz-form-item>
+          <nz-form-label nzLabelAlign="left" [nzSpan]="8" nzRequired> Name </nz-form-label>
+          <nz-form-control [nzSpan]="16" nzHasFeedback nzValidatingTip="Validating...">
+            <input nz-input formControlName="headOfficeName" type="text" id="text" placeholder="Enter HeadOffice Name" />
+          </nz-form-control>
+        </nz-form-item>
+  
+  
+        <nz-form-item>
+          <nz-form-label nzLabelAlign="left" [nzSpan]="8" nzRequired>Pin code </nz-form-label>
+          <nz-form-control [nzSpan]="16" nzHasFeedback nzValidatingTip="Validating..."
+            nzErrorTip="The input is not pincode!">
+            <input nz-input formControlName="pincode" placeholder="Enter pin code " />
+          </nz-form-control>
+        </nz-form-item>
+  
+        <nz-form-item>
+          <nz-form-label nzLabelAlign="left" [nzSpan]="8" nzRequired>Address </nz-form-label>
+          <nz-form-control [nzSpan]="16" nzHasFeedback nzValidatingTip="Validating...">
+            <input nz-input formControlName="address" type="text" id="text" placeholder="Enter Address" />
+          </nz-form-control>
+        </nz-form-item>
+  
+        <nz-form-item>
+          <nz-form-label nzLabelAlign="left" [nzSpan]="8" nzRequired>Mobile No </nz-form-label>
+          <nz-form-control [nzSpan]="16" nzHasFeedback nzValidatingTip="Validating..."
+            nzErrorTip="The input is not valid Mobile Number!">
+            <input nz-input formControlName="mobileNo" type="number" id="number" placeholder="Enter Mobile No " />
+          </nz-form-control>
+        </nz-form-item>
+  
+        <nz-form-item>
+          <nz-form-label nzLabelAlign="left" [nzSpan]="8" nzRequired>Website </nz-form-label>
+          <nz-form-control [nzSpan]="16" nzHasFeedback nzValidatingTip="Validating...">
+            <input nz-input formControlName="website" type="text" id="text" placeholder="Enter Website" />
+          </nz-form-control>
+        </nz-form-item>
+  
+        <nz-form-item>
+          <nz-form-label nzLabelAlign="left" [nzSpan]="8" nzRequired>E-mail </nz-form-label>
+          <nz-form-control [nzSpan]="16" nzHasFeedback nzValidatingTip="Validating... "
+            nzErrorTip="The input is not valid E-mail!">
+            <input nz-input formControlName="email" placeholder="Enter E-mail" />
+          </nz-form-control>
+        </nz-form-item>
+      </form>
+    </ng-container>
+    <ng-container *nzModalFooter>
+      <button nz-button nzType="primary"nz-size="small" (click)="handleCancel()">Cancel</button>
+      <button nz-button nzType="primary"nz-size="small"(click)="submitForm()">Submit</button>
+    </ng-container>
+  </nz-modal>
