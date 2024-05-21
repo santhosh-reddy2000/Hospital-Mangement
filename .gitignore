@@ -14,3 +14,8 @@
 /code/WebApp/HospitalManagement.Services/bin/Debug/net7.0
 /code/DataProvider/HospitalManagement.Repository/obj
 /code/DataProvider/HospitalManagement.Dataprovider.Services/obj
+/code/DataProvider/.vs/HospitalManagement.DataProvider.Server/v17
+/code/DataProvider/HospitalManagement.DataProvider.Common/bin/Debug/net7.0
+/code/DataProvider/HospitalManagement.DataProvider.Server/bin/Debug/net7.0
+/code/DataProvider/HospitalManagement.Dataprovider.Services/bin/Debug/net7.0
+/code/DataProvider/HospitalManagement.Repository/bin/Debug/net7.0
